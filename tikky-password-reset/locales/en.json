@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "language": "en",
+    "title": "Reset Password",
+    "direction": "ltr"
+  },
+  "states": {
+    "loading": {
+      "title": "Verifying",
+      "message": "Verifying recovery link..."
+    },
+    "form": {
+      "title": "New Password",
+      "subtitle": "Enter your new password to access your account",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password",
+      "requirements": {
+        "minLength": "Minimum 8 characters",
+        "hasUppercase": "At least one uppercase letter",
+        "hasLowercase": "At least one lowercase letter",
+        "hasNumber": "At least one number"
+      },
+      "submit": "Change password"
+    },
+    "success": {
+      "title": "Password Updated",
+      "message": "Your password has been changed successfully.",
+      "instruction": "You can now sign in with your new password.",
+      "openApp": "Open Tikky"
+    },
+    "error": {
+      "title": "Error",
+      "invalidLink": "The recovery link is not valid. Please request a new link from the app.",
+      "tokenExpired": "The recovery link has expired. Please request a new link from the app.",
+      "verificationFailed": "Could not verify the link. Please try again or request a new link.",
+      "updateFailed": "Could not update the password. Please try again.",
+      "passwordMismatch": "Passwords do not match.",
+      "retry": "Try again"
+    }
+  },
+  "footer": {
+    "company": "NekkiVibes - Tikky App",
+    "contact": "Contact: <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "language": "zh",
+    "title": "重置密码",
+    "direction": "ltr"
+  },
+  "states": {
+    "loading": {
+      "title": "验证中",
+      "message": "正在验证恢复链接..."
+    },
+    "form": {
+      "title": "新密码",
+      "subtitle": "输入新密码以访问您的账户",
+      "newPassword": "新密码",
+      "confirmPassword": "确认密码",
+      "requirements": {
+        "minLength": "至少8个字符",
+        "hasUppercase": "至少一个大写字母",
+        "hasLowercase": "至少一个小写字母",
+        "hasNumber": "至少一个数字"
+      },
+      "submit": "更改密码"
+    },
+    "success": {
+      "title": "密码已更新",
+      "message": "您的密码已成功更改。",
+      "instruction": "您现在可以使用新密码登录。",
+      "openApp": "打开 Tikky"
+    },
+    "error": {
+      "title": "错误",
+      "invalidLink": "恢复链接无效。请从应用程序中请求新链接。",
+      "tokenExpired": "恢复链接已过期。请从应用程序中请求新链接。",
+      "verificationFailed": "无法验证链接。请重试或请求新链接。",
+      "updateFailed": "无法更新密码。请重试。",
+      "passwordMismatch": "密码不匹配。",
+      "retry": "重试"
+    }
+  },
+  "footer": {
+    "company": "NekkiVibes - Tikky App",
+    "contact": "联系方式: <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>"
+  }
+}

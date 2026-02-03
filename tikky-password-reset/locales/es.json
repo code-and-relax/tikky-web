@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "language": "es",
+    "title": "Restablecer Contrasena",
+    "direction": "ltr"
+  },
+  "states": {
+    "loading": {
+      "title": "Verificando",
+      "message": "Verificando enlace de recuperacion..."
+    },
+    "form": {
+      "title": "Nueva Contrasena",
+      "subtitle": "Introduce tu nueva contrasena para acceder a tu cuenta",
+      "newPassword": "Nueva contrasena",
+      "confirmPassword": "Confirmar contrasena",
+      "requirements": {
+        "minLength": "Minimo 8 caracteres",
+        "hasUppercase": "Al menos una mayuscula",
+        "hasLowercase": "Al menos una minuscula",
+        "hasNumber": "Al menos un numero"
+      },
+      "submit": "Cambiar contrasena"
+    },
+    "success": {
+      "title": "Contrasena actualizada",
+      "message": "Tu contrasena ha sido cambiada correctamente.",
+      "instruction": "Ya puedes iniciar sesion con tu nueva contrasena.",
+      "openApp": "Abrir Tikky"
+    },
+    "error": {
+      "title": "Error",
+      "invalidLink": "El enlace de recuperacion no es valido. Por favor, solicita un nuevo enlace desde la aplicacion.",
+      "tokenExpired": "El enlace de recuperacion ha expirado. Por favor, solicita un nuevo enlace desde la aplicacion.",
+      "verificationFailed": "No se pudo verificar el enlace. Por favor, intenta de nuevo o solicita un nuevo enlace.",
+      "updateFailed": "No se pudo actualizar la contrasena. Por favor, intenta de nuevo.",
+      "passwordMismatch": "Las contrasenas no coinciden.",
+      "retry": "Intentar de nuevo"
+    }
+  },
+  "footer": {
+    "company": "NekkiVibes - Tikky App",
+    "contact": "Contacto: <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>"
+  }
+}

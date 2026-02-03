@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "language": "ar",
+    "title": "اعادة تعيين كلمة المرور",
+    "direction": "rtl"
+  },
+  "states": {
+    "loading": {
+      "title": "جاري التحقق",
+      "message": "جاري التحقق من رابط الاسترداد..."
+    },
+    "form": {
+      "title": "كلمة مرور جديدة",
+      "subtitle": "ادخل كلمة المرور الجديدة للوصول الى حسابك",
+      "newPassword": "كلمة المرور الجديدة",
+      "confirmPassword": "تاكيد كلمة المرور",
+      "requirements": {
+        "minLength": "8 احرف على الاقل",
+        "hasUppercase": "حرف كبير واحد على الاقل",
+        "hasLowercase": "حرف صغير واحد على الاقل",
+        "hasNumber": "رقم واحد على الاقل"
+      },
+      "submit": "تغيير كلمة المرور"
+    },
+    "success": {
+      "title": "تم تحديث كلمة المرور",
+      "message": "تم تغيير كلمة المرور بنجاح.",
+      "instruction": "يمكنك الان تسجيل الدخول بكلمة المرور الجديدة.",
+      "openApp": "فتح Tikky"
+    },
+    "error": {
+      "title": "خطا",
+      "invalidLink": "رابط الاسترداد غير صالح. يرجى طلب رابط جديد من التطبيق.",
+      "tokenExpired": "انتهت صلاحية رابط الاسترداد. يرجى طلب رابط جديد من التطبيق.",
+      "verificationFailed": "تعذر التحقق من الرابط. يرجى المحاولة مرة اخرى او طلب رابط جديد.",
+      "updateFailed": "تعذر تحديث كلمة المرور. يرجى المحاولة مرة اخرى.",
+      "passwordMismatch": "كلمات المرور غير متطابقة.",
+      "retry": "حاول مرة اخرى"
+    }
+  },
+  "footer": {
+    "company": "NekkiVibes - Tikky App",
+    "contact": "التواصل: <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>"
+  }
+}
