@@ -332,7 +332,7 @@ const PasswordReset = (function() {
         </div>\
         <h2 class="error-title">' + t.title + '</h2>\
         <p class="error-message">' + errorMessage + '</p>\
-        <button class="retry-btn" onclick="location.reload()">' + t.retry + '</button>\
+        <button class="retry-btn" id="retry-btn">' + t.retry + '</button>\
       </div>\
       <footer class="reset-footer">\
         <p class="footer-company">' + translations.footer.company + '</p>\
@@ -364,6 +364,19 @@ const PasswordReset = (function() {
 
     if (currentState === STATE.FORM) {
       attachFormListeners();
+    }
+
+    if (currentState === STATE.ERROR) {
+      attachRetryListener();
+    }
+  }
+
+  function attachRetryListener() {
+    var retryBtn = document.getElementById('retry-btn');
+    if (retryBtn) {
+      retryBtn.addEventListener('click', function() {
+        location.reload();
+      });
     }
   }
 
