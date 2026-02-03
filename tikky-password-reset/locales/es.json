@@ -1,40 +1,40 @@
 {
   "meta": {
     "language": "es",
-    "title": "Restablecer Contrasena",
+    "title": "Restablecer Contraseña",
     "direction": "ltr"
   },
   "states": {
     "loading": {
       "title": "Verificando",
-      "message": "Verificando enlace de recuperacion..."
+      "message": "Verificando enlace de recuperación..."
     },
     "form": {
-      "title": "Nueva Contrasena",
-      "subtitle": "Introduce tu nueva contrasena para acceder a tu cuenta",
-      "newPassword": "Nueva contrasena",
-      "confirmPassword": "Confirmar contrasena",
+      "title": "Nueva Contraseña",
+      "subtitle": "Introduce tu nueva contraseña para acceder a tu cuenta",
+      "newPassword": "Nueva contraseña",
+      "confirmPassword": "Confirmar contraseña",
       "requirements": {
-        "minLength": "Minimo 8 caracteres",
-        "hasUppercase": "Al menos una mayuscula",
-        "hasLowercase": "Al menos una minuscula",
-        "hasNumber": "Al menos un numero"
+        "minLength": "Mínimo 8 caracteres",
+        "hasUppercase": "Al menos una mayúscula",
+        "hasLowercase": "Al menos una minúscula",
+        "hasNumber": "Al menos un número"
       },
-      "submit": "Cambiar contrasena"
+      "submit": "Cambiar contraseña"
     },
     "success": {
-      "title": "Contrasena actualizada",
-      "message": "Tu contrasena ha sido cambiada correctamente.",
-      "instruction": "Ya puedes iniciar sesion con tu nueva contrasena.",
+      "title": "Contraseña actualizada",
+      "message": "Tu contraseña ha sido cambiada correctamente.",
+      "instruction": "Ya puedes iniciar sesión con tu nueva contraseña.",
       "openApp": "Abrir Tikky"
     },
     "error": {
       "title": "Error",
-      "invalidLink": "El enlace de recuperacion no es valido. Por favor, solicita un nuevo enlace desde la aplicacion.",
-      "tokenExpired": "El enlace de recuperacion ha expirado. Por favor, solicita un nuevo enlace desde la aplicacion.",
+      "invalidLink": "El enlace de recuperación no es válido. Por favor, solicita un nuevo enlace desde la aplicación.",
+      "tokenExpired": "El enlace de recuperación ha expirado. Por favor, solicita un nuevo enlace desde la aplicación.",
       "verificationFailed": "No se pudo verificar el enlace. Por favor, intenta de nuevo o solicita un nuevo enlace.",
-      "updateFailed": "No se pudo actualizar la contrasena. Por favor, intenta de nuevo.",
-      "passwordMismatch": "Las contrasenas no coinciden.",
+      "updateFailed": "No se pudo actualizar la contraseña. Por favor, intenta de nuevo.",
+      "passwordMismatch": "Las contraseñas no coinciden.",
       "retry": "Intentar de nuevo",
       "retryWait": "Espera {seconds}s"
     }
