@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "language": "en",
+    "title": "Account Deletion Request",
+    "subtitle": "Tikky - Ticket and Expense Management",
+    "lastUpdated": "Last updated: January 31, 2026",
+    "tocTitle": "Contents"
+  },
+  "sections": [
+    {
+      "id": "how-to-request",
+      "number": "1",
+      "title": "How to Request Deletion",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "To request the deletion of your account and all associated data in Tikky, follow these steps:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Step 1:</strong> Send an email to <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>",
+            "<strong>Step 2:</strong> Use the subject line: \"Account Deletion Request - Tikky\"",
+            "<strong>Step 3:</strong> Include in the email body the email address associated with your account",
+            "<strong>Step 4:</strong> Optionally, you can provide a reason for deletion (this helps us improve)"
+          ]
+        },
+        {
+          "type": "contact-card",
+          "data": {
+            "email": "yt.code.and.chill@gmail.com"
+          },
+          "labels": {
+            "email": "Contact email:"
+          }
+        }
+      ]
+    },
+    {
+      "id": "processing-time",
+      "number": "2",
+      "title": "Processing Timeframe",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Once we receive your request, we will process the deletion of your account following these timeframes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Initial confirmation:</strong> You will receive a confirmation email within 48 hours of your request",
+            "<strong>Processing:</strong> Complete deletion will be carried out within a maximum of 30 business days",
+            "<strong>Final notification:</strong> We will send you an email confirming that the deletion has been completed"
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "Important note:",
+          "text": "During the processing period, your account will remain inactive and you will not be able to access it."
+        }
+      ]
+    },
+    {
+      "id": "data-deleted",
+      "number": "3",
+      "title": "Data That Will Be Deleted",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "When processing your deletion request, the following data will be permanently deleted:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Profile information:</strong> Name, email address, profile picture, and date of birth",
+            "<strong>Tickets and receipts:</strong> All scanned images and data extracted from your tickets",
+            "<strong>Custom categories:</strong> All expense categories you have created",
+            "<strong>App preferences:</strong> Language, currency settings, and other preferences",
+            "<strong>Usage history:</strong> Activity logs and app usage patterns",
+            "<strong>Subscription data:</strong> Subscription status and in-app purchase history"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-retained",
+      "number": "4",
+      "title": "Data That Is Retained",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For legal and operational reasons, some data may be retained in a limited manner:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Anonymized records:</strong> Aggregated statistical data that cannot personally identify you",
+            "<strong>Transaction records:</strong> Payment processing information required by tax obligations (retained for 5 years as required by applicable law)"
+          ]
+        },
+        {
+          "type": "warning-box",
+          "title": "Backup retention period:",
+          "text": "System backups are retained for 90 days for security purposes. After this period, all your data will be permanently deleted from our backup systems."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "number": "5",
+      "title": "Contact",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "If you have questions about the account deletion process or need additional assistance, please don't hesitate to contact us:"
+        },
+        {
+          "type": "contact-card",
+          "data": {
+            "email": "yt.code.and.chill@gmail.com",
+            "company": "NekkiVibes"
+          },
+          "labels": {
+            "email": "Email:",
+            "company": "Company:"
+          }
+        },
+        {
+          "type": "info-box",
+          "title": "Confirmation:",
+          "text": "You will always receive an email confirmation when your request has been fully processed. If you don't receive any communication within 48 hours, please check your spam folder or contact us again."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "NekkiVibes - Tikky App",
+    "effective": "This page is effective as of January 31, 2026"
+  }
+}

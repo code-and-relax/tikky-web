@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "language": "es",
+    "title": "Solicitud de Eliminación de Cuenta",
+    "subtitle": "Tikky - Gestión de Tickets y Gastos",
+    "lastUpdated": "Última actualización: 31 de enero de 2026",
+    "tocTitle": "Contenido"
+  },
+  "sections": [
+    {
+      "id": "how-to-request",
+      "number": "1",
+      "title": "Cómo Solicitar la Eliminación",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Para solicitar la eliminación de tu cuenta y todos los datos asociados en Tikky, sigue estos pasos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Paso 1:</strong> Envía un correo electrónico a <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>",
+            "<strong>Paso 2:</strong> Usa el asunto: \"Solicitud de Eliminación de Cuenta - Tikky\"",
+            "<strong>Paso 3:</strong> Incluye en el cuerpo del mensaje la dirección de correo electrónico asociada a tu cuenta",
+            "<strong>Paso 4:</strong> Opcionalmente, puedes indicar el motivo de la eliminación (esto nos ayuda a mejorar)"
+          ]
+        },
+        {
+          "type": "contact-card",
+          "data": {
+            "email": "yt.code.and.chill@gmail.com"
+          },
+          "labels": {
+            "email": "Correo de contacto:"
+          }
+        }
+      ]
+    },
+    {
+      "id": "processing-time",
+      "number": "2",
+      "title": "Plazo de Procesamiento",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Una vez recibida tu solicitud, procesaremos la eliminación de tu cuenta siguiendo estos plazos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Confirmación inicial:</strong> Recibirás un correo de confirmación dentro de las 48 horas siguientes a tu solicitud",
+            "<strong>Procesamiento:</strong> La eliminación completa se realizará en un plazo máximo de 30 días hábiles",
+            "<strong>Notificación final:</strong> Te enviaremos un correo electrónico confirmando que la eliminación se ha completado"
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "Nota importante:",
+          "text": "Durante el período de procesamiento, tu cuenta permanecerá inactiva y no podrás acceder a ella."
+        }
+      ]
+    },
+    {
+      "id": "data-deleted",
+      "number": "3",
+      "title": "Datos que se Eliminan",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Al procesar tu solicitud de eliminación, se eliminarán permanentemente los siguientes datos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Información de perfil:</strong> Nombre, correo electrónico, foto de perfil y fecha de nacimiento",
+            "<strong>Tickets y recibos:</strong> Todas las imágenes escaneadas y datos extraídos de tus tickets",
+            "<strong>Categorías personalizadas:</strong> Todas las categorías de gastos que hayas creado",
+            "<strong>Preferencias de la aplicación:</strong> Configuración de idioma, moneda y otras preferencias",
+            "<strong>Historial de uso:</strong> Registros de actividad y patrones de uso de la aplicación",
+            "<strong>Datos de suscripción:</strong> Estado de suscripción e historial de compras dentro de la app"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-retained",
+      "number": "4",
+      "title": "Datos que se Conservan",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Por motivos legales y operativos, algunos datos pueden ser conservados de forma limitada:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Registros anonimizados:</strong> Datos estadísticos agregados que no permiten identificarte personalmente",
+            "<strong>Registros de transacciones:</strong> Información de pagos procesados, requerida por obligaciones fiscales (conservada por 5 años según la ley aplicable)"
+          ]
+        },
+        {
+          "type": "warning-box",
+          "title": "Período de retención de backups:",
+          "text": "Los backups del sistema se conservan durante 90 días por motivos de seguridad. Después de este período, todos tus datos serán eliminados permanentemente de nuestros sistemas de respaldo."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "number": "5",
+      "title": "Contacto",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Si tienes preguntas sobre el proceso de eliminación de cuenta o necesitas asistencia adicional, no dudes en contactarnos:"
+        },
+        {
+          "type": "contact-card",
+          "data": {
+            "email": "yt.code.and.chill@gmail.com",
+            "company": "NekkiVibes"
+          },
+          "labels": {
+            "email": "Correo electrónico:",
+            "company": "Empresa:"
+          }
+        },
+        {
+          "type": "info-box",
+          "title": "Confirmación:",
+          "text": "Siempre recibirás una confirmación por correo electrónico cuando tu solicitud haya sido procesada completamente. Si no recibes ninguna comunicación en 48 horas, por favor verifica tu carpeta de spam o contáctanos nuevamente."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "NekkiVibes - Tikky App",
+    "effective": "Esta página es efectiva desde el 31 de enero de 2026"
+  }
+}

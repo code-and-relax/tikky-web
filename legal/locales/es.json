@@ -1,0 +1,496 @@
+{
+  "meta": {
+    "language": "es",
+    "title": "Política de Privacidad",
+    "subtitle": "Tikky App - Gestión de Recibos y Gastos",
+    "lastUpdated": "Última actualización: 30 de enero de 2026",
+    "tocTitle": "Contenido"
+  },
+  "sections": [
+    {
+      "id": "data-controller",
+      "number": "1",
+      "title": "Responsable del Tratamiento",
+      "content": [
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "NekkiVibes",
+            "owner": "Yassine Ikken Ikkene",
+            "email": "yt.code.and.chill@gmail.com"
+          },
+          "labels": {
+            "company": "Empresa:",
+            "owner": "Titular:",
+            "email": "Correo de contacto:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "NekkiVibes (\"nosotros\", \"nuestro\" o \"la empresa\") es responsable del tratamiento de los datos personales recogidos a través de la aplicación Tikky (\"la app\" o \"el servicio\")."
+        }
+      ]
+    },
+    {
+      "id": "data-collection",
+      "number": "2",
+      "title": "Datos que Recopilamos",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Recopilamos diferentes categorías de datos para proporcionar y mejorar nuestro servicio:"
+        }
+      ],
+      "subsections": [
+        {
+          "id": "identification-data",
+          "number": "2.1",
+          "title": "Datos de Identificación",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Dirección de correo electrónico",
+                "Nombre y apellidos (cuando se proporcionan)",
+                "Fecha de nacimiento (opcional)",
+                "Foto de perfil (opcional)",
+                "Identificador interno de cuenta"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "financial-data",
+          "number": "2.2",
+          "title": "Datos Financieros y de Transacciones",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Imágenes de recibos y tickets",
+                "Información de gastos (importes, fechas, descripciones)",
+                "Nombres de comercios y establecimientos",
+                "Categorías de gastos",
+                "Métodos de pago utilizados (sin datos de tarjetas)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "location-data",
+          "number": "2.3",
+          "title": "Datos de Ubicación",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Coordenadas geográficas al escanear recibos (con tu consentimiento)",
+                "Direcciones de comercios extraídas de los recibos"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "usage-data",
+          "number": "2.4",
+          "title": "Datos de Uso y Preferencias",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Configuración de la aplicación",
+                "Preferencias de idioma y moneda",
+                "Frecuencia y patrones de uso",
+                "Información de sesión"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subscription-data",
+          "number": "2.5",
+          "title": "Datos de Suscripción",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Estado de suscripción (gratuita o premium)",
+                "Historial de compras dentro de la app",
+                "Identificadores de transacción"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "processing-purpose",
+      "number": "3",
+      "title": "Finalidad del Tratamiento",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Utilizamos tus datos personales para las siguientes finalidades:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Finalidad",
+            "Datos Utilizados"
+          ],
+          "rows": [
+            [
+              "Crear y gestionar tu cuenta de usuario",
+              "Correo electrónico, nombre, foto de perfil"
+            ],
+            [
+              "Proporcionar el servicio de gestión de recibos",
+              "Imágenes de recibos, datos financieros"
+            ],
+            [
+              "Procesar pagos y suscripciones",
+              "Datos de suscripción, identificadores"
+            ],
+            [
+              "Mejorar la experiencia del usuario",
+              "Datos de uso, preferencias"
+            ],
+            [
+              "Proporcionar soporte técnico",
+              "Datos de cuenta, historial de uso"
+            ],
+            [
+              "Cumplir con obligaciones legales",
+              "Todos los datos necesarios"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legal-basis",
+      "number": "4",
+      "title": "Base Legal del Tratamiento",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El tratamiento de tus datos personales se fundamenta en las siguientes bases legales conforme al Reglamento General de Protección de Datos (RGPD):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Ejecución del contrato (Art. 6.1.b RGPD):</strong> El tratamiento es necesario para proporcionar el servicio que solicitaste al crear una cuenta y utilizar la aplicación.",
+            "<strong>Consentimiento (Art. 6.1.a RGPD):</strong> Para el tratamiento de datos de ubicación y el envío de comunicaciones comerciales.",
+            "<strong>Interés legítimo (Art. 6.1.f RGPD):</strong> Para mejorar nuestros servicios y garantizar la seguridad de la aplicación.",
+            "<strong>Obligación legal (Art. 6.1.c RGPD):</strong> Cuando sea necesario para cumplir con requisitos legales aplicables."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "third-party-sharing",
+      "number": "5",
+      "title": "Comunicación de Datos a Terceros",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Para proporcionar nuestro servicio, compartimos datos con los siguientes proveedores de confianza:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Categoría",
+            "Finalidad",
+            "Datos Compartidos",
+            "Ubicación"
+          ],
+          "rows": [
+            [
+              "<strong>Proveedores de autenticación</strong>",
+              "Inicio de sesión y verificación de identidad",
+              "Correo electrónico, nombre, foto de perfil",
+              "UE/EE. UU."
+            ],
+            [
+              "<strong>Proveedores de pago</strong>",
+              "Gestión de suscripciones y compras",
+              "Identificador de usuario, historial de compras",
+              "EE. UU."
+            ],
+            [
+              "<strong>Proveedores de almacenamiento</strong>",
+              "Almacenamiento seguro en la nube",
+              "Imágenes de recibos, datos de perfil",
+              "UE/EE. UU."
+            ]
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "Procesamiento local:",
+          "text": "El reconocimiento de texto de tus recibos se realiza localmente en tu dispositivo. Las imágenes no se envían a servidores externos para este procesamiento."
+        }
+      ]
+    },
+    {
+      "id": "international-transfers",
+      "number": "6",
+      "title": "Transferencias Internacionales de Datos",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Algunos de nuestros proveedores de servicios están ubicados fuera del Espacio Económico Europeo (EEE). Para estas transferencias, garantizamos un nivel adecuado de protección mediante:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cláusulas contractuales tipo aprobadas por la Comisión Europea",
+            "Certificación bajo el Marco de Privacidad de Datos UE-EE. UU.",
+            "Decisiones de adecuación de la Comisión Europea, cuando corresponda"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-retention",
+      "number": "7",
+      "title": "Conservación de Datos",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Conservamos tus datos personales durante el tiempo necesario para cumplir con las finalidades descritas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Datos de cuenta:</strong> Mientras tu cuenta permanezca activa, más 30 días tras la eliminación de la cuenta.",
+            "<strong>Recibos e imágenes:</strong> Mientras tu cuenta permanezca activa. Se eliminan cuando eliminas tu cuenta.",
+            "<strong>Datos de transacciones:</strong> 5 años para cumplir con obligaciones fiscales y legales.",
+            "<strong>Datos de uso:</strong> 2 años desde la última actividad."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "your-rights",
+      "number": "8",
+      "title": "Tus Derechos",
+      "content": [],
+      "subsections": [
+        {
+          "id": "gdpr-rights",
+          "number": "8.1",
+          "title": "Derechos según el RGPD (usuarios de la UE/EEE)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Tienes los siguientes derechos respecto a tus datos personales:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Acceso:</strong> Solicitar una copia de tus datos personales.",
+                "<strong>Rectificación:</strong> Corregir datos inexactos o incompletos.",
+                "<strong>Supresión:</strong> Solicitar la eliminación de tus datos (\"derecho al olvido\").",
+                "<strong>Limitación:</strong> Restringir el tratamiento de tus datos en determinadas circunstancias.",
+                "<strong>Portabilidad:</strong> Recibir tus datos en un formato estructurado y de lectura mecánica.",
+                "<strong>Oposición:</strong> Oponerte al tratamiento basado en el interés legítimo.",
+                "<strong>Retirar el consentimiento:</strong> Retirar tu consentimiento en cualquier momento."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ccpa-rights",
+          "number": "8.2",
+          "title": "Derechos según la CCPA (residentes de California)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los residentes de California tienen derechos adicionales:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Conocer:</strong> Qué datos personales recopilamos, utilizamos y compartimos.",
+                "<strong>Eliminar:</strong> Solicitar la eliminación de tus datos personales.",
+                "<strong>No discriminación:</strong> No ser discriminado por ejercer tus derechos de privacidad.",
+                "<strong>Exclusión de la venta:</strong> No vendemos tus datos personales a terceros."
+              ]
+            },
+            {
+              "type": "info-box",
+              "title": "Cómo ejercer tus derechos:",
+              "text": "Puedes ejercer estos derechos contactando con nosotros en <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>. Responderemos a tu solicitud en un plazo de 30 días."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-security",
+      "number": "9",
+      "title": "Seguridad de los Datos",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Implementamos medidas técnicas y organizativas apropiadas para proteger tus datos personales:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cifrado de datos en tránsito (TLS/SSL) y en reposo",
+            "Autenticación segura con estándares de la industria",
+            "Almacenamiento seguro de credenciales en el dispositivo",
+            "Acceso restringido a los datos según necesidad",
+            "Auditorías de seguridad periódicas",
+            "Políticas de seguridad de la información"
+          ]
+        },
+        {
+          "type": "warning-box",
+          "title": "Importante:",
+          "text": "Ninguna transmisión por Internet ni almacenamiento electrónico es 100 % seguro. Aunque nos esforzamos por proteger tus datos, no podemos garantizar una seguridad absoluta."
+        }
+      ]
+    },
+    {
+      "id": "children-privacy",
+      "number": "10",
+      "title": "Privacidad de los Menores",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tikky está diseñada para usuarios de 13 años o más. No recopilamos intencionalmente información personal de niños menores de 13 años."
+        },
+        {
+          "type": "paragraph",
+          "text": "Debido a la naturaleza de nuestra aplicación, que maneja datos personales sensibles como nombre completo, fecha de nacimiento, foto de perfil y datos financieros relacionados con gastos y recibos, hemos establecido esta restricción de edad para proteger la privacidad de los menores."
+        },
+        {
+          "type": "warning-box",
+          "title": "Importante:",
+          "text": "Si descubrimos que hemos recopilado datos personales de un niño menor de 13 años sin verificación del consentimiento parental, tomaremos medidas para eliminar esa información de nuestros servidores lo antes posible."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "compliance",
+          "number": "10.1",
+          "title": "Cumplimiento Normativo",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Nuestra aplicación NO está dirigida a menores de 13 años y cumple con las normativas de protección de datos de menores aplicables:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Ley de Protección de la Privacidad Infantil en Línea (COPPA) en Estados Unidos, que protege a menores de 13 años",
+                "Reglamento General de Protección de Datos (RGPD) en la Unión Europea",
+                "Otras normativas locales de protección de menores aplicables"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "No utilizamos SDKs ni servicios de terceros que no cumplan con las políticas de protección de menores establecidas por Google Play y Apple App Store."
+            }
+          ]
+        },
+        {
+          "id": "parental-guidance",
+          "number": "10.2",
+          "title": "Orientación para Padres y Tutores",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Para usuarios entre 13 y 17 años, recomendamos a los padres y tutores legales que supervisen el uso de la aplicación y revisen esta política de privacidad. Si crees que tu hijo menor de 13 años nos ha proporcionado información personal, o si deseas solicitar la eliminación de datos de un menor bajo tu tutela, contáctanos inmediatamente."
+            },
+            {
+              "type": "info-box",
+              "title": "Contacto:",
+              "text": "Para consultas relacionadas con datos de menores: <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "number": "11",
+      "title": "Cookies y Tecnologías Similares",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La aplicación Tikky no utiliza cookies tradicionales. Sin embargo, utilizamos tecnologías similares para:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mantener tu sesión iniciada",
+            "Recordar tus preferencias",
+            "Analizar el uso de la aplicación para mejorar el servicio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy-changes",
+      "number": "12",
+      "title": "Cambios en esta Política",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Podemos actualizar esta Política de Privacidad periódicamente. Te notificaremos los cambios significativos mediante:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Notificación dentro de la aplicación",
+            "Correo electrónico a la dirección asociada a tu cuenta",
+            "Actualización de la fecha de \"Última actualización\" al principio de este documento"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Te recomendamos revisar esta política periódicamente para mantenerte informado sobre cómo protegemos tus datos."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "number": "13",
+      "title": "Contacto",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Si tienes preguntas, comentarios o solicitudes relacionadas con esta Política de Privacidad o el tratamiento de tus datos personales, puedes contactar con nosotros:"
+        },
+        {
+          "type": "contact-card",
+          "data": {
+            "email": "yt.code.and.chill@gmail.com",
+            "owner": "Yassine Ikken Ikkene",
+            "company": "NekkiVibes"
+          },
+          "labels": {
+            "email": "Correo electrónico:",
+            "owner": "Titular:",
+            "company": "Empresa:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "También tienes derecho a presentar una reclamación ante la autoridad de protección de datos de tu país si consideras que el tratamiento de tus datos personales vulnera la normativa aplicable."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "NekkiVibes - Tikky App",
+    "effective": "Esta política de privacidad es efectiva desde el 30 de enero de 2026"
+  },
+  "ui": {
+    "switchLanguage": "English"
+  }
+}

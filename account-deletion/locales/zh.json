@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "language": "zh",
+    "title": "账户删除请求",
+    "subtitle": "Tikky - 票据与开支管理",
+    "lastUpdated": "最后更新：2026年1月31日",
+    "tocTitle": "目录"
+  },
+  "sections": [
+    {
+      "id": "how-to-request",
+      "number": "1",
+      "title": "如何请求删除",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "要请求删除您在 Tikky 中的账户及所有相关数据，请按照以下步骤操作："
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>步骤 1：</strong>发送电子邮件至 <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>",
+            "<strong>步骤 2：</strong>使用主题行：\"账户删除请求 - Tikky\"",
+            "<strong>步骤 3：</strong>在邮件正文中包含与您账户关联的电子邮件地址",
+            "<strong>步骤 4：</strong>您可以选择性地提供删除原因（这有助于我们改进服务）"
+          ]
+        },
+        {
+          "type": "contact-card",
+          "data": {
+            "email": "yt.code.and.chill@gmail.com"
+          },
+          "labels": {
+            "email": "联系邮箱："
+          }
+        }
+      ]
+    },
+    {
+      "id": "processing-time",
+      "number": "2",
+      "title": "处理时间",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "收到您的请求后，我们将按照以下时间表处理您的账户删除："
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>初始确认：</strong>您将在请求后48小时内收到确认邮件",
+            "<strong>处理：</strong>完全删除将在最多30个工作日内完成",
+            "<strong>最终通知：</strong>我们将向您发送电子邮件确认删除已完成"
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "重要说明：",
+          "text": "在处理期间，您的账户将保持非活动状态，您将无法访问它。"
+        }
+      ]
+    },
+    {
+      "id": "data-deleted",
+      "number": "3",
+      "title": "将被删除的数据",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "处理您的删除请求时，以下数据将被永久删除："
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>个人资料信息：</strong>姓名、电子邮件地址、头像和出生日期",
+            "<strong>票据和收据：</strong>所有扫描的图像和从您的票据中提取的数据",
+            "<strong>自定义类别：</strong>您创建的所有支出类别",
+            "<strong>应用偏好设置：</strong>语言、货币设置和其他偏好",
+            "<strong>使用历史：</strong>活动日志和应用使用模式",
+            "<strong>订阅数据：</strong>订阅状态和应用内购买历史"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-retained",
+      "number": "4",
+      "title": "将被保留的数据",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "出于法律和运营原因，某些数据可能会以有限的方式保留："
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>匿名记录：</strong>无法识别您个人身份的聚合统计数据",
+            "<strong>交易记录：</strong>税务义务所需的支付处理信息（根据适用法律保留5年）"
+          ]
+        },
+        {
+          "type": "warning-box",
+          "title": "备份保留期：",
+          "text": "系统备份出于安全目的保留90天。在此期限之后，您的所有数据将从我们的备份系统中永久删除。"
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "number": "5",
+      "title": "联系方式",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "如果您对账户删除流程有疑问或需要额外帮助，请随时与我们联系："
+        },
+        {
+          "type": "contact-card",
+          "data": {
+            "email": "yt.code.and.chill@gmail.com",
+            "company": "NekkiVibes"
+          },
+          "labels": {
+            "email": "电子邮件：",
+            "company": "公司："
+          }
+        },
+        {
+          "type": "info-box",
+          "title": "确认：",
+          "text": "当您的请求完全处理后，您将始终收到电子邮件确认。如果您在48小时内没有收到任何通信，请检查您的垃圾邮件文件夹或再次与我们联系。"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "NekkiVibes - Tikky 应用",
+    "effective": "本页面自2026年1月31日起生效"
+  }
+}

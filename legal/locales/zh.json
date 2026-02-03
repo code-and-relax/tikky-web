@@ -1,0 +1,496 @@
+{
+    "meta": {
+        "language": "zh",
+        "title": "隐私政策",
+        "subtitle": "Tikky 应用 - 收据和费用管理",
+        "lastUpdated": "最后更新：2026年1月30日",
+        "tocTitle": "目录"
+    },
+    "sections": [
+        {
+            "id": "data-controller",
+            "number": "1",
+            "title": "数据控制者",
+            "content": [
+                {
+                    "type": "contact-card",
+                    "data": {
+                        "company": "NekkiVibes",
+                        "owner": "Yassine Ikken Ikkene",
+                        "email": "yt.code.and.chill@gmail.com"
+                    },
+                    "labels": {
+                        "company": "公司：",
+                        "owner": "负责人：",
+                        "email": "联系邮箱："
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "text": "NekkiVibes（'我们'或'本公司'）负责处理通过 Tikky 应用程序（'本应用'或'本服务'）收集的个人数据。"
+                }
+            ]
+        },
+        {
+            "id": "data-collection",
+            "number": "2",
+            "title": "我们收集的数据",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "我们收集不同类别的数据以提供和改进我们的服务："
+                }
+            ],
+            "subsections": [
+                {
+                    "id": "identification-data",
+                    "number": "2.1",
+                    "title": "身份识别数据",
+                    "content": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "电子邮箱地址",
+                                "姓名（如提供）",
+                                "出生日期（可选）",
+                                "头像（可选）",
+                                "内部账户标识符"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "financial-data",
+                    "number": "2.2",
+                    "title": "财务和交易数据",
+                    "content": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "收据和票据图片",
+                                "费用信息（金额、日期、描述）",
+                                "商户和店铺名称",
+                                "费用类别",
+                                "使用的支付方式（不含银行卡详细信息）"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "location-data",
+                    "number": "2.3",
+                    "title": "位置数据",
+                    "content": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "扫描收据时的地理坐标（经您同意）",
+                                "从收据中提取的商户地址"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "usage-data",
+                    "number": "2.4",
+                    "title": "使用数据和偏好设置",
+                    "content": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "应用设置",
+                                "语言和货币偏好",
+                                "使用频率和模式",
+                                "会话信息"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "subscription-data",
+                    "number": "2.5",
+                    "title": "订阅数据",
+                    "content": [
+                        {
+                            "type": "list",
+                            "items": [
+                                "订阅状态（免费或高级版）",
+                                "应用内购买记录",
+                                "交易标识符"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "processing-purpose",
+            "number": "3",
+            "title": "处理目的",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "我们将您的个人数据用于以下目的："
+                },
+                {
+                    "type": "table",
+                    "headers": [
+                        "目的",
+                        "使用的数据"
+                    ],
+                    "rows": [
+                        [
+                            "创建和管理您的用户账户",
+                            "电子邮箱、姓名、头像"
+                        ],
+                        [
+                            "提供收据管理服务",
+                            "收据图片、财务数据"
+                        ],
+                        [
+                            "处理付款和订阅",
+                            "订阅数据、标识符"
+                        ],
+                        [
+                            "改善用户体验",
+                            "使用数据、偏好设置"
+                        ],
+                        [
+                            "提供技术支持",
+                            "账户数据、使用记录"
+                        ],
+                        [
+                            "遵守法律义务",
+                            "所有必要数据"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "legal-basis",
+            "number": "4",
+            "title": "处理的法律依据",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "根据《通用数据保护条例》(GDPR)，我们处理您个人数据的法律依据如下："
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "<strong>合同履行（GDPR 第6.1.b条）：</strong>处理是您在创建账户和使用应用时请求的服务所必需的。",
+                        "<strong>同意（GDPR 第6.1.a条）：</strong>用于处理位置数据和发送营销通讯。",
+                        "<strong>合法利益（GDPR 第6.1.f条）：</strong>用于改进我们的服务并确保应用安全。",
+                        "<strong>法律义务（GDPR 第6.1.c条）：</strong>在需要遵守适用法律要求时。"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "third-party-sharing",
+            "number": "5",
+            "title": "与第三方共享数据",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "为提供我们的服务，我们与以下可信赖的服务提供商共享数据："
+                },
+                {
+                    "type": "table",
+                    "headers": [
+                        "类别",
+                        "目的",
+                        "共享数据",
+                        "位置"
+                    ],
+                    "rows": [
+                        [
+                            "<strong>身份验证提供商</strong>",
+                            "登录和身份验证",
+                            "电子邮箱、姓名、头像",
+                            "欧盟/美国"
+                        ],
+                        [
+                            "<strong>支付提供商</strong>",
+                            "订阅和购买管理",
+                            "用户标识符、购买记录",
+                            "美国"
+                        ],
+                        [
+                            "<strong>存储提供商</strong>",
+                            "安全云存储",
+                            "收据图片、个人资料数据",
+                            "欧盟/美国"
+                        ]
+                    ]
+                },
+                {
+                    "type": "info-box",
+                    "title": "本地处理：",
+                    "text": "收据的文字识别在您的设备上本地进行。图片不会被发送到外部服务器进行此处理。"
+                }
+            ]
+        },
+        {
+            "id": "international-transfers",
+            "number": "6",
+            "title": "国际数据传输",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "我们的部分服务提供商位于欧洲经济区 (EEA) 以外。对于这些传输，我们通过以下方式确保充分的保护水平："
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "欧盟委员会批准的标准合同条款",
+                        "欧盟-美国数据隐私框架认证",
+                        "欧盟委员会充分性决定（如适用）"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "data-retention",
+            "number": "7",
+            "title": "数据保留",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "我们在实现所述目的所需的时间内保留您的个人数据："
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "<strong>账户数据：</strong>在您的账户保持活跃期间，以及账户删除后30天。",
+                        "<strong>收据和图片：</strong>在您的账户保持活跃期间。删除账户时一并删除。",
+                        "<strong>交易数据：</strong>5年，以遵守税务和法律义务。",
+                        "<strong>使用数据：</strong>自最后一次活动起2年。"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "your-rights",
+            "number": "8",
+            "title": "您的权利",
+            "content": [],
+            "subsections": [
+                {
+                    "id": "gdpr-rights",
+                    "number": "8.1",
+                    "title": "GDPR 下的权利（欧盟/欧洲经济区用户）",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "text": "您对个人数据享有以下权利："
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "<strong>访问权：</strong>请求获取您个人数据的副本。",
+                                "<strong>更正权：</strong>更正不准确或不完整的数据。",
+                                "<strong>删除权：</strong>请求删除您的数据（'被遗忘权'）。",
+                                "<strong>限制权：</strong>在特定情况下限制对您数据的处理。",
+                                "<strong>可携带权：</strong>以结构化、机器可读的格式接收您的数据。",
+                                "<strong>反对权：</strong>反对基于合法利益的处理。",
+                                "<strong>撤回同意权：</strong>随时撤回您的同意。"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ccpa-rights",
+                    "number": "8.2",
+                    "title": "CCPA 下的权利（加利福尼亚州居民）",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "text": "加利福尼亚州居民享有额外权利："
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "<strong>知情权：</strong>了解我们收集、使用和共享哪些个人数据。",
+                                "<strong>删除权：</strong>请求删除您的个人数据。",
+                                "<strong>非歧视权：</strong>不因行使隐私权而受到歧视。",
+                                "<strong>拒绝出售权：</strong>我们不会将您的个人数据出售给第三方。"
+                            ]
+                        },
+                        {
+                            "type": "info-box",
+                            "title": "如何行使您的权利：",
+                            "text": "您可以通过 <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a> 联系我们来行使这些权利。我们将在30天内回复您的请求。"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "data-security",
+            "number": "9",
+            "title": "数据安全",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "我们实施适当的技术和组织措施来保护您的个人数据："
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "传输中（TLS/SSL）和静态数据加密",
+                        "符合行业标准的安全身份验证",
+                        "设备上的安全凭证存储",
+                        "按需限制数据访问",
+                        "定期安全审计",
+                        "信息安全政策"
+                    ]
+                },
+                {
+                    "type": "warning-box",
+                    "title": "重要提示：",
+                    "text": "没有任何互联网传输或电子存储是100%安全的。尽管我们努力保护您的数据，但我们无法保证绝对的安全性。"
+                }
+            ]
+        },
+        {
+            "id": "children-privacy",
+            "number": "10",
+            "title": "儿童隐私",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Tikky 专为13岁及以上的用户设计。我们不会故意收集13岁以下儿童的个人信息。"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "由于本应用程序的性质，会处理敏感的个人数据，如全名、出生日期、头像以及与费用和收据相关的财务数据，我们设置了此年龄限制以保护未成年人的隐私。"
+                },
+                {
+                    "type": "warning-box",
+                    "title": "重要提示：",
+                    "text": "如果我们发现在未经家长同意验证的情况下收集了13岁以下儿童的个人数据，我们将尽快采取措施从服务器中删除该信息。"
+                }
+            ],
+            "subsections": [
+                {
+                    "id": "compliance",
+                    "number": "10.1",
+                    "title": "法规合规",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "text": "我们的应用程序不面向13岁以下的儿童，并符合适用的儿童数据保护法规："
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "美国《儿童在线隐私保护法》(COPPA)，保护13岁以下儿童",
+                                "欧盟《通用数据保护条例》(GDPR)",
+                                "其他适用的当地儿童保护法规"
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "text": "我们不使用不符合 Google Play 和 Apple App Store 制定的儿童保护政策的 SDK 或第三方服务。"
+                        }
+                    ]
+                },
+                {
+                    "id": "parental-guidance",
+                    "number": "10.2",
+                    "title": "家长和监护人指南",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "text": "对于13至17岁的用户，我们建议家长和法定监护人监督应用程序的使用情况并查阅本隐私政策。如果您认为您13岁以下的孩子向我们提供了个人信息，或者希望请求删除您监护下的未成年人的数据，请立即与我们联系。"
+                        },
+                        {
+                            "type": "info-box",
+                            "title": "联系方式：",
+                            "text": "儿童数据相关咨询：<a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cookies",
+            "number": "11",
+            "title": "Cookie 和类似技术",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Tikky 应用不使用传统的 Cookie。但是，我们使用类似技术来："
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "保持您的登录状态",
+                        "记住您的偏好设置",
+                        "分析应用使用情况以改进服务"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "policy-changes",
+            "number": "12",
+            "title": "本政策的变更",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "我们可能会定期更新本隐私政策。我们将通过以下方式通知您重大变更："
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "应用内通知",
+                        "发送电子邮件到与您账户关联的邮箱地址",
+                        "更新本文档开头的'最后更新'日期"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "text": "我们建议您定期查看本政策，以了解我们如何保护您的数据。"
+                }
+            ]
+        },
+        {
+            "id": "contact",
+            "number": "13",
+            "title": "联系方式",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "如果您对本隐私政策或个人数据处理有任何问题、意见或请求，可以通过以下方式联系我们："
+                },
+                {
+                    "type": "contact-card",
+                    "data": {
+                        "email": "yt.code.and.chill@gmail.com",
+                        "owner": "Yassine Ikken Ikkene",
+                        "company": "NekkiVibes"
+                    },
+                    "labels": {
+                        "email": "电子邮箱：",
+                        "owner": "负责人：",
+                        "company": "公司："
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "text": "如果您认为我们对您个人数据的处理违反了适用法规，您还有权向您所在国家的数据保护机构提出投诉。"
+                }
+            ]
+        }
+    ],
+    "footer": {
+        "company": "NekkiVibes - Tikky 应用",
+        "effective": "本隐私政策自2026年1月30日起生效"
+    },
+    "ui": {
+        "switchLanguage": "English"
+    }
+}

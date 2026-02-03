@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Tikky App - Password Reset">
-  <meta name="robots" content="noindex, nofollow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://*.supabase.co https://europe-west1-tikky-nekki.cloudfunctions.net https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:;">
-  <title>Password Reset - Tikky</title>
+  <meta name="description" content="Tikky App Privacy Policy - Receipt and Expense Management">
+  <meta name="robots" content="index, follow">
+  <title>Privacy Policy - Tikky</title>
 
   <!-- Google Fonts - Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,15 +31,22 @@
       <!-- Dynamic Content Container -->
       <div class="content-wrapper">
         <div id="content-container">
-          <!-- Content will be loaded dynamically by password-reset.js -->
-          <div class="loading-container">
-            <div class="spinner"></div>
-            <p class="loading-text">Loading...</p>
+          <!-- Content will be loaded dynamically by i18n.js -->
+          <div style="text-align: center; padding: 48px 24px;">
+            <p style="color: #777;">Loading...</p>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- Table of Contents -->
+  <nav class="toc" id="toc" aria-label="Table of contents">
+    <h2 class="toc-title" id="toc-title">Contenido</h2>
+    <ul class="toc-list" id="toc-list">
+      <!-- TOC items will be generated dynamically by i18n.js -->
+    </ul>
+  </nav>
 
   <!-- Theme Switcher -->
   <button class="theme-switcher" id="theme-switcher" aria-label="Toggle theme">
@@ -58,10 +64,7 @@
     </svg>
   </button>
 
-  <!-- Supabase SDK -->
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-
-  <!-- Password Reset Script -->
-  <script src="js/password-reset.js"></script>
+  <!-- i18n Script -->
+  <script src="js/i18n.js"></script>
 </body>
 </html>
