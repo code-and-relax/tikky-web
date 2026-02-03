@@ -35,7 +35,8 @@
       "verificationFailed": "Could not verify the link. Please try again or request a new link.",
       "updateFailed": "Could not update the password. Please try again.",
       "passwordMismatch": "Passwords do not match.",
-      "retry": "Try again"
+      "retry": "Try again",
+      "retryWait": "Wait {seconds}s"
     }
   },
   "footer": {

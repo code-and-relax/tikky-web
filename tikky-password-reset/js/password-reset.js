@@ -12,6 +12,8 @@ const PasswordReset = (function() {
 
   const STORAGE_KEY = 'tikky_reset_lang';
   const THEME_STORAGE_KEY = 'tikky_reset_theme';
+  const RETRY_STORAGE_KEY = 'tikky_retry_ts';
+  const RETRY_COOLDOWN = 3000;
   const DEFAULT_LANG = 'es';
   const SUPPORTED_LANGS = ['es', 'en', 'ar', 'zh'];
   const THEMES = { LIGHT: 'light', DARK: 'dark' };
@@ -371,13 +373,55 @@ const PasswordReset = (function() {
     }
   }
 
+  function getRemainingCooldown() {
+    var lastRetry = sessionStorage.getItem(RETRY_STORAGE_KEY);
+    if (!lastRetry) return 0;
+    var elapsed = Date.now() - parseInt(lastRetry, 10);
+    var remaining = RETRY_COOLDOWN - elapsed;
+    return remaining > 0 ? remaining : 0;
+  }
+
   function attachRetryListener() {
     var retryBtn = document.getElementById('retry-btn');
-    if (retryBtn) {
-      retryBtn.addEventListener('click', function() {
-        location.reload();
-      });
+    if (!retryBtn) return;
+
+    var countdownInterval = null;
+    var originalText = translations.states.error.retry;
+
+    function updateButtonState() {
+      var remaining = getRemainingCooldown();
+      if (remaining > 0) {
+        var seconds = Math.ceil(remaining / 1000);
+        var waitText = translations.states.error.retryWait.replace('{seconds}', seconds);
+        retryBtn.textContent = waitText;
+        retryBtn.disabled = true;
+        return true;
+      } else {
+        retryBtn.textContent = originalText;
+        retryBtn.disabled = false;
+        return false;
+      }
     }
+
+    function startCountdown() {
+      if (countdownInterval) clearInterval(countdownInterval);
+      countdownInterval = setInterval(function() {
+        if (!updateButtonState()) {
+          clearInterval(countdownInterval);
+          countdownInterval = null;
+        }
+      }, 200);
+    }
+
+    if (updateButtonState()) {
+      startCountdown();
+    }
+
+    retryBtn.addEventListener('click', function() {
+      if (getRemainingCooldown() > 0) return;
+      sessionStorage.setItem(RETRY_STORAGE_KEY, Date.now().toString());
+      location.reload();
+    });
   }
 
   // ==========================================================================

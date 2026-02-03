@@ -35,7 +35,8 @@
       "verificationFailed": "无法验证链接。请重试或请求新链接。",
       "updateFailed": "无法更新密码。请重试。",
       "passwordMismatch": "密码不匹配。",
-      "retry": "重试"
+      "retry": "重试",
+      "retryWait": "等待 {seconds} 秒"
     }
   },
   "footer": {

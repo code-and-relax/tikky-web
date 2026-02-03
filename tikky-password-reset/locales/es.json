@@ -35,7 +35,8 @@
       "verificationFailed": "No se pudo verificar el enlace. Por favor, intenta de nuevo o solicita un nuevo enlace.",
       "updateFailed": "No se pudo actualizar la contrasena. Por favor, intenta de nuevo.",
       "passwordMismatch": "Las contrasenas no coinciden.",
-      "retry": "Intentar de nuevo"
+      "retry": "Intentar de nuevo",
+      "retryWait": "Espera {seconds}s"
     }
   },
   "footer": {
