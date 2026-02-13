@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "language": "es",
+    "direction": "ltr"
+  },
+  "hero": {
+    "tagline": "Seguimiento de gastos con IA",
+    "description": "Escanea tus recibos con inteligencia artificial, gestiona tus gastos de forma inteligente y exporta informes detallados. Todo en una sola aplicaci\u00f3n."
+  },
+  "features": {
+    "title": "Funcionalidades principales",
+    "items": [
+      {
+        "title": "Esc\u00e1ner con IA",
+        "description": "Escanea recibos y facturas con inteligencia artificial. Extracci\u00f3n autom\u00e1tica de datos: comercio, fecha, total e \u00edtems."
+      },
+      {
+        "title": "Gesti\u00f3n de gastos",
+        "description": "Organiza tus gastos por categor\u00edas, etiquetas y m\u00e9todos de pago. Visualiza estad\u00edsticas y tendencias de tu consumo."
+      },
+      {
+        "title": "Exportaci\u00f3n flexible",
+        "description": "Exporta tus datos en formato PDF o CSV. Comparte informes con tu contador o equipo f\u00e1cilmente."
+      },
+      {
+        "title": "Multi-moneda",
+        "description": "Soporte para m\u00faltiples monedas con conversi\u00f3n autom\u00e1tica. Ideal para viajeros y negocios internacionales."
+      }
+    ]
+  },
+  "download": {
+    "title": "Descarga Tikky",
+    "subtitle": "Disponible en Google Play Store",
+    "badgeAlt": "Disponible en Google Play"
+  },
+  "footer": {
+    "privacy": "Pol\u00edtica de Privacidad",
+    "accountDeletion": "Eliminaci\u00f3n de Cuenta",
+    "contact": "Contacto:",
+    "copyright": "\u00a9 2026 NekkiVibes. Todos los derechos reservados."
+  }
+}

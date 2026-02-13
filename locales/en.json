@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "language": "en",
+    "direction": "ltr"
+  },
+  "hero": {
+    "tagline": "AI-Powered Expense Tracking",
+    "description": "Scan your receipts with artificial intelligence, manage your expenses smartly, and export detailed reports. All in one app."
+  },
+  "features": {
+    "title": "Key Features",
+    "items": [
+      {
+        "title": "AI Scanner",
+        "description": "Scan receipts and invoices with artificial intelligence. Automatic data extraction: merchant, date, total, and items."
+      },
+      {
+        "title": "Expense Management",
+        "description": "Organize your expenses by categories, tags, and payment methods. View statistics and spending trends."
+      },
+      {
+        "title": "Flexible Export",
+        "description": "Export your data in PDF or CSV format. Share reports with your accountant or team easily."
+      },
+      {
+        "title": "Multi-Currency",
+        "description": "Support for multiple currencies with automatic conversion. Ideal for travelers and international businesses."
+      }
+    ]
+  },
+  "download": {
+    "title": "Download Tikky",
+    "subtitle": "Available on Google Play Store",
+    "badgeAlt": "Get it on Google Play"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "accountDeletion": "Account Deletion",
+    "contact": "Contact:",
+    "copyright": "\u00a9 2026 NekkiVibes. All rights reserved."
+  }
+}

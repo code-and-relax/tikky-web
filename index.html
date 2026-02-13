@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tikky - AI-powered expense tracking. Scan receipts, manage expenses, and export reports effortlessly.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tikky - AI-Powered Expense Tracking">
+  <meta property="og:description" content="Scan receipts with AI, manage expenses, and export reports. Multi-currency support.">
+  <meta property="og:image" content="https://code-and-relax.github.io/tikky-web/assets/tikky-logo.webp">
+  <meta property="og:url" content="https://code-and-relax.github.io/tikky-web/">
+  <meta property="og:type" content="website">
+
+  <title>Tikky - AI-Powered Expense Tracking</title>
+
+  <!-- Google Fonts - Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="container">
+      <!-- Language Switcher -->
+      <div class="lang-switcher-wrapper">
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="es">ES</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="ar">AR</button>
+          <button class="lang-btn" data-lang="zh">ZH</button>
+        </div>
+      </div>
+
+      <!-- Dynamic Content Container -->
+      <div class="content-wrapper">
+        <div id="content-container">
+          <!-- Content will be loaded dynamically by i18n.js -->
+          <div style="text-align: center; padding: 48px 24px;">
+            <p style="color: #777;">Loading...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Theme Switcher -->
+  <button class="theme-switcher" id="theme-switcher" aria-label="Toggle theme">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <!-- Sun icon (visible in light mode) -->
+      <g class="theme-icon theme-icon-sun">
+        <circle cx="12" cy="12" r="5"/>
+        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+        <style>.theme-icon-sun path { stroke: var(--color-text-primary); stroke-width: 2; stroke-linecap: round; }</style>
+      </g>
+      <!-- Moon icon (visible in dark mode) -->
+      <g class="theme-icon theme-icon-moon">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+      </g>
+    </svg>
+  </button>
+
+  <!-- i18n Script -->
+  <script src="js/i18n.js"></script>
+</body>
+</html>
