@@ -5,17 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Tikky App - Account Deletion Request">
   <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+  <link rel="canonical" href="https://code-and-relax.github.io/tikky-web/account-deletion/">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
   <title>Account Deletion - Tikky</title>
 
-  <!-- Google Fonts - Inter -->
+  <!-- FOWL prevention: apply theme before paint -->
+  <script>
+    (function(){var k='tikky_privacy_lang',t=localStorage.getItem('tikky_privacy_theme');if(!t){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.setAttribute('data-theme',t);var l=localStorage.getItem(k);if(l==='ar'){document.documentElement.dir='rtl';document.documentElement.lang='ar'}else if(l){document.documentElement.lang=l}})();
+  </script>
+
+  <!-- Google Fonts - Inter (non-blocking) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- Critical CSS -->
+  <style>
+    :root{--color-background:#fff;--color-background-subtle:#fafafa;--color-surface:#fff;--color-border-primary:#1a1a1a;--color-border-secondary:#333;--color-text-primary:#1a1a1a;--color-text-secondary:#555;--color-text-muted:#777;--color-accent:#4a90d9;--border-thick:3px solid var(--color-border-primary);--border-medium:2px solid var(--color-border-primary);--border-thin:1px solid var(--color-border-secondary);--shadow-lg:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05);--space-xs:4px;--space-sm:8px;--space-md:16px;--space-lg:24px;--space-xl:32px;--space-2xl:48px;--radius-md:8px;--radius-lg:12px;--font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;--font-size-xs:.75rem;--font-size-sm:.875rem;--font-size-base:1rem;--font-size-lg:1.125rem;--font-size-xl:1.25rem;--font-size-2xl:1.5rem;--font-size-3xl:2rem;--line-height-normal:1.6;--transition-fast:150ms ease;--transition-normal:250ms ease}[data-theme=dark]{--color-background:#121212;--color-background-subtle:#0a0a0a;--color-surface:#1e1e1e;--color-border-primary:#e0e0e0;--color-border-secondary:#888;--color-text-primary:#f5f5f5;--color-text-secondary:#b0b0b0;--color-text-muted:#888;--color-accent:#64b5f6;--shadow-lg:0 10px 15px -3px rgba(0,0,0,.5),0 4px 6px -2px rgba(0,0,0,.4)}*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}html{font-size:16px;scroll-behavior:smooth}body{font-family:var(--font-family);font-size:var(--font-size-base);line-height:var(--line-height-normal);color:var(--color-text-primary);background-color:var(--color-background-subtle);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;transition:background-color var(--transition-normal),color var(--transition-normal)}.page-wrapper{min-height:100vh;padding:var(--space-lg)}.container{max-width:800px;margin:0 auto;background-color:var(--color-surface);border:var(--border-thick);border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);overflow:hidden;transition:background-color var(--transition-normal),border-color var(--transition-normal),box-shadow var(--transition-normal)}.lang-switcher-wrapper{display:flex;justify-content:flex-end;padding:var(--space-md) var(--space-xl);background-color:var(--color-background-subtle);border-bottom:var(--border-medium)}.lang-switcher{display:inline-flex;direction:ltr;border:var(--border-medium);border-radius:100px;overflow:hidden;background-color:var(--color-surface)}.lang-btn{padding:var(--space-sm) var(--space-lg);font-family:var(--font-family);font-size:var(--font-size-sm);font-weight:600;color:var(--color-text-secondary);background-color:transparent;border:none;cursor:pointer;transition:background-color var(--transition-fast),color var(--transition-fast);position:relative}.lang-btn:not(:last-child){border-right:var(--border-medium)}.lang-btn.active{background-color:var(--color-border-primary);color:var(--color-surface)}.policy-header{text-align:center;padding-bottom:var(--space-xl);margin-bottom:var(--space-xl);border-bottom:var(--border-thick)}
+  </style>
+
+  <!-- Full styles (async) -->
+  <link rel="preload" as="style" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="css/styles.css"></noscript>
+
+  <!-- i18n Script (deferred) -->
+  <script src="js/i18n.js" defer></script>
 </head>
 <body>
+  <a href="#content-container" class="skip-link">Skip to content</a>
   <div class="page-wrapper">
     <div class="container">
       <!-- Language Switcher -->
@@ -50,12 +74,11 @@
 
   <!-- Theme Switcher -->
   <button class="theme-switcher" id="theme-switcher" aria-label="Toggle theme">
-    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <!-- Sun icon (visible in light mode) -->
       <g class="theme-icon theme-icon-sun">
         <circle cx="12" cy="12" r="5"/>
         <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
-        <style>.theme-icon-sun path { stroke: var(--color-text-primary); stroke-width: 2; stroke-linecap: round; }</style>
       </g>
       <!-- Moon icon (visible in dark mode) -->
       <g class="theme-icon theme-icon-moon">
@@ -63,8 +86,5 @@
       </g>
     </svg>
   </button>
-
-  <!-- i18n Script -->
-  <script src="js/i18n.js"></script>
 </body>
 </html>

@@ -6,17 +6,31 @@
   <meta name="description" content="Tikky App - Password Reset">
   <meta name="robots" content="noindex, nofollow">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; connect-src 'self' https://*.supabase.co https://europe-west1-tikky-nekki.cloudfunctions.net https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:;">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
   <title>Password Reset - Tikky</title>
 
-  <!-- Google Fonts - Inter -->
+  <!-- Google Fonts - Inter (non-blocking) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Supabase SDK (must load before password-reset.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <!-- Password Reset Script -->
+  <script src="js/password-reset.js" defer></script>
 </head>
 <body>
+  <a href="#content-container" class="skip-link">Skip to content</a>
   <div class="page-wrapper">
     <div class="container">
       <!-- Language Switcher -->
@@ -44,12 +58,11 @@
 
   <!-- Theme Switcher -->
   <button class="theme-switcher" id="theme-switcher" aria-label="Toggle theme">
-    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <!-- Sun icon (visible in light mode) -->
       <g class="theme-icon theme-icon-sun">
         <circle cx="12" cy="12" r="5"/>
         <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
-        <style>.theme-icon-sun path { stroke: var(--color-text-primary); stroke-width: 2; stroke-linecap: round; }</style>
       </g>
       <!-- Moon icon (visible in dark mode) -->
       <g class="theme-icon theme-icon-moon">
@@ -57,11 +70,5 @@
       </g>
     </svg>
   </button>
-
-  <!-- Supabase SDK -->
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-
-  <!-- Password Reset Script -->
-  <script src="js/password-reset.js"></script>
 </body>
 </html>

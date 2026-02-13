@@ -3,27 +3,114 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Tikky - AI-powered expense tracking. Scan receipts, manage expenses, and export reports effortlessly.">
+
+  <!-- FOWL Prevention -->
+  <script>(function(){try{var l=localStorage.getItem('tikky_landing_lang');if(l&&l!=='es')document.documentElement.style.visibility='hidden'}catch(e){}})();</script>
+  <noscript><style>html{visibility:visible!important}</style></noscript>
+
+  <!-- SEO Meta Tags -->
+  <title>Tikky - Seguimiento de Gastos con IA</title>
+  <meta name="description" content="Tikky - Seguimiento de gastos con IA. Escanea recibos, gestiona gastos y exporta informes detallados.">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Tikky - AI-Powered Expense Tracking">
-  <meta property="og:description" content="Scan receipts with AI, manage expenses, and export reports. Multi-currency support.">
+  <meta property="og:title" content="Tikky - Seguimiento de Gastos con IA">
+  <meta property="og:description" content="Escanea recibos con IA, gestiona gastos y exporta informes. Soporte multi-moneda.">
   <meta property="og:image" content="https://code-and-relax.github.io/tikky-web/assets/tikky-logo.webp">
   <meta property="og:url" content="https://code-and-relax.github.io/tikky-web/">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="ar_SA">
+  <meta property="og:locale:alternate" content="zh_CN">
 
-  <title>Tikky - AI-Powered Expense Tracking</title>
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tikky - Seguimiento de Gastos con IA">
+  <meta name="twitter:description" content="Escanea recibos con IA, gestiona gastos y exporta informes detallados.">
+  <meta name="twitter:image" content="https://code-and-relax.github.io/tikky-web/assets/tikky-logo.webp">
 
-  <!-- Google Fonts - Inter -->
+  <!-- Canonical & Hreflang -->
+  <link rel="canonical" href="https://code-and-relax.github.io/tikky-web/">
+  <link rel="alternate" hreflang="es" href="https://code-and-relax.github.io/tikky-web/?lang=es">
+  <link rel="alternate" hreflang="en" href="https://code-and-relax.github.io/tikky-web/?lang=en">
+  <link rel="alternate" hreflang="ar" href="https://code-and-relax.github.io/tikky-web/?lang=ar">
+  <link rel="alternate" hreflang="zh" href="https://code-and-relax.github.io/tikky-web/?lang=zh">
+  <link rel="alternate" hreflang="x-default" href="https://code-and-relax.github.io/tikky-web/">
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Tikky",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Android",
+    "description": "Seguimiento de gastos con IA. Escanea recibos, gestiona gastos y exporta informes.",
+    "url": "https://code-and-relax.github.io/tikky-web/",
+    "image": "https://code-and-relax.github.io/tikky-web/assets/tikky-logo.webp",
+    "author": {"@type": "Organization", "name": "NekkiVibes"},
+    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+    "installUrl": "https://play.google.com/store/apps/details?id=com.nekki.tikky"
+  }
+  </script>
+
+  <!-- Preload Hero Image -->
+  <link rel="preload" as="image" href="assets/tikky-logo.webp" type="image/webp">
+
+  <!-- Google Fonts - Non-blocking -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"></noscript>
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- Critical CSS (inlined) -->
+  <style>
+    :root{--color-background:#ffffff;--color-background-subtle:#fafafa;--color-surface:#ffffff;--color-border-primary:#1a1a1a;--color-border-secondary:#333333;--color-text-primary:#1a1a1a;--color-text-secondary:#555555;--color-text-muted:#777777;--color-accent:#6C5CE7;--color-accent-light:rgba(108,92,231,0.08);--color-accent-medium:rgba(108,92,231,0.15);--color-secondary:#00CEC9;--color-tertiary:#FDCB6E;--border-thick:3px solid var(--color-border-primary);--border-medium:2px solid var(--color-border-primary);--border-thin:1px solid var(--color-border-secondary);--shadow-sm:0 1px 2px rgba(0,0,0,0.05);--shadow-md:0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);--shadow-lg:0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);--space-xs:4px;--space-sm:8px;--space-md:16px;--space-lg:24px;--space-xl:32px;--space-2xl:48px;--space-3xl:64px;--radius-sm:4px;--radius-md:8px;--radius-lg:12px;--radius-xl:16px;--font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;--font-size-xs:0.75rem;--font-size-sm:0.875rem;--font-size-base:1rem;--font-size-lg:1.125rem;--font-size-xl:1.25rem;--font-size-2xl:1.5rem;--font-size-3xl:2rem;--font-size-4xl:2.5rem;--line-height-tight:1.25;--line-height-normal:1.6;--line-height-relaxed:1.75;--transition-fast:150ms ease;--transition-normal:250ms ease}
+    [data-theme="dark"]{--color-background:#121212;--color-background-subtle:#0a0a0a;--color-surface:#1e1e1e;--color-border-primary:#e0e0e0;--color-border-secondary:#888888;--color-text-primary:#f5f5f5;--color-text-secondary:#b0b0b0;--color-text-muted:#888888;--color-accent:#a29bfe;--color-accent-light:rgba(162,155,254,0.1);--color-accent-medium:rgba(162,155,254,0.2);--color-secondary:#55efc4;--color-tertiary:#ffeaa7;--shadow-sm:0 1px 2px rgba(0,0,0,0.3);--shadow-md:0 4px 6px -1px rgba(0,0,0,0.4),0 2px 4px -1px rgba(0,0,0,0.3);--shadow-lg:0 10px 15px -3px rgba(0,0,0,0.5),0 4px 6px -2px rgba(0,0,0,0.4)}
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    html{font-size:16px;scroll-behavior:smooth}
+    body{font-family:var(--font-family);font-size:var(--font-size-base);line-height:var(--line-height-normal);color:var(--color-text-primary);background-color:var(--color-background-subtle);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;transition:background-color var(--transition-normal),color var(--transition-normal)}
+    .page-wrapper{min-height:100vh;padding:var(--space-lg)}
+    .container{max-width:900px;margin:0 auto;background-color:var(--color-surface);border:var(--border-thick);border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);overflow:hidden;transition:background-color var(--transition-normal),border-color var(--transition-normal),box-shadow var(--transition-normal)}
+    .lang-switcher-wrapper{display:flex;justify-content:flex-end;padding:var(--space-md) var(--space-xl);background-color:var(--color-background-subtle);border-bottom:var(--border-medium)}
+    .lang-switcher{display:inline-flex;direction:ltr;border:var(--border-medium);border-radius:100px;overflow:hidden;background-color:var(--color-surface)}
+    .lang-btn{padding:var(--space-sm) var(--space-lg);font-family:var(--font-family);font-size:var(--font-size-sm);font-weight:600;color:var(--color-text-secondary);background-color:transparent;border:none;cursor:pointer;transition:background-color var(--transition-fast),color var(--transition-fast);position:relative}
+    .lang-btn:not(:last-child){border-right:var(--border-medium)}
+    .lang-btn.active{background-color:var(--color-border-primary);color:var(--color-surface)}
+    .hero{text-align:center;padding:var(--space-3xl) var(--space-xl) var(--space-2xl);background-color:var(--color-accent-light);border-bottom:var(--border-thick);position:relative;overflow:hidden}
+    .hero::before{content:'';position:absolute;top:-60px;right:-60px;width:200px;height:200px;border-radius:50%;background-color:var(--color-accent-medium);pointer-events:none}
+    .hero::after{content:'';position:absolute;bottom:-40px;left:-40px;width:140px;height:140px;border-radius:50%;background-color:var(--color-accent-medium);pointer-events:none}
+    .hero-logo{width:128px;height:128px;object-fit:contain;margin-bottom:var(--space-lg);position:relative;z-index:1;filter:drop-shadow(0 4px 12px rgba(108,92,231,0.25))}
+    .hero-title{font-size:var(--font-size-4xl);font-weight:800;color:var(--color-text-primary);letter-spacing:-0.03em;margin-bottom:var(--space-sm);position:relative;z-index:1}
+    .hero-tagline{font-size:var(--font-size-xl);font-weight:500;color:var(--color-accent);margin-bottom:var(--space-md);position:relative;z-index:1}
+    .hero-description{font-size:var(--font-size-base);color:var(--color-text-secondary);max-width:520px;margin:0 auto;line-height:var(--line-height-relaxed);position:relative;z-index:1}
+    .skip-link{position:absolute;top:-100%;left:var(--space-md);padding:var(--space-sm) var(--space-md);background-color:var(--color-accent);color:#ffffff;font-weight:600;border-radius:var(--radius-md);z-index:1000;text-decoration:none}
+    .skip-link:focus{top:var(--space-md)}
+  </style>
+
+  <!-- Full CSS (async) -->
+  <link rel="preload" as="style" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="css/styles.css"></noscript>
+
+  <!-- JS (deferred) -->
+  <script src="js/i18n.js" defer></script>
 </head>
 <body>
+  <!-- Skip Link -->
+  <a class="skip-link" href="#content-container">Saltar al contenido</a>
+
   <div class="page-wrapper">
     <div class="container">
       <!-- Language Switcher -->
@@ -36,13 +123,58 @@
         </div>
       </div>
 
-      <!-- Dynamic Content Container -->
+      <!-- Pre-rendered Content (Spanish) -->
       <div class="content-wrapper">
         <div id="content-container">
-          <!-- Content will be loaded dynamically by i18n.js -->
-          <div style="text-align: center; padding: 48px 24px;">
-            <p style="color: #777;">Loading...</p>
-          </div>
+          <section class="hero">
+            <img class="hero-logo" src="assets/tikky-logo.webp" alt="Tikky Logo" width="128" height="128" fetchpriority="high">
+            <h1 class="hero-title">Tikky</h1>
+            <p class="hero-tagline">Seguimiento de gastos con IA</p>
+            <p class="hero-description">Escanea tus recibos con inteligencia artificial, gestiona tus gastos de forma inteligente y exporta informes detallados. Todo en una sola aplicaci&oacute;n.</p>
+          </section>
+
+          <section class="features fade-in">
+            <h2 class="features-title">Funcionalidades principales</h2>
+            <div class="features-grid">
+              <div class="feature-card fade-in">
+                <div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><line x1="3" y1="12" x2="21" y2="12"/></svg></div>
+                <h3 class="feature-title">Esc&aacute;ner con IA</h3>
+                <p class="feature-description">Escanea recibos y facturas con inteligencia artificial. Extracci&oacute;n autom&aacute;tica de datos: comercio, fecha, total e &iacute;tems.</p>
+              </div>
+              <div class="feature-card fade-in">
+                <div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="20" height="18" rx="2"/><path d="M2 8h20"/><path d="M6 14h2"/><path d="M12 14h6"/></svg></div>
+                <h3 class="feature-title">Gesti&oacute;n de gastos</h3>
+                <p class="feature-description">Organiza tus gastos por categor&iacute;as, etiquetas y m&eacute;todos de pago. Visualiza estad&iacute;sticas y tendencias de tu consumo.</p>
+              </div>
+              <div class="feature-card fade-in">
+                <div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="M9 15l3-3 3 3"/><line x1="12" y1="12" x2="12" y2="18"/></svg></div>
+                <h3 class="feature-title">Exportaci&oacute;n flexible</h3>
+                <p class="feature-description">Exporta tus datos en formato PDF o CSV. Comparte informes con tu contador o equipo f&aacute;cilmente.</p>
+              </div>
+              <div class="feature-card fade-in">
+                <div class="feature-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M15 9.354a4 4 0 1 0 0 5.292"/><line x1="9" y1="7" x2="9" y2="17"/></svg></div>
+                <h3 class="feature-title">Multi-moneda</h3>
+                <p class="feature-description">Soporte para m&uacute;ltiples monedas con conversi&oacute;n autom&aacute;tica. Ideal para viajeros y negocios internacionales.</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="download fade-in">
+            <h2 class="download-title">Descarga Tikky</h2>
+            <p class="download-subtitle">Disponible en Google Play Store</p>
+            <a class="download-badge" href="https://play.google.com/store/apps/details?id=com.nekki.tikky" target="_blank" rel="noopener noreferrer">
+              <img src="assets/badges/google-play-es.png" alt="Disponible en Google Play" height="56" width="190" loading="lazy">
+            </a>
+          </section>
+
+          <footer class="landing-footer">
+            <div class="footer-links">
+              <a class="footer-link" href="legal/">Pol&iacute;tica de Privacidad</a>
+              <a class="footer-link" href="account-deletion/">Eliminaci&oacute;n de Cuenta</a>
+            </div>
+            <p class="footer-contact">Contacto: <a href="mailto:tikky.oficialt@gmail.com">tikky.oficialt@gmail.com</a></p>
+            <p class="footer-copyright">&copy; 2026 NekkiVibes. Todos los derechos reservados.</p>
+          </footer>
         </div>
       </div>
     </div>
@@ -50,21 +182,15 @@
 
   <!-- Theme Switcher -->
   <button class="theme-switcher" id="theme-switcher" aria-label="Toggle theme">
-    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-      <!-- Sun icon (visible in light mode) -->
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <g class="theme-icon theme-icon-sun">
         <circle cx="12" cy="12" r="5"/>
         <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
-        <style>.theme-icon-sun path { stroke: var(--color-text-primary); stroke-width: 2; stroke-linecap: round; }</style>
       </g>
-      <!-- Moon icon (visible in dark mode) -->
       <g class="theme-icon theme-icon-moon">
         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
       </g>
     </svg>
   </button>
-
-  <!-- i18n Script -->
-  <script src="js/i18n.js"></script>
 </body>
 </html>

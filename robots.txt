@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /tikky-password-reset/
+Disallow: /tikky-email-templates/
+
+Sitemap: https://code-and-relax.github.io/tikky-web/sitemap.xml
