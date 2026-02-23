@@ -61,7 +61,7 @@ var Sidebar = (function() {
   }
 
   function _setupLogout() {
-    var logoutBtn = document.getElementById('sidebar-logout');
+    var logoutBtn = document.getElementById('logout-btn');
     if (!logoutBtn) return;
     logoutBtn.addEventListener('click', function(e) {
       e.preventDefault();
@@ -74,7 +74,7 @@ var Sidebar = (function() {
     if (overlay) {
       overlay.addEventListener('click', close);
     }
-    var menuBtn = document.getElementById('menu-toggle');
+    var menuBtn = document.getElementById('mobile-menu-btn');
     if (menuBtn) {
       menuBtn.addEventListener('click', toggle);
     }

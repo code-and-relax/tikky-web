@@ -3,7 +3,7 @@ var Config = (function() {
   var _url = '';
   var _anonKey = '';
 
-  var CONFIG_URL = 'https://europe-west1-tikky-app.cloudfunctions.net/getSupabaseWebConfig';
+  var CONFIG_URL = 'https://europe-west1-tikky-nekki.cloudfunctions.net/getSupabaseWebConfig';
 
   async function init() {
     try {

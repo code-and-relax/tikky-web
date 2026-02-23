@@ -10,6 +10,7 @@ var App = (function() {
     }
 
     _setupLoginForm();
+    _setupLoginErrorBack();
 
     var configOk = await Config.init();
     if (!configOk) {
@@ -128,6 +129,15 @@ var App = (function() {
     var darkIcon = document.getElementById('theme-icon-dark');
     if (lightIcon) lightIcon.classList.toggle('hidden', isDark);
     if (darkIcon) darkIcon.classList.toggle('hidden', !isDark);
+  }
+
+  function _setupLoginErrorBack() {
+    var backBtn = document.getElementById('login-error-back-btn');
+    if (backBtn) {
+      backBtn.addEventListener('click', function() {
+        Auth.signOut();
+      });
+    }
   }
 
   function _showConfigError() {
