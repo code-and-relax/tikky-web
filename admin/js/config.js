@@ -7,10 +7,7 @@ var Config = (function() {
 
   async function init() {
     try {
-      var response = await fetch(CONFIG_URL, {
-        method: 'GET',
-        headers: { 'Content-Type': 'application/json' }
-      });
+      var response = await fetch(CONFIG_URL, { method: 'GET' });
       if (!response.ok) throw new Error('Config fetch failed: ' + response.status);
       var data = await response.json();
       _url = data.url;
