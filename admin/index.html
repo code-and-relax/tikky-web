@@ -107,27 +107,6 @@
       .mobile-only { display: flex; }
     }
 
-    /* Chat panel floating styles */
-    .chat-panel {
-      position: fixed;
-      bottom: var(--space-lg);
-      right: var(--space-lg);
-      width: 380px;
-      max-height: 500px;
-      border-radius: var(--radius-xl);
-      background: var(--bg-card-solid);
-      border: 1px solid var(--border-card);
-      box-shadow: 0 8px 32px var(--shadow-tight), 0 2px 8px var(--shadow-ambient);
-      z-index: var(--z-modal);
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-      transition: opacity var(--duration-normal), transform var(--duration-normal);
-    }
-    .chat-panel.hidden {
-      display: none;
-    }
-
     /* Header layout */
     .header-title {
       font-size: var(--text-lg);
@@ -296,11 +275,6 @@
     <main id="main-content">
       <!-- Populated by router/views -->
     </main>
-
-    <!-- Chat panel (floating, toggleable) -->
-    <div id="chat-panel" class="chat-panel hidden">
-      <!-- Populated by chat-panel.js -->
-    </div>
 
   </div>
 

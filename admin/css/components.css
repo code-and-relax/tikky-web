@@ -1327,6 +1327,28 @@ select.input-sm {
   background: var(--primary-dark);
 }
 
+/* Chat panel (floating, created dynamically by chat-panel.js) */
+#chat-panel {
+  position: fixed;
+  bottom: var(--space-lg);
+  right: var(--space-lg);
+  width: 380px;
+  min-height: 200px;
+  max-height: 500px;
+  border-radius: var(--radius-xl);
+  background: var(--bg-card-solid);
+  border: 1px solid var(--border-card);
+  box-shadow: 0 8px 32px var(--shadow-tight), 0 2px 8px var(--shadow-ambient);
+  z-index: var(--z-modal);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#chat-panel.hidden {
+  display: none;
+}
+
 .chat-message-own {
   align-self: flex-end;
   flex-direction: row-reverse;

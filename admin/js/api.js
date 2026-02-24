@@ -82,7 +82,7 @@ var Api = (function() {
       var result = await _client()
         .from('feedback_reviews')
         .select(
-          '*, admin:admin_users(display_name), '
+          '*, admin:admin_users!feedback_reviews_admin_user_id_fkey(display_name), '
           + 'status:feedback_status_definitions(display_name, color_hex), '
           + 'assigned_admin:admin_users!feedback_reviews_assigned_to_fkey(display_name)'
         )
