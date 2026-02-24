@@ -1,1 +1,6 @@
 node_modules/
+build.mjs
+package.json
+package-lock.json
+js/
+dist/
