@@ -155,12 +155,7 @@ body.theme-dark .neu-elevated {
 }
 
 .sidebar-logo {
-  display: flex;
-  align-items: center;
-  gap: var(--space-sm);
-  padding: var(--space-md) var(--space-lg);
-  height: var(--header-height);
-  border-bottom: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
   flex-shrink: 0;
 }
 
