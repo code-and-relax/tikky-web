@@ -6,9 +6,9 @@
   <title>Tikky Admin - Feedback Dashboard</title>
   <meta name="robots" content="noindex, nofollow">
   <meta name="googlebot" content="noindex, nofollow">
-  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
-  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,8 +19,8 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src https://europe-west1-tikky-nekki.cloudfunctions.net https://*.supabase.co wss://*.supabase.co https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; img-src 'self' data:;">
 
   <!-- CDN libs -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js" integrity="sha384-cwS6YdhLI7XS60eoDiC+egV0qHp8zI+Cms46R0nbn8JrmoAzV9uFL60etMZhAnSu" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" integrity="sha384-1+ItoWbWcmVSm+Y+dJaUt4SEWNA21/jxef+Z0TSHHVy/dEUxEUEnZ1bHn6GT5hj+" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.2.4/purify.min.js" integrity="sha384-yxOHLJFAJkR/fFSp6SO4fJqhGjU0e1aDUhOTCGmLgJIcrn3XH46CfEh3CDPF5jR" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js" integrity="sha512-jEnuDt6jfecCjthQAJ+ed0MTVA++5ZKmlUcmDGBv2vUI/REn6FuIdixLNnQT+vKusE2hhTk2is3cFvv5wA+Sgg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- CSS files -->
@@ -178,7 +178,7 @@
   <div id="login-screen" class="login-screen">
     <div class="login-container">
       <div class="login-logo">
-        <img src="../assets/tikky-logo.webp" alt="Tikky" width="64" height="64">
+        <img src="assets/tikky-logo.webp" alt="Tikky" width="64" height="64">
       </div>
       <h1 class="login-title">Tikky Admin</h1>
       <p class="login-subtitle">Panel de administraci&oacute;n de feedback</p>
@@ -215,7 +215,7 @@
     <!-- Sidebar -->
     <aside id="sidebar">
       <div class="sidebar-header">
-        <img src="../assets/tikky-logo.webp" alt="Tikky" class="sidebar-logo" width="32" height="32">
+        <img src="assets/tikky-logo.webp" alt="Tikky" class="sidebar-logo" width="32" height="32">
         <span class="sidebar-title">Tikky Admin</span>
       </div>
 
@@ -225,7 +225,7 @@
 
       <div class="sidebar-footer">
         <div class="sidebar-user" id="sidebar-user">
-          <!-- Populated by auth.js -->
+          <!-- Populated by auth -->
         </div>
         <div class="sidebar-actions">
           <button id="theme-toggle" class="btn btn-icon btn-ghost" title="Cambiar tema">
@@ -281,17 +281,7 @@
   <!-- Toast container -->
   <div id="toast-container" class="toast-container"></div>
 
-  <!-- JS files (defer, loaded in dependency order) -->
-  <script src="js/config.js" defer></script>
-  <script src="js/auth.js" defer></script>
-  <script src="js/api.js" defer></script>
-  <script src="js/ui/components.js" defer></script>
-  <script src="js/ui/sidebar.js" defer></script>
-  <script src="js/ui/stats.js" defer></script>
-  <script src="js/ui/feedback-list.js" defer></script>
-  <script src="js/ui/feedback-detail.js" defer></script>
-  <script src="js/ui/chat-panel.js" defer></script>
-  <script src="js/router.js" defer></script>
-  <script src="js/app.js" defer></script>
+  <!-- JS (minificado) -->
+  <script src="admin.min.js" defer></script>
 </body>
 </html>
