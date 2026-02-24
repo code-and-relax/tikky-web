@@ -131,10 +131,19 @@ body.theme-dark .neu-elevated {
 }
 
 /* ---------------------------------------------------------------------------
+   Sidebar Overlay (hidden in desktop, controlled via .visible in mobile)
+   --------------------------------------------------------------------------- */
+
+.sidebar-overlay {
+  display: none;
+}
+
+/* ---------------------------------------------------------------------------
    Sidebar
    --------------------------------------------------------------------------- */
 
 #sidebar {
+  grid-column: 1;
   grid-row: 1 / -1;
   background: var(--bg-sidebar);
   border-right: 1px solid var(--border-subtle);
@@ -226,6 +235,8 @@ body.theme-dark .neu-elevated {
    --------------------------------------------------------------------------- */
 
 #header {
+  grid-column: 2;
+  grid-row: 1;
   background: var(--bg-card);
   border-bottom: 1px solid var(--border-subtle);
   display: flex;
@@ -256,6 +267,8 @@ body.theme-dark .neu-elevated {
    --------------------------------------------------------------------------- */
 
 #main-content {
+  grid-column: 2;
+  grid-row: 2;
   overflow-y: auto;
   padding: var(--space-lg);
 }
@@ -1437,7 +1450,12 @@ select.input-sm {
     display: block;
   }
 
+  #header {
+    grid-column: 1;
+  }
+
   #main-content {
+    grid-column: 1;
     padding: var(--space-md);
   }
 
