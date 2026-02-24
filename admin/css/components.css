@@ -1637,7 +1637,7 @@ select.input-sm {
    --------------------------------------------------------------------------- */
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 .truncate {
