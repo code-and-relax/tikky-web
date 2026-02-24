@@ -21,7 +21,7 @@ var ChatPanel = (function() {
   function _createPanel() {
     _panelEl = document.createElement('div');
     _panelEl.id = 'chat-panel';
-    _panelEl.className = 'chat-panel hidden';
+    _panelEl.className = 'hidden';
 
     // Header
     var header = document.createElement('div');
@@ -248,7 +248,7 @@ var ChatPanel = (function() {
     _loadMessages();
 
     var fab = document.getElementById('chat-fab');
-    if (fab) fab.classList.add('active');
+    if (fab) fab.classList.add('hidden');
   }
 
   function hide() {
@@ -257,7 +257,7 @@ var ChatPanel = (function() {
     _isVisible = false;
 
     var fab = document.getElementById('chat-fab');
-    if (fab) fab.classList.remove('active');
+    if (fab) fab.classList.remove('hidden');
   }
 
   // Full page view for #/chat route
