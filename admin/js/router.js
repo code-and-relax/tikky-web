@@ -29,6 +29,10 @@ var Router = (function() {
       FeedbackList.render(container, 'ai');
     } else if (hash.startsWith('#/feedback/')) {
       var feedbackId = hash.replace('#/feedback/', '');
+      if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(feedbackId)) {
+        navigate('#/');
+        return;
+      }
       _setTitle('Detalle de Feedback');
       Sidebar.setActive(null);
       FeedbackDetail.render(container, feedbackId);

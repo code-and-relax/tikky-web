@@ -1,6 +1,12 @@
 var App = (function() {
 
   async function init() {
+    if (window.self !== window.top) {
+      document.body.innerHTML = '';
+      window.top.location = window.self.location;
+      return;
+    }
+
     _initTheme();
     _verifyDependencies();
 

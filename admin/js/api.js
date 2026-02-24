@@ -28,7 +28,9 @@ var Api = (function() {
         query = query.eq('is_auto_feedback', filters.isAuto);
       }
       if (filters.search) {
-        var sanitized = filters.search.replace(/[,.()"\\%_*]/g, '');
+        var sanitized = filters.search
+          .substring(0, 100)
+          .replace(/[^a-zA-Z0-9\s\-\u00e1\u00e9\u00ed\u00f3\u00fa\u00f1\u00fc\u00c1\u00c9\u00cd\u00d3\u00da\u00d1\u00dc]/g, '');
         if (sanitized.length > 0) {
           query = query.or(
             'subject.ilike.%' + sanitized + '%,body.ilike.%' + sanitized + '%'
