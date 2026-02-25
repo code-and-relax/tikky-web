@@ -1138,6 +1138,28 @@ select.input-sm {
   padding-right: var(--space-lg);
 }
 
+.feedback-sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--bg-page);
+  margin: calc(-1 * var(--space-lg)) calc(-1 * var(--space-lg)) 0;
+  padding: var(--space-lg) var(--space-lg) 0;
+}
+
+@media (max-width: 768px) {
+  .feedback-sticky-header {
+    margin: calc(-1 * var(--space-md)) calc(-1 * var(--space-md)) 0;
+    padding: var(--space-md) var(--space-md) 0;
+  }
+}
+
+.input-error,
+select.input-error {
+  border-color: var(--error);
+  box-shadow: 0 0 0 3px rgba(214, 48, 49, 0.15);
+}
+
 /* ---------------------------------------------------------------------------
    Stats Grid (used by stats.js)
    --------------------------------------------------------------------------- */
