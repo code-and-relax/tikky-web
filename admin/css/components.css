@@ -1093,6 +1093,14 @@ body.theme-dark .stat-card {
   background: var(--highlight);
 }
 
+.feedback-table .feedback-row.visited {
+  opacity: 0.55;
+}
+
+.feedback-table .feedback-row.visited:hover {
+  opacity: 0.75;
+}
+
 .feedback-table .feedback-subject {
   max-width: 300px;
   overflow: hidden;
@@ -1144,13 +1152,14 @@ select.input-sm {
   z-index: 2;
   background: var(--bg-page);
   margin: calc(-1 * var(--space-lg)) calc(-1 * var(--space-lg)) 0;
-  padding: var(--space-lg) var(--space-lg) 0;
+  padding: var(--space-lg) var(--space-lg) var(--space-md);
+  border-bottom: 1px solid var(--border-subtle);
 }
 
 @media (max-width: 768px) {
   .feedback-sticky-header {
     margin: calc(-1 * var(--space-md)) calc(-1 * var(--space-md)) 0;
-    padding: var(--space-md) var(--space-md) 0;
+    padding: var(--space-md) var(--space-md) var(--space-sm);
   }
 }
 
