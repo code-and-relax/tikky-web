@@ -264,8 +264,14 @@ body.theme-dark .neu-elevated {
 #main-content {
   grid-column: 2;
   grid-row: 2;
+  display: flex;
+  flex-direction: column;
   overflow-y: auto;
-  padding: var(--space-lg);
+}
+
+#main-content > * {
+  margin: var(--space-md);
+  flex-shrink: 0;
 }
 
 /* ---------------------------------------------------------------------------
@@ -1055,8 +1061,11 @@ body.theme-dark .stat-card {
 
 .table-wrapper {
   overflow-x: auto;
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  margin: 0;
+  margin: var(--space-lg);
+  flex: 1;
+  min-height: 0;
 }
 
 .feedback-table {
@@ -1067,6 +1076,9 @@ body.theme-dark .stat-card {
 }
 
 .feedback-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   background: var(--bg-page);
   color: var(--text-secondary);
   font-size: var(--text-sm);
@@ -1145,11 +1157,9 @@ select.input-sm {
 }
 
 .feedback-sticky-header {
-  position: sticky;
-  top: 0;
   z-index: 2;
   background: var(--bg-page);
-  margin: calc(-1 * var(--space-lg)) calc(-1 * var(--space-lg)) 0;
+  margin: 0 !important;
   padding: var(--space-lg);
   border-bottom: 1px solid var(--border-subtle);
 }
@@ -1160,7 +1170,6 @@ select.input-sm {
 
 @media (max-width: 768px) {
   .feedback-sticky-header {
-    margin: calc(-1 * var(--space-md)) calc(-1 * var(--space-md)) 0;
     padding: var(--space-md);
   }
 }
@@ -1413,7 +1422,8 @@ select.input-error {
 .chat-full-view {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - var(--header-height) - var(--space-lg) * 2);
+  flex: 1;
+  min-height: 0;
 }
 
 .chat-full-messages {
@@ -1506,7 +1516,14 @@ select.input-error {
 
   #main-content {
     grid-column: 1;
-    padding: var(--space-md);
+  }
+
+  #main-content > * {
+    margin: var(--space-sm);
+  }
+
+  #main-content > .table-wrapper {
+    margin: var(--space-md);
   }
 
   .chat-message {
@@ -1653,7 +1670,7 @@ select.input-error {
 }
 
 .mt-md {
-  margin-top: var(--space-md);
+  margin: var(--space-md);
 }
 
 .mt-lg {
@@ -1899,10 +1916,6 @@ select.input-error {
     flex-wrap: wrap;
   }
 
-  /* Chat full view */
-  .chat-full-view {
-    height: calc(100vh - var(--header-height) - var(--space-md) * 2);
-  }
 }
 
 /* ---------------------------------------------------------------------------
@@ -1915,8 +1928,12 @@ select.input-error {
     font-size: var(--text-xl);
   }
 
-  #main-content {
-    padding: var(--space-sm);
+  #main-content > * {
+    margin: var(--space-xs);
+  }
+
+  #main-content > .table-wrapper {
+    margin: var(--space-sm);
   }
 
   #header {
