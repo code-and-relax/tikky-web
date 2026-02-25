@@ -1056,7 +1056,7 @@ body.theme-dark .stat-card {
 .table-wrapper {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  margin: var(--space-md) 0px 0px 0px;
+  margin: 0;
 }
 
 .feedback-table {
@@ -1150,7 +1150,7 @@ select.input-sm {
   z-index: 2;
   background: var(--bg-page);
   margin: calc(-1 * var(--space-lg)) calc(-1 * var(--space-lg)) 0;
-  padding: var(--space-lg) var(--space-lg) var(--space-md);
+  padding: var(--space-lg);
   border-bottom: 1px solid var(--border-subtle);
 }
 
@@ -1161,7 +1161,7 @@ select.input-sm {
 @media (max-width: 768px) {
   .feedback-sticky-header {
     margin: calc(-1 * var(--space-md)) calc(-1 * var(--space-md)) 0;
-    padding: var(--space-md) var(--space-md) var(--space-sm);
+    padding: var(--space-md);
   }
 }
 
