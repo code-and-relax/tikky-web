@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "language": "es",
+    "direction": "ltr",
+    "title": "Aviso Legal",
+    "subtitle": "Tikky - Información general (art. 10 LSSI-CE)",
+    "lastUpdated": "Versión v2026-07-19 · Entrada en vigor: 19 de julio de 2026",
+    "tocTitle": "Contenido"
+  },
+  "sections": [
+    {
+      "id": "identification",
+      "number": "1",
+      "title": "Identificación del titular",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "En cumplimiento del artículo 10 de la Ley 34/2002, de servicios de la sociedad de la información y de comercio electrónico (LSSI-CE), se informa de que el titular de este sitio web y de la aplicación Tikky es:"
+        },
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "nif": "{{NIF}}",
+            "address": "{{DOMICILIO}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Titular:",
+            "nif": "NIF:",
+            "address": "Domicilio:",
+            "email": "Correo electrónico:"
+          }
+        }
+      ]
+    },
+    {
+      "id": "purpose",
+      "number": "2",
+      "title": "Objeto",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Este sitio web informa sobre la aplicación de gestión de finanzas personales Tikky y aloja su documentación legal: la <a href=\"../privacy/\">Política de Privacidad</a>, los <a href=\"../terms/\">Términos y Condiciones</a> y la página de <a href=\"../../account-deletion/\">eliminación de cuenta</a>. El uso de la aplicación se rige por dichos documentos."
+        }
+      ]
+    },
+    {
+      "id": "hosting",
+      "number": "3",
+      "title": "Alojamiento e infraestructura",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<strong>Sitio web:</strong> GitHub Pages (GitHub, Inc.)",
+            "<strong>Datos de la aplicación:</strong> Supabase (AWS, región eu-west-1, Irlanda)",
+            "<strong>Funciones en la nube:</strong> Google Cloud / Firebase (región europe-west1, Bélgica)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "number": "4",
+      "title": "Cookies",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Este sitio web es estático y no utiliza cookies ni herramientas de analítica o rastreo. Únicamente guarda en el almacenamiento local de tu navegador tus preferencias de idioma y tema, que no permiten identificarte ni se comunican a ningún servidor."
+        }
+      ]
+    },
+    {
+      "id": "intellectual-property",
+      "number": "5",
+      "title": "Propiedad intelectual",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Los contenidos de este sitio (textos, diseño, logotipos e imágenes propios) pertenecen a {{RESPONSABLE}} o a sus licenciantes. No se permite su reproducción o distribución sin autorización, salvo los usos legalmente permitidos."
+        }
+      ]
+    },
+    {
+      "id": "responsibility",
+      "number": "6",
+      "title": "Responsabilidad y enlaces",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El titular trabaja para que la información de este sitio sea correcta y esté actualizada, pero no puede garantizar la ausencia total de errores. Los enlaces a sitios de terceros (por ejemplo, Google Play) se ofrecen para tu comodidad; no controlamos su contenido ni asumimos responsabilidad sobre él."
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "number": "7",
+      "title": "Legislación aplicable",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Este Aviso Legal se rige por la legislación española. Para cualquier controversia será de aplicación lo dispuesto en la sección de ley aplicable de los <a href=\"../terms/\">Términos y Condiciones</a>."
+        },
+        {
+          "type": "info-box",
+          "title": "Idioma vinculante:",
+          "text": "En caso de discrepancia entre las versiones traducidas de este documento, prevalece la versión en español."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "Tikky · {{RESPONSABLE}}",
+    "effective": "Aviso Legal v2026-07-19, en vigor desde el 19 de julio de 2026"
+  }
+}

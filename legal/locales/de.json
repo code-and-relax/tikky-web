@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "language": "de",
+    "direction": "ltr",
+    "title": "Rechtliches",
+    "subtitle": "Tikky - Belegverwaltung und persönliche Finanzen",
+    "lastUpdated": "Geltende Dokumente: v2026-07-19",
+    "tocTitle": "Dokumente"
+  },
+  "sections": [
+    {
+      "id": "privacy",
+      "number": "1",
+      "title": "Datenschutzerklärung",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Welche Daten wir verarbeiten, zu welchen Zwecken, mit welchen Dienstleistern, wie lange wir sie speichern und wie Sie Ihre Rechte ausüben (DSGVO)."
+        },
+        {
+          "type": "paragraph",
+          "text": "<a href=\"privacy/\"><strong>Datenschutzerklärung lesen →</strong></a>"
+        }
+      ]
+    },
+    {
+      "id": "terms",
+      "number": "2",
+      "title": "Nutzungsbedingungen",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Die Regeln für die Nutzung des Dienstes: Ihre Inhalte, Abonnements, Mindestalter, Haftung und anwendbares Recht."
+        },
+        {
+          "type": "paragraph",
+          "text": "<a href=\"terms/\"><strong>Nutzungsbedingungen lesen →</strong></a>"
+        }
+      ]
+    },
+    {
+      "id": "legal-notice",
+      "number": "3",
+      "title": "Impressum",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Angaben zum Betreiber der Website und der App gemäß Artikel 10 des spanischen LSSI-CE-Gesetzes, Hosting und Bedingungen dieser Website."
+        },
+        {
+          "type": "paragraph",
+          "text": "<a href=\"aviso-legal/\"><strong>Impressum lesen →</strong></a>"
+        }
+      ]
+    },
+    {
+      "id": "account-deletion",
+      "number": "4",
+      "title": "Kontolöschung",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Wie Sie Ihr Konto und alle Ihre Daten löschen, was gelöscht wird und innerhalb welcher Fristen."
+        },
+        {
+          "type": "paragraph",
+          "text": "<a href=\"../account-deletion/\"><strong>So löschen Sie Ihr Konto →</strong></a>"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "Tikky · {{RESPONSABLE}}",
+    "effective": "Die Dokumente geben ihre Version und das Datum ihres Inkrafttretens in ihrer Kopfzeile an. Bei Abweichungen zwischen den Sprachfassungen ist die spanische Fassung maßgeblich."
+  }
+}

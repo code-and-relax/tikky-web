@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "language": "es",
+    "direction": "ltr",
+    "title": "Términos y Condiciones",
+    "subtitle": "Tikky - Gestión de recibos y finanzas personales",
+    "lastUpdated": "Versión v2026-07-19 · Entrada en vigor: 19 de julio de 2026",
+    "tocTitle": "Contenido"
+  },
+  "sections": [
+    {
+      "id": "provider",
+      "number": "1",
+      "title": "Quiénes somos y qué regulan estos términos",
+      "content": [
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "nif": "{{NIF}}",
+            "address": "{{DOMICILIO}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Titular:",
+            "nif": "NIF:",
+            "address": "Domicilio:",
+            "email": "Correo electrónico:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Estos Términos y Condiciones (\"los Términos\") regulan el uso de la aplicación móvil Tikky y de sus servicios asociados (\"el Servicio\"). Al crear una cuenta aceptas estos Términos y la <a href=\"../privacy/\">Política de Privacidad</a>. Si no estás de acuerdo, no uses el Servicio."
+        },
+        {
+          "type": "info-box",
+          "title": "Idioma vinculante:",
+          "text": "Este documento se publica en varios idiomas para tu comodidad. En caso de discrepancia entre versiones, prevalece la versión en español."
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "number": "2",
+      "title": "El Servicio",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tikky es una herramienta de gestión de finanzas personales: digitaliza recibos mediante inteligencia artificial, organiza gastos e ingresos, gestiona presupuestos y suscripciones y genera informes y respuestas sobre tus propios datos."
+        },
+        {
+          "type": "warning-box",
+          "title": "No es asesoramiento:",
+          "text": "Tikky no presta asesoramiento financiero, fiscal, contable ni legal. La información que muestra la app (incluidas las respuestas del asistente de IA) tiene carácter meramente informativo y se basa en los datos que tú registras. Para decisiones financieras o fiscales consulta a un profesional."
+        },
+        {
+          "type": "paragraph",
+          "text": "La extracción de datos mediante IA puede contener errores u omisiones. La app te muestra siempre el resultado para que lo revises; eres responsable de verificar y corregir tus datos antes de basarte en ellos."
+        }
+      ]
+    },
+    {
+      "id": "account",
+      "number": "3",
+      "title": "Cuenta y edad mínima",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Debes tener al menos <strong>16 años</strong> para usar Tikky.",
+            "Debes facilitar información veraz y mantenerla actualizada.",
+            "Eres responsable de la confidencialidad de tus credenciales y de toda la actividad realizada desde tu cuenta.",
+            "Cada cuenta es personal e intransferible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "user-content",
+      "number": "4",
+      "title": "Tu contenido",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El Servicio te permite subir imágenes y documentos (recibos, facturas, foto de perfil) y registrar datos financieros (\"tu Contenido\"). Tu Contenido sigue siendo tuyo: Tikky no adquiere ninguna propiedad sobre él."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "content-warranty",
+          "number": "4.1",
+          "title": "Garantías sobre tu Contenido",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Al subir Contenido garantizas que eres su titular o que cuentas con los derechos o autorizaciones necesarios para usarlo en el Servicio, y que no vulnera derechos de terceros ni la legalidad vigente."
+            }
+          ]
+        },
+        {
+          "id": "content-license",
+          "number": "4.2",
+          "title": "Licencia limitada",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Nos concedes una licencia limitada, no exclusiva y revocable para alojar tu Contenido y procesarlo (incluido su envío a los proveedores de IA descritos en la Política de Privacidad) con el único fin de prestarte el Servicio a ti. Esta licencia termina cuando eliminas el Contenido o tu cuenta, sin perjuicio de los plazos de conservación descritos en la Política de Privacidad."
+            }
+          ]
+        },
+        {
+          "id": "content-prohibitions",
+          "number": "4.3",
+          "title": "Contenido prohibido",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Contenido ilícito, difamatorio o que vulnere derechos de terceros (incluida la propiedad intelectual y la protección de datos de otras personas)",
+                "Documentos de terceros sobre los que no tengas derecho de uso",
+                "Malware, código malicioso o contenido diseñado para dañar el Servicio o eludir sus medidas de seguridad"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "takedown",
+          "number": "4.4",
+          "title": "Retirada de contenido (takedown)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Si consideras que algún contenido tratado en el Servicio vulnera tus derechos de propiedad intelectual u otros derechos, escríbenos a <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a> con el asunto <strong>«Copyright»</strong>, identificando el contenido, tu derecho y tus datos de contacto. Actuaremos con diligencia para retirar el contenido cuando proceda."
+            }
+          ]
+        },
+        {
+          "id": "indemnity",
+          "number": "4.5",
+          "title": "Indemnidad",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Responderás frente a Tikky y la mantendrás indemne frente a reclamaciones de terceros derivadas de tu Contenido o de un uso del Servicio contrario a estos Términos, incluidos los daños y gastos razonables (también los de defensa) que traigan causa directa de dicho incumplimiento. Esta obligación no se aplica en la medida en que la reclamación derive de un incumplimiento imputable a Tikky."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acceptable-use",
+      "number": "5",
+      "title": "Uso aceptable y suspensión",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "No puedes usar el Servicio para fines ilícitos, intentar acceder a datos de otros usuarios, sobrecargar o atacar la infraestructura, eludir los límites de uso o las medidas antifraude, ni realizar ingeniería inversa salvo en lo permitido por la ley."
+        },
+        {
+          "type": "paragraph",
+          "text": "Podemos suspender o cerrar cuentas que incumplan estos Términos o comprometan la seguridad del Servicio. Salvo riesgo grave o exigencia legal, te avisaremos y podrás alegar lo que estimes oportuno."
+        }
+      ]
+    },
+    {
+      "id": "subscriptions",
+      "number": "6",
+      "title": "Suscripciones y pagos",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Tikky ofrece un plan gratuito (con publicidad y límites de uso) y planes de pago por suscripción.",
+            "Las suscripciones se contratan y cobran a través de <strong>Google Play</strong> (o del proveedor de pago web indicado en el proceso de compra). Los precios, impuestos, renovación automática, cancelación y reembolsos se rigen por las condiciones de la plataforma de pago.",
+            "La suscripción se renueva automáticamente salvo que la canceles en Google Play antes del final del periodo en curso.",
+            "<strong>Eliminar tu cuenta no cancela la suscripción:</strong> debes cancelarla en Google Play → Pagos y suscripciones. De lo contrario, la plataforma seguirá cobrándola.",
+            "Los cambios de precio se comunican con antelación a través de la plataforma de pago y solo se aplican en la siguiente renovación."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intellectual-property",
+      "number": "7",
+      "title": "Propiedad intelectual de Tikky",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La app, su código, diseño, marcas, logotipos y contenidos propios son titularidad de {{RESPONSABLE}} o de sus licenciantes. Te concedemos una licencia personal, no exclusiva e intransferible para usar la app conforme a estos Términos. No adquieres ningún otro derecho."
+        }
+      ]
+    },
+    {
+      "id": "liability",
+      "number": "8",
+      "title": "Limitación de responsabilidad",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "El Servicio se presta \"tal cual\" y \"según disponibilidad\". Trabajamos para mantenerlo disponible y sin errores, pero no podemos garantizar disponibilidad ininterrumpida ni ausencia total de fallos.",
+            "No respondemos de las decisiones que tomes basándote en los datos o informes de la app, ni de errores derivados de datos incorrectos o de la extracción automática que no hayas revisado.",
+            "En la medida permitida por la ley, no responderemos de daños indirectos, lucro cesante o pérdida de datos causada por factores fuera de nuestro control razonable."
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "Tus derechos como consumidor:",
+          "text": "Nada en estos Términos limita los derechos que la legislación de consumo te reconoce con carácter imperativo, ni nuestra responsabilidad por dolo, culpa grave, o daños personales."
+        }
+      ]
+    },
+    {
+      "id": "changes",
+      "number": "9",
+      "title": "Modificación de los Términos",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Podemos modificar estos Términos para reflejar cambios en el Servicio o en la normativa. Publicaremos la nueva versión con su fecha de entrada en vigor y, si el cambio es sustancial, la app te pedirá aceptarla de nuevo antes de continuar usándola. Si no la aceptas, puedes dejar de usar el Servicio y eliminar tu cuenta."
+        }
+      ]
+    },
+    {
+      "id": "termination",
+      "number": "10",
+      "title": "Terminación",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Puedes dejar de usar Tikky y eliminar tu cuenta en cualquier momento desde Ajustes. El borrado se completa tras un periodo de gracia de 30 días, durante el cual puedes cancelarlo iniciando sesión de nuevo.",
+            "Recuerda cancelar tu suscripción en Google Play: eliminar la cuenta no la cancela.",
+            "Podemos terminar el Servicio o tu cuenta conforme a la sección 5 (uso aceptable) o si cesamos la actividad, en cuyo caso te avisaremos con antelación razonable para que exportes tus datos."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "number": "11",
+      "title": "Ley aplicable y jurisdicción",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Estos Términos se rigen por la legislación española. Si actúas como consumidor, cualquier controversia se someterá a los juzgados y tribunales de tu domicilio; además conservas todas las protecciones de la normativa imperativa de tu país de residencia habitual. Los consumidores de la UE pueden acudir también a la plataforma de resolución de litigios en línea de la Comisión Europea."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "number": "12",
+      "title": "Contacto",
+      "content": [
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Titular:",
+            "email": "Correo electrónico:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Consulta también la <a href=\"../privacy/\">Política de Privacidad</a> y el <a href=\"../aviso-legal/\">Aviso Legal</a>."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "Tikky · {{RESPONSABLE}}",
+    "effective": "Términos y Condiciones v2026-07-19, en vigor desde el 19 de julio de 2026"
+  }
+}

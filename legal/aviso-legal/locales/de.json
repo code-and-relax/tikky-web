@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "language": "de",
+    "direction": "ltr",
+    "title": "Impressum",
+    "subtitle": "Tikky - Allgemeine Angaben (Art. 10 des spanischen LSSI-CE-Gesetzes)",
+    "lastUpdated": "Version v2026-07-19 · Inkrafttreten: 19. Juli 2026",
+    "tocTitle": "Inhalt"
+  },
+  "sections": [
+    {
+      "id": "identification",
+      "number": "1",
+      "title": "Angaben zum Betreiber",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In Erfüllung von Artikel 10 des spanischen Gesetzes 34/2002 über Dienste der Informationsgesellschaft und den elektronischen Geschäftsverkehr (LSSI-CE) wird mitgeteilt, dass der Betreiber dieser Website und der Tikky-App ist:"
+        },
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "nif": "{{NIF}}",
+            "address": "{{DOMICILIO}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Betreiber:",
+            "nif": "NIF (spanische Steuernummer):",
+            "address": "Anschrift:",
+            "email": "E-Mail:"
+          }
+        }
+      ]
+    },
+    {
+      "id": "purpose",
+      "number": "2",
+      "title": "Gegenstand",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Diese Website informiert über die App zur Verwaltung persönlicher Finanzen Tikky und beherbergt ihre Rechtsdokumente: die <a href=\"../privacy/\">Datenschutzerklärung</a>, die <a href=\"../terms/\">Nutzungsbedingungen</a> und die Seite zur <a href=\"../../account-deletion/\">Kontolöschung</a>. Die Nutzung der App richtet sich nach diesen Dokumenten."
+        }
+      ]
+    },
+    {
+      "id": "hosting",
+      "number": "3",
+      "title": "Hosting und Infrastruktur",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<strong>Website:</strong> GitHub Pages (GitHub, Inc.)",
+            "<strong>App-Daten:</strong> Supabase (AWS, Region eu-west-1, Irland)",
+            "<strong>Cloud-Funktionen:</strong> Google Cloud / Firebase (Region europe-west1, Belgien)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "number": "4",
+      "title": "Cookies",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Diese Website ist statisch und verwendet weder Cookies noch Analyse- oder Tracking-Tools. Sie speichert lediglich Ihre Sprach- und Design-Einstellungen im lokalen Speicher Ihres Browsers; diese erlauben keine Identifizierung Ihrer Person und werden an keinen Server übermittelt."
+        }
+      ]
+    },
+    {
+      "id": "intellectual-property",
+      "number": "5",
+      "title": "Geistiges Eigentum",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Die Inhalte dieser Website (eigene Texte, Design, Logos und Bilder) gehören {{RESPONSABLE}} oder seinen Lizenzgebern. Ihre Vervielfältigung oder Verbreitung ohne Genehmigung ist nicht gestattet, mit Ausnahme der gesetzlich erlaubten Nutzungen."
+        }
+      ]
+    },
+    {
+      "id": "responsibility",
+      "number": "6",
+      "title": "Haftung und Links",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Der Betreiber bemüht sich, die Informationen auf dieser Website korrekt und aktuell zu halten, kann jedoch die völlige Fehlerfreiheit nicht garantieren. Links zu Websites Dritter (zum Beispiel Google Play) werden zu Ihrer Bequemlichkeit angeboten; wir kontrollieren deren Inhalte nicht und übernehmen keine Verantwortung dafür."
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "number": "7",
+      "title": "Anwendbares Recht",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Dieses Impressum unterliegt spanischem Recht. Für Streitigkeiten gilt der Abschnitt über das anwendbare Recht in den <a href=\"../terms/\">Nutzungsbedingungen</a>."
+        },
+        {
+          "type": "info-box",
+          "title": "Verbindliche Sprachfassung:",
+          "text": "Bei Abweichungen zwischen den übersetzten Fassungen dieses Dokuments ist die spanische Fassung maßgeblich."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "Tikky · {{RESPONSABLE}}",
+    "effective": "Impressum v2026-07-19, in Kraft seit dem 19. Juli 2026"
+  }
+}

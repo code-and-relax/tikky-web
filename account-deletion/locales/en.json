@@ -1,34 +1,46 @@
 {
   "meta": {
     "language": "en",
-    "title": "Account Deletion Request",
-    "subtitle": "Tikky - Ticket and Expense Management",
-    "lastUpdated": "Last updated: January 31, 2026",
+    "direction": "ltr",
+    "title": "Account Deletion",
+    "subtitle": "Tikky - Receipt and Personal Finance Management",
+    "lastUpdated": "Version v2026-07-19 · Effective: July 19, 2026",
     "tocTitle": "Contents"
   },
   "sections": [
     {
       "id": "how-to-request",
       "number": "1",
-      "title": "How to Request Deletion",
+      "title": "How to Delete Your Account",
       "content": [
         {
           "type": "paragraph",
-          "text": "To request the deletion of your account and all associated data in Tikky, follow these steps:"
+          "text": "The preferred and fastest way is to do it directly from the app:"
         },
         {
           "type": "list",
           "items": [
-            "<strong>Step 1:</strong> Send an email to <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>",
-            "<strong>Step 2:</strong> Use the subject line: \"Account Deletion Request - Tikky\"",
-            "<strong>Step 3:</strong> Include in the email body the email address associated with your account",
-            "<strong>Step 4:</strong> Optionally, you can provide a reason for deletion (this helps us improve)"
+            "<strong>Step 1:</strong> Open Tikky and sign in",
+            "<strong>Step 2:</strong> Go to <strong>Settings → Delete account</strong>",
+            "<strong>Step 3:</strong> Confirm the request. Your sessions are signed out and the 30-day grace period begins"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "If you cannot access the app, you can also request it by email:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Write to <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a> from the email address associated with your account",
+            "Use the subject: “Account deletion request - Tikky”",
+            "Optionally, state the reason (it helps us improve)"
           ]
         },
         {
           "type": "contact-card",
           "data": {
-            "email": "yt.code.and.chill@gmail.com"
+            "email": "tikky.oficial@gmail.com"
           },
           "labels": {
             "email": "Contact email:"
@@ -37,47 +49,47 @@
       ]
     },
     {
-      "id": "processing-time",
+      "id": "grace-period",
       "number": "2",
-      "title": "Processing Timeframe",
+      "title": "30-Day Grace Period",
       "content": [
         {
           "type": "paragraph",
-          "text": "Once we receive your request, we will process the deletion of your account following these timeframes:"
+          "text": "To protect you against accidental or unauthorized deletions, deletion is not immediate:"
         },
         {
           "type": "list",
           "items": [
-            "<strong>Initial confirmation:</strong> You will receive a confirmation email within 48 hours of your request",
-            "<strong>Processing:</strong> Complete deletion will be carried out within a maximum of 30 business days",
-            "<strong>Final notification:</strong> We will send you an email confirming that the deletion has been completed"
+            "<strong>Days 1-30:</strong> Your account is deactivated. If you sign in, the app will show you the final deletion date and you will be able to <strong>cancel the request</strong> and reactivate the account with all your data intact.",
+            "<strong>From day 30:</strong> Final deletion runs automatically and can no longer be undone."
           ]
         },
         {
-          "type": "info-box",
-          "title": "Important note:",
-          "text": "During the processing period, your account will remain inactive and you will not be able to access it."
+          "type": "warning-box",
+          "title": "Your subscription does not cancel itself:",
+          "text": "Deleting the account does NOT cancel an active paid subscription. Cancel it in Google Play → Payments and subscriptions; otherwise, the platform will keep charging it."
         }
       ]
     },
     {
       "id": "data-deleted",
       "number": "3",
-      "title": "Data That Will Be Deleted",
+      "title": "What Is Deleted",
       "content": [
         {
           "type": "paragraph",
-          "text": "When processing your deletion request, the following data will be permanently deleted:"
+          "text": "When final deletion completes, the following are permanently erased:"
         },
         {
           "type": "list",
           "items": [
-            "<strong>Profile information:</strong> Name, email address, profile picture, and date of birth",
-            "<strong>Tickets and receipts:</strong> All scanned images and data extracted from your tickets",
-            "<strong>Custom categories:</strong> All expense categories you have created",
-            "<strong>App preferences:</strong> Language, currency settings, and other preferences",
-            "<strong>Usage history:</strong> Activity logs and app usage patterns",
-            "<strong>Subscription data:</strong> Subscription status and in-app purchase history"
+            "<strong>Account and identity:</strong> email address, name, date of birth, profile picture and login credentials",
+            "<strong>Receipts and documents:</strong> all uploaded images and PDFs and the data extracted from them",
+            "<strong>Financial data:</strong> recorded expenses, income, budgets, subscriptions and recurring expenses",
+            "<strong>Gamification and preferences:</strong> progress, achievements and app settings",
+            "<strong>AI assistant records:</strong> the server-side audit log; conversations only ever existed encrypted on your device",
+            "<strong>Subscription data:</strong> your customer profile on the subscription management platform",
+            "<strong>Notifications:</strong> device tokens and notification history"
           ]
         }
       ]
@@ -85,23 +97,24 @@
     {
       "id": "data-retained",
       "number": "4",
-      "title": "Data That Is Retained",
+      "title": "What Is Retained",
       "content": [
         {
           "type": "paragraph",
-          "text": "For legal and operational reasons, some data may be retained in a limited manner:"
+          "text": "Due to legal or security obligations, only what is strictly necessary is retained:"
         },
         {
           "type": "list",
           "items": [
-            "<strong>Anonymized records:</strong> Aggregated statistical data that cannot personally identify you",
-            "<strong>Transaction records:</strong> Payment processing information required by tax obligations (retained for 5 years as required by applicable law)"
+            "<strong>Payment platform billing records:</strong> Google Play or the payment provider keep the tax records of your purchases in accordance with their own policies and the law",
+            "<strong>Pseudonymized security logs:</strong> anti-fraud signals that cannot directly identify you",
+            "<strong>Support feedback:</strong> if you submitted feedback, it is unlinked from your identity (it becomes anonymous)"
           ]
         },
         {
           "type": "warning-box",
-          "title": "Backup retention period:",
-          "text": "System backups are retained for 90 days for security purposes. After this period, all your data will be permanently deleted from our backup systems."
+          "title": "Backups:",
+          "text": "System backups rotate and expire within a maximum of 90 days; after that, your data also disappears from the backups."
         }
       ]
     },
@@ -112,29 +125,28 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "If you have questions about the account deletion process or need additional assistance, please don't hesitate to contact us:"
+          "text": "If you have questions about the deletion process or need help, write to us:"
         },
         {
           "type": "contact-card",
           "data": {
-            "email": "yt.code.and.chill@gmail.com",
-            "company": "NekkiVibes"
+            "company": "{{RESPONSABLE}}",
+            "email": "tikky.oficial@gmail.com"
           },
           "labels": {
-            "email": "Email:",
-            "company": "Company:"
+            "company": "Controller:",
+            "email": "Email:"
           }
         },
         {
-          "type": "info-box",
-          "title": "Confirmation:",
-          "text": "You will always receive an email confirmation when your request has been fully processed. If you don't receive any communication within 48 hours, please check your spam folder or contact us again."
+          "type": "paragraph",
+          "text": "More information in the <a href=\"../legal/privacy/\">Privacy Policy</a> (rights and retention periods)."
         }
       ]
     }
   ],
   "footer": {
-    "company": "NekkiVibes - Tikky App",
-    "effective": "This page is effective as of January 31, 2026"
+    "company": "Tikky · {{RESPONSABLE}}",
+    "effective": "This page is effective as of July 19, 2026. In the event of any discrepancy between languages, the Spanish version shall prevail."
   }
 }

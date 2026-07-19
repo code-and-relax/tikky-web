@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "language": "en",
+    "direction": "ltr",
+    "title": "Legal Notice",
+    "subtitle": "Tikky - General Information (Art. 10 LSSI-CE)",
+    "lastUpdated": "Version v2026-07-19 · Effective: July 19, 2026",
+    "tocTitle": "Contents"
+  },
+  "sections": [
+    {
+      "id": "identification",
+      "number": "1",
+      "title": "Owner Identification",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In compliance with Article 10 of the Spanish Law 34/2002 on Information Society Services and Electronic Commerce (LSSI-CE), notice is hereby given that the owner of this website and of the Tikky application is:"
+        },
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "nif": "{{NIF}}",
+            "address": "{{DOMICILIO}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Owner:",
+            "nif": "NIF:",
+            "address": "Address:",
+            "email": "Email:"
+          }
+        }
+      ]
+    },
+    {
+      "id": "purpose",
+      "number": "2",
+      "title": "Purpose",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This website provides information about the Tikky personal finance management application and hosts its legal documentation: the <a href=\"../privacy/\">Privacy Policy</a>, the <a href=\"../terms/\">Terms and Conditions</a> and the <a href=\"../../account-deletion/\">account deletion</a> page. Use of the application is governed by those documents."
+        }
+      ]
+    },
+    {
+      "id": "hosting",
+      "number": "3",
+      "title": "Hosting and Infrastructure",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<strong>Website:</strong> GitHub Pages (GitHub, Inc.)",
+            "<strong>Application data:</strong> Supabase (AWS, eu-west-1 region, Ireland)",
+            "<strong>Cloud functions:</strong> Google Cloud / Firebase (europe-west1 region, Belgium)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "number": "4",
+      "title": "Cookies",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This website is static and does not use cookies or any analytics or tracking tools. It only saves your language and theme preferences in your browser's local storage; these do not identify you and are not sent to any server."
+        }
+      ]
+    },
+    {
+      "id": "intellectual-property",
+      "number": "5",
+      "title": "Intellectual Property",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The contents of this site (its own texts, design, logos and images) belong to {{RESPONSABLE}} or its licensors. Their reproduction or distribution without authorization is not permitted, except for legally permitted uses."
+        }
+      ]
+    },
+    {
+      "id": "responsibility",
+      "number": "6",
+      "title": "Liability and Links",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The owner works to keep the information on this site accurate and up to date, but cannot guarantee the total absence of errors. Links to third-party sites (for example, Google Play) are provided for your convenience; we do not control their content and accept no responsibility for it."
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "number": "7",
+      "title": "Applicable Law",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This Legal Notice is governed by Spanish law. Any dispute will be subject to the provisions of the governing law section of the <a href=\"../terms/\">Terms and Conditions</a>."
+        },
+        {
+          "type": "info-box",
+          "title": "Binding language:",
+          "text": "In the event of any discrepancy between the translated versions of this document, the Spanish version shall prevail."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "Tikky · {{RESPONSABLE}}",
+    "effective": "Legal Notice v2026-07-19, effective as of July 19, 2026"
+  }
+}

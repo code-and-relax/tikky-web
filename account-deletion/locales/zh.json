@@ -1,34 +1,46 @@
 {
   "meta": {
     "language": "zh",
-    "title": "账户删除请求",
-    "subtitle": "Tikky - 票据与开支管理",
-    "lastUpdated": "最后更新：2026年1月31日",
+    "direction": "ltr",
+    "title": "账户删除",
+    "subtitle": "Tikky - 收据与个人财务管理",
+    "lastUpdated": "版本 v2026-07-19 · 生效日期：2026年7月19日",
     "tocTitle": "目录"
   },
   "sections": [
     {
       "id": "how-to-request",
       "number": "1",
-      "title": "如何请求删除",
+      "title": "如何删除您的账户",
       "content": [
         {
           "type": "paragraph",
-          "text": "要请求删除您在 Tikky 中的账户及所有相关数据，请按照以下步骤操作："
+          "text": "首选且最快捷的方式是直接在应用内操作："
         },
         {
           "type": "list",
           "items": [
-            "<strong>步骤 1：</strong>发送电子邮件至 <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>",
-            "<strong>步骤 2：</strong>使用主题行：\"账户删除请求 - Tikky\"",
-            "<strong>步骤 3：</strong>在邮件正文中包含与您账户关联的电子邮件地址",
-            "<strong>步骤 4：</strong>您可以选择性地提供删除原因（这有助于我们改进服务）"
+            "<strong>第 1 步：</strong>打开 Tikky 并登录",
+            "<strong>第 2 步：</strong>进入<strong>设置 → 删除账户</strong>",
+            "<strong>第 3 步：</strong>确认申请。您的会话将被注销，30 天宽限期随即开始"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "如您无法访问应用，也可以通过电子邮件提出申请："
+        },
+        {
+          "type": "list",
+          "items": [
+            "使用与您账户绑定的邮箱地址发送邮件至 <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a>",
+            "邮件主题请使用：“账户删除申请 - Tikky”",
+            "可选：说明删除原因（这有助于我们改进）"
           ]
         },
         {
           "type": "contact-card",
           "data": {
-            "email": "yt.code.and.chill@gmail.com"
+            "email": "tikky.oficial@gmail.com"
           },
           "labels": {
             "email": "联系邮箱："
@@ -37,47 +49,47 @@
       ]
     },
     {
-      "id": "processing-time",
+      "id": "grace-period",
       "number": "2",
-      "title": "处理时间",
+      "title": "30 天宽限期",
       "content": [
         {
           "type": "paragraph",
-          "text": "收到您的请求后，我们将按照以下时间表处理您的账户删除："
+          "text": "为防止误删或未经授权的删除，删除不会立即生效："
         },
         {
           "type": "list",
           "items": [
-            "<strong>初始确认：</strong>您将在请求后48小时内收到确认邮件",
-            "<strong>处理：</strong>完全删除将在最多30个工作日内完成",
-            "<strong>最终通知：</strong>我们将向您发送电子邮件确认删除已完成"
+            "<strong>第 1-30 天：</strong>您的账户将被停用。如您登录，应用会显示最终删除日期，您可以<strong>取消申请</strong>并恢复账户，您的全部数据保持完好。",
+            "<strong>自第 30 天起：</strong>最终删除将自动执行，且无法撤销。"
           ]
         },
         {
-          "type": "info-box",
-          "title": "重要说明：",
-          "text": "在处理期间，您的账户将保持非活动状态，您将无法访问它。"
+          "type": "warning-box",
+          "title": "您的订阅不会自动取消：",
+          "text": "删除账户不会取消仍在生效的付费订阅。请在 Google Play → 付款和订阅中取消，否则平台将继续扣款。"
         }
       ]
     },
     {
       "id": "data-deleted",
       "number": "3",
-      "title": "将被删除的数据",
+      "title": "哪些内容会被删除",
       "content": [
         {
           "type": "paragraph",
-          "text": "处理您的删除请求时，以下数据将被永久删除："
+          "text": "最终删除完成后，以下内容将被永久删除："
         },
         {
           "type": "list",
           "items": [
-            "<strong>个人资料信息：</strong>姓名、电子邮件地址、头像和出生日期",
-            "<strong>票据和收据：</strong>所有扫描的图像和从您的票据中提取的数据",
-            "<strong>自定义类别：</strong>您创建的所有支出类别",
-            "<strong>应用偏好设置：</strong>语言、货币设置和其他偏好",
-            "<strong>使用历史：</strong>活动日志和应用使用模式",
-            "<strong>订阅数据：</strong>订阅状态和应用内购买历史"
+            "<strong>账户与身份信息：</strong>电子邮箱、姓名、出生日期、个人资料照片及登录凭据",
+            "<strong>收据与文档：</strong>所有已上传的图片和 PDF 及从中提取的数据",
+            "<strong>财务数据：</strong>已登记的支出、收入、预算、订阅及周期性支出",
+            "<strong>游戏化与偏好设置：</strong>进度、成就及应用配置",
+            "<strong>AI 助手记录：</strong>服务器上的审计日志；对话本身仅以加密形式存在于您的设备上",
+            "<strong>订阅数据：</strong>您在订阅管理平台中的客户档案",
+            "<strong>通知：</strong>设备令牌及通知历史"
           ]
         }
       ]
@@ -85,23 +97,24 @@
     {
       "id": "data-retained",
       "number": "4",
-      "title": "将被保留的数据",
+      "title": "哪些内容会被保留",
       "content": [
         {
           "type": "paragraph",
-          "text": "出于法律和运营原因，某些数据可能会以有限的方式保留："
+          "text": "出于法律或安全义务，仅保留必不可少的内容："
         },
         {
           "type": "list",
           "items": [
-            "<strong>匿名记录：</strong>无法识别您个人身份的聚合统计数据",
-            "<strong>交易记录：</strong>税务义务所需的支付处理信息（根据适用法律保留5年）"
+            "<strong>支付平台的账单记录：</strong>Google Play 或支付服务商将依据其自身政策及法律保留您购买记录的税务凭证",
+            "<strong>假名化安全日志：</strong>无法直接识别您身份的反欺诈信号",
+            "<strong>支持反馈：</strong>如您曾提交反馈，其将与您的身份解除关联（匿名保留）"
           ]
         },
         {
           "type": "warning-box",
-          "title": "备份保留期：",
-          "text": "系统备份出于安全目的保留90天。在此期限之后，您的所有数据将从我们的备份系统中永久删除。"
+          "title": "备份：",
+          "text": "系统备份会轮换并在最长 90 天内过期；此后，您的数据也将从备份中消失。"
         }
       ]
     },
@@ -112,29 +125,28 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "如果您对账户删除流程有疑问或需要额外帮助，请随时与我们联系："
+          "text": "如您对删除流程有疑问或需要帮助，请联系我们："
         },
         {
           "type": "contact-card",
           "data": {
-            "email": "yt.code.and.chill@gmail.com",
-            "company": "NekkiVibes"
+            "company": "{{RESPONSABLE}}",
+            "email": "tikky.oficial@gmail.com"
           },
           "labels": {
-            "email": "电子邮件：",
-            "company": "公司："
+            "company": "数据控制者：",
+            "email": "电子邮箱："
           }
         },
         {
-          "type": "info-box",
-          "title": "确认：",
-          "text": "当您的请求完全处理后，您将始终收到电子邮件确认。如果您在48小时内没有收到任何通信，请检查您的垃圾邮件文件夹或再次与我们联系。"
+          "type": "paragraph",
+          "text": "更多信息请参阅<a href=\"../legal/privacy/\">隐私政策</a>（权利与数据保存期限）。"
         }
       ]
     }
   ],
   "footer": {
-    "company": "NekkiVibes - Tikky 应用",
-    "effective": "本页面自2026年1月31日起生效"
+    "company": "Tikky · {{RESPONSABLE}}",
+    "effective": "本页面自2026年7月19日起生效。如各语言版本之间存在差异，以西班牙语版本为准。"
   }
 }

@@ -1,0 +1,457 @@
+{
+  "meta": {
+    "language": "en",
+    "direction": "ltr",
+    "title": "Privacy Policy",
+    "subtitle": "Tikky - Receipt and Personal Finance Management",
+    "lastUpdated": "Version v2026-07-19 · Effective: July 19, 2026",
+    "tocTitle": "Contents"
+  },
+  "sections": [
+    {
+      "id": "data-controller",
+      "number": "1",
+      "title": "Data Controller",
+      "content": [
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "nif": "{{NIF}}",
+            "address": "{{DOMICILIO}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Controller:",
+            "nif": "NIF:",
+            "address": "Address:",
+            "email": "Email:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "The controller named above (\"Tikky\", \"we\") processes the personal data you provide through the Tikky mobile application (\"the app\") and this website, in accordance with Regulation (EU) 2016/679 (GDPR) and the Spanish Organic Law 3/2018 (LOPDGDD)."
+        },
+        {
+          "type": "paragraph",
+          "text": "For any questions about this policy or your personal data, you can write to us at <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a>."
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "number": "2",
+      "title": "Scope and Language",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This policy applies to the Tikky app (Android) and to this website. By creating an account or using the app you accept the processing described here. The current version and its effective date are shown at the top of this document; the app will ask you to accept again when we publish substantial changes."
+        },
+        {
+          "type": "info-box",
+          "title": "Binding language:",
+          "text": "This document is published in several languages for your convenience. In the event of any discrepancy between versions, the Spanish version shall prevail."
+        }
+      ]
+    },
+    {
+      "id": "data-collection",
+      "number": "3",
+      "title": "Data We Process",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We only process the data needed to provide you with the service. We do not collect anything beyond what you see below."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "account-data",
+          "number": "3.1",
+          "title": "Account Data",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Email address",
+                "First and last name",
+                "Date of birth (to verify the minimum age)",
+                "Profile picture (optional)",
+                "Internal account identifier"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "financial-data",
+          "number": "3.2",
+          "title": "Financial Data You Record",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Images and PDF documents of receipts and invoices that you upload",
+                "Data extracted from those documents: merchant, date, amounts, items, category, payment method (never full card details)",
+                "Income, budgets, subscriptions and recurring expenses that you record manually",
+                "App preferences (language, currency, settings)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "technical-data",
+          "number": "3.3",
+          "title": "Technical and Security Data",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Device push notification token (Firebase Cloud Messaging)",
+                "Crash and performance reports (Firebase Crashlytics, production version only)",
+                "Technical logs of our cloud functions (requests, errors, usage limits)",
+                "Audit logs of receipt scanning and of the AI assistant (for security and abuse control)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subscription-data",
+          "number": "3.4",
+          "title": "Subscription and Payment Data",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Subscription status (free or paid)",
+                "Purchase history and transaction identifiers (managed by Google Play, Stripe and RevenueCat; we never see your full card details)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "consent-records",
+          "number": "3.5",
+          "title": "Consent Records",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "We keep a record of which version of the Terms and of this Policy you accepted, on what date and through which flow (sign-up or re-acceptance), as the proof of compliance required by Article 7 of the GDPR."
+            }
+          ]
+        },
+        {
+          "id": "what-we-dont-collect",
+          "number": "3.6",
+          "title": "What We Do NOT Collect",
+          "content": [
+            {
+              "type": "info-box",
+              "title": "No tracking:",
+              "text": "We do not use behavioral analytics SDKs, we do not access your location or your contacts, we do not sell your data to third parties, and we do not profile you for purposes other than those described here. Conversations with the AI assistant are stored encrypted only on your device."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purposes-legal-basis",
+      "number": "4",
+      "title": "Purposes and Legal Bases",
+      "content": [
+        {
+          "type": "table",
+          "headers": ["Purpose", "Data", "Legal basis (GDPR)"],
+          "rows": [
+            [
+              "Create and manage your account and provide you with the service",
+              "Account and financial data",
+              "Performance of the contract (Art. 6(1)(b))"
+            ],
+            [
+              "Extract data from your receipts and generate AI answers and reports",
+              "Receipt images/PDFs, financial data",
+              "Performance of the contract (Art. 6(1)(b))"
+            ],
+            [
+              "Manage your subscription and payments",
+              "Subscription data",
+              "Performance of the contract (Art. 6(1)(b))"
+            ],
+            [
+              "Send you service notifications (alerts, summaries, reminders)",
+              "Push token, aggregated financial data",
+              "Performance of the contract (Art. 6(1)(b)); you can turn them off in Settings"
+            ],
+            [
+              "Show personalized advertising (free plan only)",
+              "Advertising identifier",
+              "Consent (Art. 6(1)(a)), managed through the Google UMP form; without it you will only see non-personalized ads"
+            ],
+            [
+              "Prevent fraud and abuse, ensure security",
+              "Technical data, audit logs",
+              "Legitimate interest (Art. 6(1)(f))"
+            ],
+            [
+              "Evidence your consent and handle your rights requests",
+              "Consent records",
+              "Legal obligation (Art. 6(1)(c))"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-processing",
+      "number": "5",
+      "title": "Artificial Intelligence Processing",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tikky uses OpenAI AI models for three functions: extracting the data from the receipt images and PDFs you upload, answering your questions in the assistant, and generating alerts and insights about your finances. To do this, your receipt images and the necessary financial data are sent to the OpenAI API (United States)."
+        },
+        {
+          "type": "list",
+          "items": [
+            "OpenAI does not use data sent through its API to train its models by default.",
+            "AI results may contain errors: the app always shows you what was extracted so you can review and correct it.",
+            "We do not make automated decisions with legal effects on you, nor do we profile you within the meaning of Article 22 of the GDPR.",
+            "Your conversations with the assistant are stored encrypted only on your device; our servers keep only a temporary audit log for security and abuse control."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advertising",
+      "number": "6",
+      "title": "Advertising and Consent",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The free plan is funded by Google AdMob ads. Before any advertising is shown, in the European Economic Area you will see the Google consent form (UMP/TCF), where you decide whether to accept personalized ads. If you do not consent, you will see non-personalized ads."
+        },
+        {
+          "type": "list",
+          "items": [
+            "You can change your decision at any time in Settings → Ad privacy options.",
+            "Users aged 16 and 17 never receive personalized advertising.",
+            "Paid plans do not show advertising."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "processors",
+      "number": "7",
+      "title": "Recipients and Data Processors",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We do not sell or transfer your data. Only the providers essential to operating the service process it with us, as processors or joint controllers:"
+        },
+        {
+          "type": "table",
+          "headers": ["Provider", "Service", "Location", "Safeguards"],
+          "rows": [
+            [
+              "<strong>Supabase</strong>",
+              "Database, authentication and file storage",
+              "EU (AWS eu-west-1, Ireland)",
+              "Processing within the EU"
+            ],
+            [
+              "<strong>Google Cloud / Firebase</strong>",
+              "Cloud functions (europe-west1, Belgium), push notifications, App Check protection, crash reports",
+              "EU / USA",
+              "Standard Contractual Clauses (SCC) and EU-U.S. Data Privacy Framework (DPF)"
+            ],
+            [
+              "<strong>OpenAI</strong>",
+              "Receipt data extraction, AI assistant and reports",
+              "USA",
+              "SCC / DPF; no use for training by default"
+            ],
+            [
+              "<strong>Google AdMob</strong>",
+              "Advertising on the free plan",
+              "EU / USA",
+              "SCC / DPF; UMP/TCF consent"
+            ],
+            [
+              "<strong>RevenueCat</strong>",
+              "Subscription management",
+              "USA",
+              "SCC / DPF"
+            ],
+            [
+              "<strong>Google Play / Stripe</strong>",
+              "Payment processing",
+              "EU / USA",
+              "SCC / DPF; we never see your full card details"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "We may also disclose data to public authorities where required by a legal obligation."
+        }
+      ]
+    },
+    {
+      "id": "international-transfers",
+      "number": "8",
+      "title": "International Transfers",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Your data is stored in the European Union (Supabase, Ireland; cloud functions, Belgium). Some providers listed in Section 7 process data from the United States; in those cases the transfer is covered by Standard Contractual Clauses approved by the European Commission, by the provider's certification under the EU-U.S. Data Privacy Framework, or by both."
+        }
+      ]
+    },
+    {
+      "id": "data-retention",
+      "number": "9",
+      "title": "Retention Periods",
+      "content": [
+        {
+          "type": "table",
+          "headers": ["Data", "Period"],
+          "rows": [
+            [
+              "Account and financial data",
+              "While your account is active. If you request deletion, they are permanently erased after a 30-day grace period during which you can cancel the request"
+            ],
+            [
+              "Receipt images and PDFs",
+              "Until you delete the receipt or your account (same grace period)"
+            ],
+            [
+              "Receipt scanning audit log",
+              "30 days"
+            ],
+            [
+              "AI assistant audit log",
+              "90 days"
+            ],
+            [
+              "Crash reports (Crashlytics)",
+              "90 days (standard Firebase retention)"
+            ],
+            [
+              "Push notification token",
+              "Until you sign out or delete your account"
+            ],
+            [
+              "Consent records",
+              "For as long as the account exists; deleted with the final purge"
+            ],
+            [
+              "Anti-fraud security logs",
+              "May be kept without directly identifying data (pseudonymized) after account deletion"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "your-rights",
+      "number": "10",
+      "title": "Your Rights",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "You may at any time exercise your rights of access, rectification, erasure, objection, restriction of processing and portability, and withdraw your consent without affecting the lawfulness of prior processing."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>From the app itself (recommended):</strong> “Download my data” in Settings gives you a complete copy in a structured format (access and portability, free for all users); “Delete account” starts deletion with a 30-day grace period (erasure); your profile and your data can be edited directly (rectification).",
+            "<strong>By email:</strong> for the remaining rights, or if you cannot access the app, write to <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a> from your account email address. We respond within one month at the latest."
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "Supervisory authority:",
+          "text": "If you believe we have not properly handled your rights, you can lodge a complaint with the AEPD (Spanish Data Protection Agency), <a href=\"https://www.aepd.es\" rel=\"noopener\">www.aepd.es</a>, or with the supervisory authority of your country of residence."
+        }
+      ]
+    },
+    {
+      "id": "minors",
+      "number": "11",
+      "title": "Minors",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tikky is a service for people aged 16 and over. We do not allow accounts for children under 16, and the app prevents entering a date of birth below that age. Users aged 16 and 17 never receive personalized advertising."
+        },
+        {
+          "type": "warning-box",
+          "title": "Important:",
+          "text": "If we detect an account belonging to a child under 16, we will delete it along with their data. If you believe a minor in your care is using Tikky, write to us at <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a>."
+        }
+      ]
+    },
+    {
+      "id": "data-security",
+      "number": "12",
+      "title": "Security",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Encryption of all communications (TLS/HTTPS)",
+            "Per-user isolation in the database: each account can only access its own data (row-level security policies)",
+            "Assistant conversations encrypted on your device with a system-protected key",
+            "Credentials stored in the operating system's secure storage",
+            "Server-side verification of all sensitive operations (rewards, limits, payments)",
+            "Request rate limits and anti-abuse auditing in the AI functions",
+            "Email verification and global session revocation upon risk events"
+          ]
+        },
+        {
+          "type": "warning-box",
+          "title": "Transparency:",
+          "text": "No system is infallible. If we suffered a security breach posing a risk to your rights, we would notify the AEPD within a maximum of 72 hours and inform you where the risk was high, in accordance with Articles 33 and 34 of the GDPR."
+        }
+      ]
+    },
+    {
+      "id": "policy-changes",
+      "number": "13",
+      "title": "Changes to This Policy",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "When we make substantial changes to this policy, we will publish the new version with its effective date, and the app will ask you to accept it again before continuing. The version history is identified by the version number in the header."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "number": "14",
+      "title": "Contact",
+      "content": [
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Controller:",
+            "email": "Email:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "See also the <a href=\"../terms/\">Terms and Conditions</a>, the <a href=\"../aviso-legal/\">Legal Notice</a> and the <a href=\"../../account-deletion/\">account deletion</a> page."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "Tikky · {{RESPONSABLE}}",
+    "effective": "Privacy Policy v2026-07-19, effective as of July 19, 2026"
+  }
+}

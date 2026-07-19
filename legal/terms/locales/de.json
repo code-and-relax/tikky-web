@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "language": "de",
+    "direction": "ltr",
+    "title": "Nutzungsbedingungen",
+    "subtitle": "Tikky - Belegverwaltung und persönliche Finanzen",
+    "lastUpdated": "Version v2026-07-19 · Inkrafttreten: 19. Juli 2026",
+    "tocTitle": "Inhalt"
+  },
+  "sections": [
+    {
+      "id": "provider",
+      "number": "1",
+      "title": "Wer wir sind und was diese Bedingungen regeln",
+      "content": [
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "nif": "{{NIF}}",
+            "address": "{{DOMICILIO}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Anbieter:",
+            "nif": "NIF (spanische Steuernummer):",
+            "address": "Anschrift:",
+            "email": "E-Mail:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Diese Nutzungsbedingungen (\"die Bedingungen\") regeln die Nutzung der mobilen App Tikky und der damit verbundenen Dienste (\"der Dienst\"). Mit der Erstellung eines Kontos akzeptieren Sie diese Bedingungen und die <a href=\"../privacy/\">Datenschutzerklärung</a>. Wenn Sie nicht einverstanden sind, nutzen Sie den Dienst nicht."
+        },
+        {
+          "type": "info-box",
+          "title": "Verbindliche Sprachfassung:",
+          "text": "Dieses Dokument wird zu Ihrer Information in mehreren Sprachen veröffentlicht. Bei Abweichungen zwischen den Sprachfassungen ist die spanische Fassung maßgeblich."
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "number": "2",
+      "title": "Der Dienst",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tikky ist ein Werkzeug zur Verwaltung persönlicher Finanzen: Es digitalisiert Belege mittels künstlicher Intelligenz, organisiert Ausgaben und Einnahmen, verwaltet Budgets und Abonnements und erstellt Berichte und Antworten zu Ihren eigenen Daten."
+        },
+        {
+          "type": "warning-box",
+          "title": "Keine Beratung:",
+          "text": "Tikky erbringt keine Finanz-, Steuer-, Buchhaltungs- oder Rechtsberatung. Die in der App angezeigten Informationen (einschließlich der Antworten des KI-Assistenten) dienen ausschließlich Informationszwecken und beruhen auf den von Ihnen erfassten Daten. Konsultieren Sie für finanzielle oder steuerliche Entscheidungen eine Fachperson."
+        },
+        {
+          "type": "paragraph",
+          "text": "Die Datenextraktion mittels KI kann Fehler oder Auslassungen enthalten. Die App zeigt Ihnen stets das Ergebnis zur Überprüfung an; Sie sind dafür verantwortlich, Ihre Daten zu prüfen und zu korrigieren, bevor Sie sich darauf stützen."
+        }
+      ]
+    },
+    {
+      "id": "account",
+      "number": "3",
+      "title": "Konto und Mindestalter",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Sie müssen mindestens <strong>16 Jahre</strong> alt sein, um Tikky zu nutzen.",
+            "Sie müssen wahrheitsgemäße Angaben machen und diese aktuell halten.",
+            "Sie sind für die Vertraulichkeit Ihrer Zugangsdaten und für alle über Ihr Konto vorgenommenen Aktivitäten verantwortlich.",
+            "Jedes Konto ist persönlich und nicht übertragbar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "user-content",
+      "number": "4",
+      "title": "Ihre Inhalte",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Der Dienst ermöglicht es Ihnen, Bilder und Dokumente hochzuladen (Belege, Rechnungen, Profilbild) und Finanzdaten zu erfassen (\"Ihre Inhalte\"). Ihre Inhalte bleiben Ihr Eigentum: Tikky erwirbt daran keinerlei Eigentumsrechte."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "content-warranty",
+          "number": "4.1",
+          "title": "Zusicherungen zu Ihren Inhalten",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Mit dem Hochladen von Inhalten sichern Sie zu, dass Sie deren Inhaber sind oder über die erforderlichen Rechte oder Genehmigungen verfügen, um sie im Dienst zu nutzen, und dass sie weder Rechte Dritter noch geltendes Recht verletzen."
+            }
+          ]
+        },
+        {
+          "id": "content-license",
+          "number": "4.2",
+          "title": "Beschränkte Lizenz",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Sie gewähren uns eine beschränkte, nicht ausschließliche und widerrufliche Lizenz, Ihre Inhalte zu hosten und zu verarbeiten (einschließlich ihrer Übermittlung an die in der Datenschutzerklärung beschriebenen KI-Anbieter), ausschließlich zu dem Zweck, Ihnen den Dienst bereitzustellen. Diese Lizenz endet, wenn Sie die Inhalte oder Ihr Konto löschen, unbeschadet der in der Datenschutzerklärung beschriebenen Speicherfristen."
+            }
+          ]
+        },
+        {
+          "id": "content-prohibitions",
+          "number": "4.3",
+          "title": "Verbotene Inhalte",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Rechtswidrige, verleumderische oder Rechte Dritter verletzende Inhalte (einschließlich des geistigen Eigentums und des Datenschutzes anderer Personen)",
+                "Dokumente Dritter, an denen Sie kein Nutzungsrecht haben",
+                "Malware, Schadcode oder Inhalte, die darauf ausgelegt sind, den Dienst zu schädigen oder seine Sicherheitsmaßnahmen zu umgehen"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "takedown",
+          "number": "4.4",
+          "title": "Entfernung von Inhalten (Takedown)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Wenn Sie der Ansicht sind, dass im Dienst verarbeitete Inhalte Ihre Rechte am geistigen Eigentum oder sonstige Rechte verletzen, schreiben Sie uns an <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a> mit dem Betreff <strong>„Copyright“</strong> und benennen Sie die Inhalte, Ihr Recht und Ihre Kontaktdaten. Wir werden mit gebotener Sorgfalt handeln, um die Inhalte gegebenenfalls zu entfernen."
+            }
+          ]
+        },
+        {
+          "id": "indemnity",
+          "number": "4.5",
+          "title": "Freistellung",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Sie haften gegenüber Tikky und stellen Tikky von Ansprüchen Dritter frei, die sich aus Ihren Inhalten oder aus einer gegen diese Bedingungen verstoßenden Nutzung des Dienstes ergeben, einschließlich der Schäden und angemessenen Kosten (auch der Rechtsverteidigung), die unmittelbar auf diesem Verstoß beruhen. Diese Verpflichtung gilt nicht, soweit der Anspruch auf einem Tikky zurechenbaren Verstoß beruht."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acceptable-use",
+      "number": "5",
+      "title": "Zulässige Nutzung und Sperrung",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Sie dürfen den Dienst nicht für rechtswidrige Zwecke nutzen, nicht versuchen, auf Daten anderer Nutzer zuzugreifen, die Infrastruktur nicht überlasten oder angreifen, die Nutzungslimits oder Betrugsschutzmaßnahmen nicht umgehen und kein Reverse Engineering vornehmen, außer soweit gesetzlich erlaubt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Wir können Konten sperren oder schließen, die gegen diese Bedingungen verstoßen oder die Sicherheit des Dienstes gefährden. Außer bei schwerwiegendem Risiko oder gesetzlicher Verpflichtung benachrichtigen wir Sie vorab, und Sie können dazu Stellung nehmen."
+        }
+      ]
+    },
+    {
+      "id": "subscriptions",
+      "number": "6",
+      "title": "Abonnements und Zahlungen",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Tikky bietet einen kostenlosen Tarif (mit Werbung und Nutzungslimits) sowie kostenpflichtige Abonnement-Tarife an.",
+            "Abonnements werden über <strong>Google Play</strong> (oder den im Kaufvorgang angegebenen Web-Zahlungsanbieter) abgeschlossen und abgerechnet. Preise, Steuern, automatische Verlängerung, Kündigung und Erstattungen richten sich nach den Bedingungen der Zahlungsplattform.",
+            "Das Abonnement verlängert sich automatisch, sofern Sie es nicht vor Ende des laufenden Zeitraums bei Google Play kündigen.",
+            "<strong>Die Löschung Ihres Kontos kündigt das Abonnement nicht:</strong> Sie müssen es unter Google Play → Zahlungen und Abonnements kündigen. Andernfalls berechnet die Plattform es weiterhin.",
+            "Preisänderungen werden vorab über die Zahlungsplattform mitgeteilt und gelten erst ab der nächsten Verlängerung."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intellectual-property",
+      "number": "7",
+      "title": "Geistiges Eigentum von Tikky",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Die App, ihr Code, ihr Design, ihre Marken, Logos und eigenen Inhalte sind Eigentum von {{RESPONSABLE}} oder seiner Lizenzgeber. Wir gewähren Ihnen eine persönliche, nicht ausschließliche und nicht übertragbare Lizenz zur Nutzung der App gemäß diesen Bedingungen. Sie erwerben keine weiteren Rechte."
+        }
+      ]
+    },
+    {
+      "id": "liability",
+      "number": "8",
+      "title": "Haftungsbeschränkung",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Der Dienst wird \"wie besehen\" und \"wie verfügbar\" bereitgestellt. Wir arbeiten daran, ihn verfügbar und fehlerfrei zu halten, können jedoch weder ununterbrochene Verfügbarkeit noch völlige Fehlerfreiheit garantieren.",
+            "Wir haften nicht für Entscheidungen, die Sie auf Grundlage der Daten oder Berichte der App treffen, noch für Fehler, die auf unrichtigen Daten oder auf der von Ihnen nicht überprüften automatischen Extraktion beruhen.",
+            "Soweit gesetzlich zulässig, haften wir nicht für mittelbare Schäden, entgangenen Gewinn oder Datenverluste, die durch Faktoren außerhalb unserer zumutbaren Kontrolle verursacht werden."
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "Ihre Rechte als Verbraucher:",
+          "text": "Nichts in diesen Bedingungen beschränkt die Rechte, die Ihnen das Verbraucherrecht zwingend zuerkennt, noch unsere Haftung für Vorsatz, grobe Fahrlässigkeit oder Personenschäden."
+        }
+      ]
+    },
+    {
+      "id": "changes",
+      "number": "9",
+      "title": "Änderung der Bedingungen",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Wir können diese Bedingungen ändern, um Änderungen des Dienstes oder der Rechtslage abzubilden. Wir veröffentlichen die neue Version mit ihrem Datum des Inkrafttretens, und bei wesentlichen Änderungen fordert die App Sie auf, sie erneut zu akzeptieren, bevor Sie sie weiter nutzen. Wenn Sie sie nicht akzeptieren, können Sie die Nutzung des Dienstes beenden und Ihr Konto löschen."
+        }
+      ]
+    },
+    {
+      "id": "termination",
+      "number": "10",
+      "title": "Beendigung",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Sie können die Nutzung von Tikky jederzeit beenden und Ihr Konto in den Einstellungen löschen. Die Löschung wird nach einer 30-tägigen Schonfrist abgeschlossen, während der Sie sie durch erneutes Anmelden widerrufen können.",
+            "Denken Sie daran, Ihr Abonnement bei Google Play zu kündigen: Die Kontolöschung kündigt es nicht.",
+            "Wir können den Dienst oder Ihr Konto gemäß Abschnitt 5 (zulässige Nutzung) beenden oder wenn wir die Tätigkeit einstellen; in diesem Fall benachrichtigen wir Sie mit angemessenem Vorlauf, damit Sie Ihre Daten exportieren können."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "number": "11",
+      "title": "Anwendbares Recht und Gerichtsstand",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Diese Bedingungen unterliegen spanischem Recht. Wenn Sie als Verbraucher handeln, werden Streitigkeiten vor den Gerichten Ihres Wohnsitzes verhandelt; zudem behalten Sie alle Schutzrechte der zwingenden Vorschriften des Landes Ihres gewöhnlichen Aufenthalts. Verbraucher in der EU können sich auch an die Online-Streitbeilegungsplattform der Europäischen Kommission wenden."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "number": "12",
+      "title": "Kontakt",
+      "content": [
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Anbieter:",
+            "email": "E-Mail:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Beachten Sie auch die <a href=\"../privacy/\">Datenschutzerklärung</a> und das <a href=\"../aviso-legal/\">Impressum</a>."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "Tikky · {{RESPONSABLE}}",
+    "effective": "Nutzungsbedingungen v2026-07-19, in Kraft seit dem 19. Juli 2026"
+  }
+}

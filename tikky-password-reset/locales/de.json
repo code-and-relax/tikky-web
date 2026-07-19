@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "language": "de",
+    "title": "Passwort zurücksetzen",
+    "direction": "ltr"
+  },
+  "states": {
+    "loading": {
+      "title": "Überprüfung",
+      "message": "Wiederherstellungslink wird überprüft..."
+    },
+    "form": {
+      "title": "Neues Passwort",
+      "subtitle": "Geben Sie Ihr neues Passwort ein, um auf Ihr Konto zuzugreifen",
+      "newPassword": "Neues Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "requirements": {
+        "minLength": "Mindestens 8 Zeichen",
+        "hasUppercase": "Mindestens ein Großbuchstabe",
+        "hasLowercase": "Mindestens ein Kleinbuchstabe",
+        "hasNumber": "Mindestens eine Zahl"
+      },
+      "submit": "Passwort ändern"
+    },
+    "success": {
+      "title": "Passwort aktualisiert",
+      "message": "Ihr Passwort wurde erfolgreich geändert.",
+      "instruction": "Sie können sich jetzt mit Ihrem neuen Passwort anmelden.",
+      "openApp": "Tikky öffnen"
+    },
+    "error": {
+      "title": "Fehler",
+      "invalidLink": "Der Wiederherstellungslink ist ungültig. Bitte fordern Sie einen neuen Link über die App an.",
+      "tokenExpired": "Der Wiederherstellungslink ist abgelaufen. Bitte fordern Sie einen neuen Link über die App an.",
+      "verificationFailed": "Der Link konnte nicht überprüft werden. Bitte versuchen Sie es erneut oder fordern Sie einen neuen Link an.",
+      "updateFailed": "Das Passwort konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut.",
+      "passwordMismatch": "Die Passwörter stimmen nicht überein.",
+      "retry": "Erneut versuchen",
+      "retryWait": "Warten Sie {seconds}s"
+    }
+  },
+  "footer": {
+    "company": "NekkiVibes - Tikky App",
+    "contact": "Kontakt: <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>"
+  }
+}

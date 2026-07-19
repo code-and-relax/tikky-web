@@ -1,0 +1,457 @@
+{
+  "meta": {
+    "language": "de",
+    "direction": "ltr",
+    "title": "Datenschutzerklärung",
+    "subtitle": "Tikky - Belegverwaltung und persönliche Finanzen",
+    "lastUpdated": "Version v2026-07-19 · Inkrafttreten: 19. Juli 2026",
+    "tocTitle": "Inhalt"
+  },
+  "sections": [
+    {
+      "id": "data-controller",
+      "number": "1",
+      "title": "Verantwortlicher",
+      "content": [
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "nif": "{{NIF}}",
+            "address": "{{DOMICILIO}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Verantwortlicher:",
+            "nif": "NIF (spanische Steuernummer):",
+            "address": "Anschrift:",
+            "email": "E-Mail:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Der genannte Verantwortliche (\"Tikky\", \"wir\") verarbeitet die personenbezogenen Daten, die Sie uns über die mobile App Tikky (\"die App\") und diese Website bereitstellen, gemäß der Verordnung (EU) 2016/679 (DSGVO) und dem spanischen Datenschutzgesetz Ley Orgánica 3/2018 (LOPDGDD)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bei Fragen zu dieser Datenschutzerklärung oder zu Ihren personenbezogenen Daten können Sie uns unter <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a> erreichen."
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "number": "2",
+      "title": "Geltungsbereich und Sprache",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Diese Datenschutzerklärung gilt für die Tikky-App (Android) und diese Website. Mit der Erstellung eines Kontos oder der Nutzung der App akzeptieren Sie die hier beschriebene Verarbeitung. Die geltende Version und das Datum ihres Inkrafttretens werden am Anfang dieses Dokuments angezeigt; die App fordert Sie zur erneuten Zustimmung auf, wenn wir wesentliche Änderungen veröffentlichen."
+        },
+        {
+          "type": "info-box",
+          "title": "Verbindliche Sprachfassung:",
+          "text": "Dieses Dokument wird zu Ihrer Information in mehreren Sprachen veröffentlicht. Bei Abweichungen zwischen den Sprachfassungen ist die spanische Fassung maßgeblich."
+        }
+      ]
+    },
+    {
+      "id": "data-collection",
+      "number": "3",
+      "title": "Daten, die wir verarbeiten",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Wir verarbeiten nur die Daten, die zur Erbringung des Dienstes erforderlich sind. Wir erheben nicht mehr, als Sie nachfolgend sehen."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "account-data",
+          "number": "3.1",
+          "title": "Kontodaten",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "E-Mail-Adresse",
+                "Vor- und Nachname",
+                "Geburtsdatum (zur Überprüfung des Mindestalters)",
+                "Profilbild (optional)",
+                "Interne Konto-Kennung"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "financial-data",
+          "number": "3.2",
+          "title": "Von Ihnen erfasste Finanzdaten",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Bilder und PDF-Dokumente von Belegen und Rechnungen, die Sie hochladen",
+                "Aus diesen Dokumenten extrahierte Daten: Händler, Datum, Beträge, Artikel, Kategorie, Zahlungsmethode (niemals vollständige Kartendaten)",
+                "Einnahmen, Budgets, Abonnements und wiederkehrende Ausgaben, die Sie manuell erfassen",
+                "App-Einstellungen (Sprache, Währung, Konfiguration)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "technical-data",
+          "number": "3.3",
+          "title": "Technische und Sicherheitsdaten",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Push-Benachrichtigungs-Token des Geräts (Firebase Cloud Messaging)",
+                "Absturz- und Leistungsberichte (Firebase Crashlytics, nur in der Produktionsversion)",
+                "Technische Protokolle unserer Cloud-Funktionen (Anfragen, Fehler, Nutzungslimits)",
+                "Audit-Protokolle des Beleg-Scans und des KI-Assistenten (für Sicherheit und Missbrauchskontrolle)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subscription-data",
+          "number": "3.4",
+          "title": "Abonnement- und Zahlungsdaten",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Abonnementstatus (kostenlos oder kostenpflichtig)",
+                "Kaufhistorie und Transaktionskennungen (verwaltet von Google Play, Stripe und RevenueCat; wir sehen niemals Ihre vollständigen Kartendaten)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "consent-records",
+          "number": "3.5",
+          "title": "Einwilligungsnachweise",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Wir dokumentieren, welche Version der Nutzungsbedingungen und dieser Datenschutzerklärung Sie akzeptiert haben, an welchem Datum und über welchen Ablauf (Registrierung oder erneute Zustimmung), als Nachweis der Einhaltung gemäß Art. 7 DSGVO."
+            }
+          ]
+        },
+        {
+          "id": "what-we-dont-collect",
+          "number": "3.6",
+          "title": "Was wir NICHT erheben",
+          "content": [
+            {
+              "type": "info-box",
+              "title": "Kein Tracking:",
+              "text": "Wir verwenden keine SDKs zur Verhaltensanalyse, greifen weder auf Ihren Standort noch auf Ihre Kontakte zu, verkaufen Ihre Daten nicht an Dritte und erstellen keine Profile zu anderen als den hier beschriebenen Zwecken. Gespräche mit dem KI-Assistenten werden ausschließlich verschlüsselt auf Ihrem Gerät gespeichert."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purposes-legal-basis",
+      "number": "4",
+      "title": "Zwecke und Rechtsgrundlagen",
+      "content": [
+        {
+          "type": "table",
+          "headers": ["Zweck", "Daten", "Rechtsgrundlage (DSGVO)"],
+          "rows": [
+            [
+              "Erstellung und Verwaltung Ihres Kontos und Erbringung des Dienstes",
+              "Konto- und Finanzdaten",
+              "Vertragserfüllung (Art. 6 Abs. 1 lit. b)"
+            ],
+            [
+              "Extraktion von Daten aus Ihren Belegen und Erstellung von KI-Antworten und -Berichten",
+              "Bilder/PDFs von Belegen, Finanzdaten",
+              "Vertragserfüllung (Art. 6 Abs. 1 lit. b)"
+            ],
+            [
+              "Verwaltung Ihres Abonnements und Ihrer Zahlungen",
+              "Abonnementdaten",
+              "Vertragserfüllung (Art. 6 Abs. 1 lit. b)"
+            ],
+            [
+              "Versand von Dienstbenachrichtigungen (Hinweise, Zusammenfassungen, Erinnerungen)",
+              "Push-Token, aggregierte Finanzdaten",
+              "Vertragserfüllung (Art. 6 Abs. 1 lit. b); Sie können sie in den Einstellungen deaktivieren"
+            ],
+            [
+              "Anzeige personalisierter Werbung (nur im kostenlosen Tarif)",
+              "Werbe-ID",
+              "Einwilligung (Art. 6 Abs. 1 lit. a), verwaltet über das Google-UMP-Formular; ohne Einwilligung sehen Sie nur nicht personalisierte Werbung"
+            ],
+            [
+              "Verhinderung von Betrug und Missbrauch, Gewährleistung der Sicherheit",
+              "Technische Daten, Audit-Protokolle",
+              "Berechtigtes Interesse (Art. 6 Abs. 1 lit. f)"
+            ],
+            [
+              "Nachweis Ihrer Einwilligung und Bearbeitung Ihrer Rechte",
+              "Einwilligungsnachweise",
+              "Rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-processing",
+      "number": "5",
+      "title": "Verarbeitung mit künstlicher Intelligenz",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tikky nutzt KI-Modelle von OpenAI für drei Funktionen: die Extraktion von Daten aus den Bildern und PDFs der Belege, die Sie hochladen, die Beantwortung Ihrer Fragen im Assistenten und die Erstellung von Hinweisen und Erkenntnissen zu Ihren Finanzen. Dazu werden die Bilder Ihrer Belege und die erforderlichen Finanzdaten an die API von OpenAI (USA) übermittelt."
+        },
+        {
+          "type": "list",
+          "items": [
+            "OpenAI verwendet die über seine API übermittelten Daten standardmäßig nicht zum Training seiner Modelle.",
+            "KI-Ergebnisse können Fehler enthalten: Die App zeigt Ihnen stets die extrahierten Daten an, damit Sie sie überprüfen und korrigieren können.",
+            "Wir treffen keine automatisierten Entscheidungen mit rechtlicher Wirkung Ihnen gegenüber und erstellen keine Profile im Sinne von Art. 22 DSGVO.",
+            "Ihre Gespräche mit dem Assistenten werden ausschließlich verschlüsselt auf Ihrem Gerät gespeichert; auf unseren Servern verbleibt lediglich ein temporäres Audit-Protokoll für Sicherheit und Missbrauchskontrolle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advertising",
+      "number": "6",
+      "title": "Werbung und Einwilligung",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Der kostenlose Tarif wird durch Werbung von Google AdMob finanziert. Bevor Ihnen Werbung angezeigt wird, sehen Sie im Europäischen Wirtschaftsraum das Einwilligungsformular von Google (UMP/TCF), in dem Sie entscheiden, ob Sie personalisierte Werbung akzeptieren. Ohne Ihre Einwilligung sehen Sie nur nicht personalisierte Werbung."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sie können Ihre Entscheidung jederzeit unter Einstellungen → Datenschutzoptionen für Werbung ändern.",
+            "Nutzer im Alter von 16 und 17 Jahren erhalten niemals personalisierte Werbung.",
+            "Kostenpflichtige Tarife zeigen keine Werbung."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "processors",
+      "number": "7",
+      "title": "Empfänger und Auftragsverarbeiter",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Wir verkaufen Ihre Daten nicht und geben sie nicht weiter. Nur die für den Betrieb des Dienstes unverzichtbaren Dienstleister verarbeiten sie mit uns, als Auftragsverarbeiter oder gemeinsam Verantwortliche:"
+        },
+        {
+          "type": "table",
+          "headers": ["Dienstleister", "Dienst", "Standort", "Garantien"],
+          "rows": [
+            [
+              "<strong>Supabase</strong>",
+              "Datenbank, Authentifizierung und Dateispeicherung",
+              "EU (AWS eu-west-1, Irland)",
+              "Verarbeitung innerhalb der EU"
+            ],
+            [
+              "<strong>Google Cloud / Firebase</strong>",
+              "Cloud-Funktionen (europe-west1, Belgien), Push-Benachrichtigungen, App-Check-Schutz, Absturzberichte",
+              "EU / USA",
+              "Standardvertragsklauseln (SCC) und EU-US-Datenschutzrahmen (DPF)"
+            ],
+            [
+              "<strong>OpenAI</strong>",
+              "Extraktion von Belegdaten, KI-Assistent und KI-Berichte",
+              "USA",
+              "SCC / DPF; standardmäßig keine Nutzung zu Trainingszwecken"
+            ],
+            [
+              "<strong>Google AdMob</strong>",
+              "Werbung im kostenlosen Tarif",
+              "EU / USA",
+              "SCC / DPF; UMP/TCF-Einwilligung"
+            ],
+            [
+              "<strong>RevenueCat</strong>",
+              "Abonnementverwaltung",
+              "USA",
+              "SCC / DPF"
+            ],
+            [
+              "<strong>Google Play / Stripe</strong>",
+              "Zahlungsabwicklung",
+              "EU / USA",
+              "SCC / DPF; wir sehen niemals Ihre vollständigen Kartendaten"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Wir können Daten auch an Behörden übermitteln, wenn eine rechtliche Verpflichtung dies erfordert."
+        }
+      ]
+    },
+    {
+      "id": "international-transfers",
+      "number": "8",
+      "title": "Internationale Datenübermittlungen",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ihre Daten werden in der Europäischen Union gespeichert (Supabase, Irland; Cloud-Funktionen, Belgien). Einige der in Abschnitt 7 genannten Dienstleister verarbeiten Daten von den USA aus; in diesen Fällen stützt sich die Übermittlung auf von der Europäischen Kommission genehmigte Standardvertragsklauseln, auf die Zertifizierung des Dienstleisters unter dem EU-US-Datenschutzrahmen (Data Privacy Framework) oder auf beides."
+        }
+      ]
+    },
+    {
+      "id": "data-retention",
+      "number": "9",
+      "title": "Speicherfristen",
+      "content": [
+        {
+          "type": "table",
+          "headers": ["Daten", "Frist"],
+          "rows": [
+            [
+              "Konto- und Finanzdaten",
+              "Solange Ihr Konto aktiv ist. Wenn Sie die Löschung beantragen, werden sie nach einer 30-tägigen Schonfrist, während der Sie den Antrag widerrufen können, endgültig gelöscht"
+            ],
+            [
+              "Bilder und PDFs von Belegen",
+              "Bis Sie den Beleg oder Ihr Konto löschen (gleiche Schonfrist)"
+            ],
+            [
+              "Audit-Protokoll des Beleg-Scans",
+              "30 Tage"
+            ],
+            [
+              "Audit-Protokoll des KI-Assistenten",
+              "90 Tage"
+            ],
+            [
+              "Absturzberichte (Crashlytics)",
+              "90 Tage (Standard-Aufbewahrung von Firebase)"
+            ],
+            [
+              "Push-Benachrichtigungs-Token",
+              "Bis Sie sich abmelden oder das Konto löschen"
+            ],
+            [
+              "Einwilligungsnachweise",
+              "Solange das Konto besteht; sie werden mit der endgültigen Löschung entfernt"
+            ],
+            [
+              "Sicherheitsprotokolle zur Betrugsprävention",
+              "Können nach der Kontolöschung ohne direkt identifizierende Daten (pseudonymisiert) aufbewahrt werden"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "your-rights",
+      "number": "10",
+      "title": "Ihre Rechte",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Sie können jederzeit Ihre Rechte auf Auskunft, Berichtigung, Löschung, Widerspruch, Einschränkung der Verarbeitung und Datenübertragbarkeit ausüben sowie Ihre Einwilligung widerrufen, ohne dass die Rechtmäßigkeit der bisherigen Verarbeitung davon berührt wird."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Direkt in der App (empfohlen):</strong> „Meine Daten herunterladen“ in den Einstellungen liefert Ihnen eine vollständige Kopie in strukturiertem Format (Auskunft und Datenübertragbarkeit, kostenlos für alle Nutzer); „Konto löschen“ startet die Löschung mit 30-tägiger Schonfrist (Löschung); Ihr Profil und Ihre Daten können Sie direkt bearbeiten (Berichtigung).",
+            "<strong>Per E-Mail:</strong> Für die übrigen Rechte, oder wenn Sie nicht auf die App zugreifen können, schreiben Sie an <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a> von der E-Mail-Adresse Ihres Kontos aus. Wir antworten innerhalb von höchstens einem Monat."
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "Aufsichtsbehörde:",
+          "text": "Wenn Sie der Ansicht sind, dass wir Ihre Rechte nicht ordnungsgemäß bearbeitet haben, können Sie Beschwerde bei der AEPD (Agencia Española de Protección de Datos, spanische Datenschutzbehörde), <a href=\"https://www.aepd.es\" rel=\"noopener\">www.aepd.es</a>, oder bei der Aufsichtsbehörde Ihres Wohnsitzlandes einlegen."
+        }
+      ]
+    },
+    {
+      "id": "minors",
+      "number": "11",
+      "title": "Minderjährige",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tikky ist ein Dienst für Personen ab 16 Jahren. Wir lassen keine Konten von Personen unter 16 Jahren zu, und die App verhindert die Angabe eines Geburtsdatums unterhalb dieses Alters. Nutzer im Alter von 16 und 17 Jahren erhalten niemals personalisierte Werbung."
+        },
+        {
+          "type": "warning-box",
+          "title": "Wichtig:",
+          "text": "Wenn wir ein Konto einer Person unter 16 Jahren feststellen, löschen wir es zusammen mit den zugehörigen Daten. Wenn Sie glauben, dass eine minderjährige Person unter Ihrer Aufsicht Tikky nutzt, schreiben Sie uns an <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a>."
+        }
+      ]
+    },
+    {
+      "id": "data-security",
+      "number": "12",
+      "title": "Sicherheit",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Verschlüsselung der gesamten Kommunikation (TLS/HTTPS)",
+            "Nutzerisolation in der Datenbank: Jedes Konto kann nur auf seine eigenen Daten zugreifen (Sicherheitsrichtlinien auf Zeilenebene, Row Level Security)",
+            "Gespräche mit dem Assistenten werden auf Ihrem Gerät mit einem systemgeschützten Schlüssel verschlüsselt",
+            "Zugangsdaten werden im sicheren Speicher des Betriebssystems abgelegt",
+            "Serverseitige Überprüfung aller sensiblen Vorgänge (Belohnungen, Limits, Zahlungen)",
+            "Anfragelimits und Missbrauchskontrolle (Audit) in den KI-Funktionen",
+            "E-Mail-Verifizierung und globaler Widerruf von Sitzungen bei Risikoereignissen"
+          ]
+        },
+        {
+          "type": "warning-box",
+          "title": "Transparenz:",
+          "text": "Kein System ist unfehlbar. Sollten wir eine Sicherheitsverletzung mit Risiko für Ihre Rechte erleiden, würden wir sie der AEPD (spanische Datenschutzbehörde) innerhalb von höchstens 72 Stunden melden und Sie bei hohem Risiko informieren, gemäß Art. 33 und 34 DSGVO."
+        }
+      ]
+    },
+    {
+      "id": "policy-changes",
+      "number": "13",
+      "title": "Änderungen dieser Datenschutzerklärung",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Wenn wir diese Datenschutzerklärung wesentlich ändern, veröffentlichen wir die neue Version mit ihrem Datum des Inkrafttretens, und die App fordert Sie auf, sie erneut zu akzeptieren, bevor Sie fortfahren. Der Versionsverlauf wird durch die Versionsnummer in der Kopfzeile gekennzeichnet."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "number": "14",
+      "title": "Kontakt",
+      "content": [
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Verantwortlicher:",
+            "email": "E-Mail:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Beachten Sie auch die <a href=\"../terms/\">Nutzungsbedingungen</a>, das <a href=\"../aviso-legal/\">Impressum</a> und die Seite zur <a href=\"../../account-deletion/\">Kontolöschung</a>."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "Tikky · {{RESPONSABLE}}",
+    "effective": "Datenschutzerklärung v2026-07-19, in Kraft seit dem 19. Juli 2026"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "language": "hi",
+    "title": "पासवर्ड रीसेट करें",
+    "direction": "ltr"
+  },
+  "states": {
+    "loading": {
+      "title": "सत्यापन जारी है",
+      "message": "रिकवरी लिंक सत्यापित किया जा रहा है..."
+    },
+    "form": {
+      "title": "नया पासवर्ड",
+      "subtitle": "अपने खाते में लॉग इन करने के लिए अपना नया पासवर्ड दर्ज करें",
+      "newPassword": "नया पासवर्ड",
+      "confirmPassword": "पासवर्ड की पुष्टि करें",
+      "requirements": {
+        "minLength": "कम से कम 8 वर्ण",
+        "hasUppercase": "कम से कम एक अपरकेस अक्षर",
+        "hasLowercase": "कम से कम एक लोअरकेस अक्षर",
+        "hasNumber": "कम से कम एक अंक"
+      },
+      "submit": "पासवर्ड बदलें"
+    },
+    "success": {
+      "title": "पासवर्ड अपडेट हो गया",
+      "message": "आपका पासवर्ड सफलतापूर्वक बदल दिया गया है।",
+      "instruction": "अब आप अपने नए पासवर्ड से लॉग इन कर सकते हैं।",
+      "openApp": "Tikky खोलें"
+    },
+    "error": {
+      "title": "त्रुटि",
+      "invalidLink": "रिकवरी लिंक मान्य नहीं है। कृपया ऐप से नए लिंक का अनुरोध करें।",
+      "tokenExpired": "रिकवरी लिंक की समय-सीमा समाप्त हो गई है। कृपया ऐप से नए लिंक का अनुरोध करें।",
+      "verificationFailed": "लिंक सत्यापित नहीं किया जा सका। कृपया फिर से प्रयास करें या नए लिंक का अनुरोध करें।",
+      "updateFailed": "पासवर्ड अपडेट नहीं किया जा सका। कृपया फिर से प्रयास करें।",
+      "passwordMismatch": "पासवर्ड मेल नहीं खाते।",
+      "retry": "फिर से प्रयास करें",
+      "retryWait": "{seconds} सेकंड प्रतीक्षा करें"
+    }
+  },
+  "footer": {
+    "company": "NekkiVibes - Tikky App",
+    "contact": "संपर्क: <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>"
+  }
+}

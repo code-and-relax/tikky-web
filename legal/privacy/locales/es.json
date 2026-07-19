@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "language": "es",
+    "direction": "ltr",
+    "title": "Política de Privacidad",
+    "subtitle": "Tikky - Gestión de recibos y finanzas personales",
+    "lastUpdated": "Versión v2026-07-19 · Entrada en vigor: 19 de julio de 2026",
+    "tocTitle": "Contenido"
+  },
+  "sections": [
+    {
+      "id": "data-controller",
+      "number": "1",
+      "title": "Responsable del tratamiento",
+      "content": [
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "nif": "{{NIF}}",
+            "address": "{{DOMICILIO}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Responsable:",
+            "nif": "NIF:",
+            "address": "Domicilio:",
+            "email": "Correo electrónico:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "El responsable indicado (\"Tikky\", \"nosotros\") trata los datos personales que nos facilitas a través de la aplicación móvil Tikky (\"la app\") y de este sitio web, conforme al Reglamento (UE) 2016/679 (RGPD) y a la Ley Orgánica 3/2018 (LOPDGDD)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para cualquier cuestión relacionada con esta política o con tus datos personales puedes escribirnos a <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a>."
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "number": "2",
+      "title": "Ámbito e idioma",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Esta política se aplica a la app Tikky (Android) y a este sitio web. Al crear una cuenta o usar la app aceptas el tratamiento aquí descrito. La versión vigente y su fecha de entrada en vigor se muestran al principio de este documento; la app te pedirá que aceptes de nuevo cuando publiquemos cambios sustanciales."
+        },
+        {
+          "type": "info-box",
+          "title": "Idioma vinculante:",
+          "text": "Este documento se publica en varios idiomas para tu comodidad. En caso de discrepancia entre versiones, prevalece la versión en español."
+        }
+      ]
+    },
+    {
+      "id": "data-collection",
+      "number": "3",
+      "title": "Datos que tratamos",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Solo tratamos los datos necesarios para prestarte el servicio. No recopilamos más de lo que ves a continuación."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "account-data",
+          "number": "3.1",
+          "title": "Datos de cuenta",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Dirección de correo electrónico",
+                "Nombre y apellidos",
+                "Fecha de nacimiento (para verificar la edad mínima)",
+                "Foto de perfil (opcional)",
+                "Identificador interno de cuenta"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "financial-data",
+          "number": "3.2",
+          "title": "Datos financieros que tú registras",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Imágenes y documentos PDF de recibos y facturas que subes",
+                "Datos extraídos de esos documentos: comercio, fecha, importes, artículos, categoría, método de pago (nunca datos completos de tarjetas)",
+                "Ingresos, presupuestos, suscripciones y gastos recurrentes que registras manualmente",
+                "Preferencias de la app (idioma, moneda, configuración)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "technical-data",
+          "number": "3.3",
+          "title": "Datos técnicos y de seguridad",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Token de notificaciones push del dispositivo (Firebase Cloud Messaging)",
+                "Informes de fallos y rendimiento (Firebase Crashlytics, solo en la versión de producción)",
+                "Registros técnicos de nuestras funciones en la nube (peticiones, errores, límites de uso)",
+                "Registros de auditoría del escaneo de recibos y del asistente de IA (para seguridad y control de abuso)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subscription-data",
+          "number": "3.4",
+          "title": "Datos de suscripción y pagos",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Estado de la suscripción (gratuita o de pago)",
+                "Historial de compras e identificadores de transacción (gestionados por Google Play, Stripe y RevenueCat; nunca vemos los datos completos de tu tarjeta)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "consent-records",
+          "number": "3.5",
+          "title": "Registro de consentimientos",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Guardamos constancia de qué versión de los Términos y de esta Política aceptaste, en qué fecha y desde qué flujo (registro o re-aceptación), como prueba de cumplimiento exigida por el artículo 7 del RGPD."
+            }
+          ]
+        },
+        {
+          "id": "what-we-dont-collect",
+          "number": "3.6",
+          "title": "Lo que NO recopilamos",
+          "content": [
+            {
+              "type": "info-box",
+              "title": "Sin rastreo:",
+              "text": "No usamos SDK de analítica de comportamiento, no accedemos a tu ubicación ni a tus contactos, no vendemos tus datos a terceros y no te perfilamos con fines distintos de los aquí descritos. Las conversaciones con el asistente de IA se guardan cifradas únicamente en tu dispositivo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purposes-legal-basis",
+      "number": "4",
+      "title": "Finalidades y bases legales",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "Finalidad",
+            "Datos",
+            "Base legal (RGPD)"
+          ],
+          "rows": [
+            [
+              "Crear y gestionar tu cuenta y prestarte el servicio",
+              "Datos de cuenta y financieros",
+              "Ejecución del contrato (art. 6.1.b)"
+            ],
+            [
+              "Extraer datos de tus recibos y generar respuestas e informes con IA",
+              "Imágenes/PDF de recibos, datos financieros",
+              "Ejecución del contrato (art. 6.1.b)"
+            ],
+            [
+              "Gestionar tu suscripción y pagos",
+              "Datos de suscripción",
+              "Ejecución del contrato (art. 6.1.b)"
+            ],
+            [
+              "Enviarte notificaciones del servicio (avisos, resúmenes, recordatorios)",
+              "Token push, datos financieros agregados",
+              "Ejecución del contrato (art. 6.1.b); puedes desactivarlas en Ajustes"
+            ],
+            [
+              "Mostrar publicidad personalizada (solo plan gratuito)",
+              "Identificador de publicidad",
+              "Consentimiento (art. 6.1.a), gestionado con el formulario de Google UMP; sin él solo verás anuncios no personalizados"
+            ],
+            [
+              "Prevenir fraude y abuso, garantizar la seguridad",
+              "Datos técnicos, registros de auditoría",
+              "Interés legítimo (art. 6.1.f)"
+            ],
+            [
+              "Acreditar tu consentimiento y atender tus derechos",
+              "Registro de consentimientos",
+              "Obligación legal (art. 6.1.c)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-processing",
+      "number": "5",
+      "title": "Procesamiento con inteligencia artificial",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tikky usa modelos de IA de OpenAI para tres funciones: extraer los datos de las imágenes y PDF de recibos que subes, responder a tus preguntas en el asistente y generar avisos e ideas sobre tus finanzas. Para ello, las imágenes de tus recibos y los datos financieros necesarios se envían a la API de OpenAI (Estados Unidos)."
+        },
+        {
+          "type": "list",
+          "items": [
+            "OpenAI no usa los datos enviados a través de su API para entrenar sus modelos por defecto.",
+            "Los resultados de la IA pueden contener errores: la app te muestra siempre lo extraído para que lo revises y corrijas.",
+            "No tomamos decisiones automatizadas con efectos jurídicos sobre ti ni te perfilamos en el sentido del artículo 22 del RGPD.",
+            "Tus conversaciones con el asistente se almacenan cifradas solo en tu dispositivo; en nuestros servidores queda únicamente un registro de auditoría temporal para seguridad y control de abuso."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advertising",
+      "number": "6",
+      "title": "Publicidad y consentimiento",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El plan gratuito se financia con anuncios de Google AdMob. Antes de mostrarte publicidad, en el Espacio Económico Europeo verás el formulario de consentimiento de Google (UMP/TCF), donde decides si aceptas anuncios personalizados. Si no consientes, verás anuncios no personalizados."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Puedes cambiar tu decisión en cualquier momento en Ajustes → Opciones de privacidad de anuncios.",
+            "Los usuarios de 16 y 17 años nunca reciben publicidad personalizada.",
+            "Los planes de pago no muestran publicidad."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "processors",
+      "number": "7",
+      "title": "Destinatarios y encargados del tratamiento",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "No vendemos ni cedemos tus datos. Los comparten con nosotros, como encargados o corresponsables, únicamente los proveedores imprescindibles para operar el servicio:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Proveedor",
+            "Servicio",
+            "Ubicación",
+            "Garantías"
+          ],
+          "rows": [
+            [
+              "<strong>Supabase</strong>",
+              "Base de datos, autenticación y almacenamiento de archivos",
+              "UE (AWS eu-west-1, Irlanda)",
+              "Tratamiento dentro de la UE"
+            ],
+            [
+              "<strong>Google Cloud / Firebase</strong>",
+              "Funciones en la nube (europe-west1, Bélgica), notificaciones push, protección App Check, informes de fallos",
+              "UE / EE. UU.",
+              "Cláusulas contractuales tipo (SCC) y Marco de Privacidad de Datos UE-EE. UU. (DPF)"
+            ],
+            [
+              "<strong>OpenAI</strong>",
+              "Extracción de datos de recibos, asistente e informes de IA",
+              "EE. UU.",
+              "SCC / DPF; sin uso para entrenamiento por defecto"
+            ],
+            [
+              "<strong>Google AdMob</strong>",
+              "Publicidad en el plan gratuito",
+              "UE / EE. UU.",
+              "SCC / DPF; consentimiento UMP/TCF"
+            ],
+            [
+              "<strong>RevenueCat</strong>",
+              "Gestión de suscripciones",
+              "EE. UU.",
+              "SCC / DPF"
+            ],
+            [
+              "<strong>Google Play / Stripe</strong>",
+              "Procesamiento de pagos",
+              "UE / EE. UU.",
+              "SCC / DPF; nunca vemos los datos completos de tu tarjeta"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "También podremos comunicar datos a autoridades públicas cuando una obligación legal lo exija."
+        }
+      ]
+    },
+    {
+      "id": "international-transfers",
+      "number": "8",
+      "title": "Transferencias internacionales",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tus datos se almacenan en la Unión Europea (Supabase, Irlanda; funciones en la nube, Bélgica). Algunos proveedores indicados en la sección 7 tratan datos desde Estados Unidos; en esos casos la transferencia se ampara en cláusulas contractuales tipo aprobadas por la Comisión Europea, en la certificación del proveedor bajo el Marco de Privacidad de Datos UE-EE. UU. o en ambas."
+        }
+      ]
+    },
+    {
+      "id": "data-retention",
+      "number": "9",
+      "title": "Plazos de conservación",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "Datos",
+            "Plazo"
+          ],
+          "rows": [
+            [
+              "Datos de cuenta y financieros",
+              "Mientras tu cuenta esté activa. Si solicitas el borrado, se eliminan definitivamente tras un periodo de gracia de 30 días durante el cual puedes cancelar la solicitud"
+            ],
+            [
+              "Imágenes y PDF de recibos",
+              "Hasta que borres el recibo o tu cuenta (mismo periodo de gracia)"
+            ],
+            [
+              "Registro de auditoría del escaneo de recibos",
+              "30 días"
+            ],
+            [
+              "Registro de auditoría del asistente de IA",
+              "90 días"
+            ],
+            [
+              "Informes de fallos (Crashlytics)",
+              "90 días (retención estándar de Firebase)"
+            ],
+            [
+              "Token de notificaciones push",
+              "Hasta que cierras sesión o borras la cuenta"
+            ],
+            [
+              "Registro de consentimientos",
+              "Mientras exista la cuenta; se elimina con la purga definitiva"
+            ],
+            [
+              "Registros de seguridad antifraude",
+              "Pueden conservarse sin datos identificativos directos (seudonimizados) tras el borrado de la cuenta"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "your-rights",
+      "number": "10",
+      "title": "Tus derechos",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Puedes ejercer en cualquier momento tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad, además de retirar tu consentimiento sin que ello afecte a la licitud del tratamiento anterior."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Desde la propia app (recomendado):</strong> «Descargar mis datos» en Ajustes te entrega una copia completa en formato estructurado (acceso y portabilidad, gratis para todos los usuarios); «Eliminar cuenta» inicia el borrado con 30 días de gracia (supresión); tu perfil y tus datos son editables directamente (rectificación).",
+            "<strong>Por correo electrónico:</strong> para el resto de derechos, o si no puedes acceder a la app, escribe a <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a> desde el correo de tu cuenta. Respondemos en el plazo máximo de un mes."
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "Autoridad de control:",
+          "text": "Si consideras que no hemos atendido correctamente tus derechos, puedes reclamar ante la Agencia Española de Protección de Datos (AEPD), <a href=\"https://www.aepd.es\" rel=\"noopener\">www.aepd.es</a>, o ante la autoridad de control de tu país de residencia."
+        }
+      ]
+    },
+    {
+      "id": "minors",
+      "number": "11",
+      "title": "Menores de edad",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tikky es un servicio para mayores de 16 años. No admitimos cuentas de menores de 16 y la app impide indicar una fecha de nacimiento inferior a esa edad. Los usuarios de 16 y 17 años nunca reciben publicidad personalizada."
+        },
+        {
+          "type": "warning-box",
+          "title": "Importante:",
+          "text": "Si detectamos una cuenta de un menor de 16 años, la eliminaremos junto con sus datos. Si crees que un menor bajo tu tutela usa Tikky, escríbenos a <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a>."
+        }
+      ]
+    },
+    {
+      "id": "data-security",
+      "number": "12",
+      "title": "Seguridad",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Cifrado de todas las comunicaciones (TLS/HTTPS)",
+            "Aislamiento por usuario en la base de datos: cada cuenta solo puede acceder a sus propios datos (políticas de seguridad a nivel de fila)",
+            "Conversaciones del asistente cifradas en tu dispositivo con clave protegida por el sistema",
+            "Credenciales almacenadas en el almacenamiento seguro del sistema operativo",
+            "Verificación en servidor de todas las operaciones sensibles (recompensas, límites, pagos)",
+            "Límites de peticiones y auditoría antiabuso en las funciones de IA",
+            "Verificación de correo electrónico y revocación global de sesiones ante eventos de riesgo"
+          ]
+        },
+        {
+          "type": "warning-box",
+          "title": "Transparencia:",
+          "text": "Ningún sistema es infalible. Si sufriéramos una brecha de seguridad con riesgo para tus derechos, la notificaríamos a la AEPD en un máximo de 72 horas y te informaríamos cuando el riesgo fuera alto, según los artículos 33 y 34 del RGPD."
+        }
+      ]
+    },
+    {
+      "id": "policy-changes",
+      "number": "13",
+      "title": "Cambios en esta política",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cuando cambiemos esta política de forma sustancial, publicaremos la nueva versión con su fecha de entrada en vigor y la app te pedirá que la aceptes de nuevo antes de continuar. El historial de versiones queda identificado por el número de versión del encabezado."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "number": "14",
+      "title": "Contacto",
+      "content": [
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Responsable:",
+            "email": "Correo electrónico:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Consulta también los <a href=\"../terms/\">Términos y Condiciones</a>, el <a href=\"../aviso-legal/\">Aviso Legal</a> y la página de <a href=\"../../account-deletion/\">eliminación de cuenta</a>."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "Tikky · {{RESPONSABLE}}",
+    "effective": "Política de privacidad v2026-07-19, en vigor desde el 19 de julio de 2026"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "language": "de",
+    "direction": "ltr",
+    "title": "Kontolöschung",
+    "subtitle": "Tikky - Belegverwaltung und persönliche Finanzen",
+    "lastUpdated": "Version v2026-07-19 · Inkrafttreten: 19. Juli 2026",
+    "tocTitle": "Inhalt"
+  },
+  "sections": [
+    {
+      "id": "how-to-request",
+      "number": "1",
+      "title": "So löschen Sie Ihr Konto",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Der bevorzugte und schnellste Weg ist die Löschung direkt in der App:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Schritt 1:</strong> Öffnen Sie Tikky und melden Sie sich an",
+            "<strong>Schritt 2:</strong> Gehen Sie zu <strong>Einstellungen → Konto löschen</strong>",
+            "<strong>Schritt 3:</strong> Bestätigen Sie den Antrag. Ihre Sitzungen werden beendet und die 30-tägige Schonfrist beginnt"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Wenn Sie nicht auf die App zugreifen können, können Sie die Löschung auch per E-Mail beantragen:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Schreiben Sie an <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a> von der mit Ihrem Konto verknüpften E-Mail-Adresse",
+            "Verwenden Sie den Betreff: „Antrag auf Kontolöschung - Tikky“",
+            "Geben Sie optional den Grund an (das hilft uns, besser zu werden)"
+          ]
+        },
+        {
+          "type": "contact-card",
+          "data": {
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "email": "Kontakt-E-Mail:"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grace-period",
+      "number": "2",
+      "title": "30-tägige Schonfrist",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Um Sie vor versehentlichen oder unbefugten Löschungen zu schützen, erfolgt die Löschung nicht sofort:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Tage 1-30:</strong> Ihr Konto wird deaktiviert. Wenn Sie sich anmelden, zeigt Ihnen die App das Datum der endgültigen Löschung an, und Sie können <strong>den Antrag widerrufen</strong> und das Konto mit allen Ihren Daten unversehrt reaktivieren.",
+            "<strong>Ab Tag 30:</strong> Die endgültige Löschung wird automatisch ausgeführt und kann nicht mehr rückgängig gemacht werden."
+          ]
+        },
+        {
+          "type": "warning-box",
+          "title": "Ihr Abonnement wird nicht automatisch gekündigt:",
+          "text": "Die Kontolöschung kündigt ein aktives kostenpflichtiges Abonnement NICHT. Kündigen Sie es unter Google Play → Zahlungen und Abonnements; andernfalls berechnet die Plattform es weiterhin."
+        }
+      ]
+    },
+    {
+      "id": "data-deleted",
+      "number": "3",
+      "title": "Was gelöscht wird",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Mit Abschluss der endgültigen Löschung werden dauerhaft gelöscht:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Konto und Identität:</strong> E-Mail-Adresse, Name, Geburtsdatum, Profilbild und Zugangsdaten",
+            "<strong>Belege und Dokumente:</strong> alle hochgeladenen Bilder und PDFs sowie die daraus extrahierten Daten",
+            "<strong>Finanzdaten:</strong> erfasste Ausgaben, Einnahmen, Budgets, Abonnements und wiederkehrende Ausgaben",
+            "<strong>Gamification und Einstellungen:</strong> Fortschritt, Erfolge und App-Konfiguration",
+            "<strong>Protokolle des KI-Assistenten:</strong> das Audit-Protokoll auf dem Server; die Gespräche existierten nur verschlüsselt auf Ihrem Gerät",
+            "<strong>Abonnementdaten:</strong> Ihr Kundenprofil auf der Plattform zur Abonnementverwaltung",
+            "<strong>Benachrichtigungen:</strong> Geräte-Token und Benachrichtigungsverlauf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-retained",
+      "number": "4",
+      "title": "Was aufbewahrt wird",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Aus rechtlichen oder Sicherheitsgründen wird nur das unbedingt Erforderliche aufbewahrt:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Abrechnungsunterlagen der Zahlungsplattform:</strong> Google Play oder der Zahlungsanbieter bewahren die steuerlichen Aufzeichnungen Ihrer Käufe gemäß ihren eigenen Richtlinien und dem Gesetz auf",
+            "<strong>Pseudonymisierte Sicherheitsprotokolle:</strong> Signale zur Betrugsprävention, die keine direkte Identifizierung Ihrer Person erlauben",
+            "<strong>Support-Feedback:</strong> Falls Sie Feedback gesendet haben, wird es von Ihrer Identität getrennt (es bleibt anonym)"
+          ]
+        },
+        {
+          "type": "warning-box",
+          "title": "Backups:",
+          "text": "Die System-Backups rotieren und laufen innerhalb von höchstens 90 Tagen ab; danach verschwinden Ihre Daten auch aus den Sicherungskopien."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "number": "5",
+      "title": "Kontakt",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Wenn Sie Fragen zum Löschvorgang haben oder Hilfe benötigen, schreiben Sie uns:"
+        },
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Verantwortlicher:",
+            "email": "E-Mail:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "Weitere Informationen finden Sie in der <a href=\"../legal/privacy/\">Datenschutzerklärung</a> (Rechte und Speicherfristen)."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "Tikky · {{RESPONSABLE}}",
+    "effective": "Diese Seite gilt seit dem 19. Juli 2026. Bei Abweichungen zwischen den Sprachfassungen ist die spanische Fassung maßgeblich."
+  }
+}

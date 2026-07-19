@@ -5,19 +5,36 @@
     <loc>https://code-and-relax.github.io/tikky-web/</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://code-and-relax.github.io/tikky-web/?lang=es"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://code-and-relax.github.io/tikky-web/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://code-and-relax.github.io/tikky-web/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://code-and-relax.github.io/tikky-web/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://code-and-relax.github.io/tikky-web/?lang=hi"/>
     <xhtml:link rel="alternate" hreflang="zh" href="https://code-and-relax.github.io/tikky-web/?lang=zh"/>
-    <lastmod>2026-02-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://code-and-relax.github.io/tikky-web/?lang=ar"/>
+    <lastmod>2026-07-19</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://code-and-relax.github.io/tikky-web/legal/</loc>
-    <lastmod>2026-02-13</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://code-and-relax.github.io/tikky-web/legal/privacy/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://code-and-relax.github.io/tikky-web/legal/terms/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://code-and-relax.github.io/tikky-web/legal/aviso-legal/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://code-and-relax.github.io/tikky-web/account-deletion/</loc>
-    <lastmod>2026-02-13</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <priority>0.3</priority>
   </url>
 </urlset>

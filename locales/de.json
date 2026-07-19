@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "language": "de",
+    "direction": "ltr"
+  },
+  "hero": {
+    "tagline": "Ausgaben-Tracking mit KI",
+    "description": "Scannen Sie Ihre Belege mit künstlicher Intelligenz, verwalten Sie Ihre Ausgaben intelligent und exportieren Sie detaillierte Berichte. Alles in einer einzigen App."
+  },
+  "features": {
+    "title": "Hauptfunktionen",
+    "items": [
+      {
+        "title": "KI-Scanner",
+        "description": "Scannen Sie Belege und Rechnungen mit künstlicher Intelligenz. Automatische Datenextraktion: Händler, Datum, Gesamtbetrag und Positionen."
+      },
+      {
+        "title": "Ausgabenverwaltung",
+        "description": "Organisieren Sie Ihre Ausgaben nach Kategorien, Tags und Zahlungsmethoden. Visualisieren Sie Statistiken und Trends Ihres Konsumverhaltens."
+      },
+      {
+        "title": "Flexibler Export",
+        "description": "Exportieren Sie Ihre Daten im PDF- oder CSV-Format. Teilen Sie Berichte ganz einfach mit Ihrem Steuerberater oder Ihrem Team."
+      },
+      {
+        "title": "Mehrere Währungen",
+        "description": "Unterstützung mehrerer Währungen mit automatischer Umrechnung. Ideal für Reisende und internationale Unternehmen."
+      }
+    ]
+  },
+  "download": {
+    "title": "Tikky herunterladen",
+    "subtitle": "Verfügbar im Google Play Store",
+    "badgeAlt": "Erhältlich bei Google Play"
+  },
+  "footer": {
+    "privacy": "Datenschutzerklärung",
+    "accountDeletion": "Kontolöschung",
+    "contact": "Kontakt:",
+    "copyright": "© 2026 NekkiVibes. Alle Rechte vorbehalten."
+  }
+}

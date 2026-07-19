@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "language": "en",
+    "direction": "ltr",
+    "title": "Terms and Conditions",
+    "subtitle": "Tikky - Receipt and Personal Finance Management",
+    "lastUpdated": "Version v2026-07-19 · Effective: July 19, 2026",
+    "tocTitle": "Contents"
+  },
+  "sections": [
+    {
+      "id": "provider",
+      "number": "1",
+      "title": "Who We Are and What These Terms Govern",
+      "content": [
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "nif": "{{NIF}}",
+            "address": "{{DOMICILIO}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Provider:",
+            "nif": "NIF:",
+            "address": "Address:",
+            "email": "Email:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "These Terms and Conditions (\"the Terms\") govern the use of the Tikky mobile application and its associated services (\"the Service\"). By creating an account you accept these Terms and the <a href=\"../privacy/\">Privacy Policy</a>. If you do not agree, do not use the Service."
+        },
+        {
+          "type": "info-box",
+          "title": "Binding language:",
+          "text": "This document is published in several languages for your convenience. In the event of any discrepancy between versions, the Spanish version shall prevail."
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "number": "2",
+      "title": "The Service",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tikky is a personal finance management tool: it digitizes receipts using artificial intelligence, organizes expenses and income, manages budgets and subscriptions, and generates reports and answers about your own data."
+        },
+        {
+          "type": "warning-box",
+          "title": "Not advice:",
+          "text": "Tikky does not provide financial, tax, accounting or legal advice. The information shown by the app (including the AI assistant's answers) is for information purposes only and is based on the data you record. For financial or tax decisions, consult a professional."
+        },
+        {
+          "type": "paragraph",
+          "text": "AI data extraction may contain errors or omissions. The app always shows you the result so you can review it; you are responsible for verifying and correcting your data before relying on it."
+        }
+      ]
+    },
+    {
+      "id": "account",
+      "number": "3",
+      "title": "Account and Minimum Age",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "You must be at least <strong>16 years old</strong> to use Tikky.",
+            "You must provide truthful information and keep it up to date.",
+            "You are responsible for the confidentiality of your credentials and for all activity carried out from your account.",
+            "Each account is personal and non-transferable."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "user-content",
+      "number": "4",
+      "title": "Your Content",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The Service lets you upload images and documents (receipts, invoices, profile picture) and record financial data (\"your Content\"). Your Content remains yours: Tikky does not acquire any ownership of it."
+        }
+      ],
+      "subsections": [
+        {
+          "id": "content-warranty",
+          "number": "4.1",
+          "title": "Warranties About Your Content",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "By uploading Content you warrant that you own it or hold the rights or authorizations needed to use it in the Service, and that it does not infringe third-party rights or applicable law."
+            }
+          ]
+        },
+        {
+          "id": "content-license",
+          "number": "4.2",
+          "title": "Limited License",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "You grant us a limited, non-exclusive, revocable license to host your Content and process it (including sending it to the AI providers described in the Privacy Policy) for the sole purpose of providing the Service to you. This license ends when you delete the Content or your account, without prejudice to the retention periods described in the Privacy Policy."
+            }
+          ]
+        },
+        {
+          "id": "content-prohibitions",
+          "number": "4.3",
+          "title": "Prohibited Content",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Unlawful or defamatory content, or content that infringes third-party rights (including other people's intellectual property and data protection)",
+                "Third-party documents you have no right to use",
+                "Malware, malicious code or content designed to damage the Service or circumvent its security measures"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "takedown",
+          "number": "4.4",
+          "title": "Content Removal (Takedown)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "If you believe that any content processed in the Service infringes your intellectual property or other rights, write to us at <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a> with the subject <strong>“Copyright”</strong>, identifying the content, your right and your contact details. We will act diligently to remove the content where appropriate."
+            }
+          ]
+        },
+        {
+          "id": "indemnity",
+          "number": "4.5",
+          "title": "Indemnity",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "You will be liable to Tikky and hold it harmless against third-party claims arising from your Content or from a use of the Service contrary to these Terms, including reasonable damages and expenses (including defense costs) directly caused by such breach. This obligation does not apply to the extent the claim arises from a breach attributable to Tikky."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acceptable-use",
+      "number": "5",
+      "title": "Acceptable Use and Suspension",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "You may not use the Service for unlawful purposes, attempt to access other users' data, overload or attack the infrastructure, circumvent usage limits or anti-fraud measures, or reverse engineer it except as permitted by law."
+        },
+        {
+          "type": "paragraph",
+          "text": "We may suspend or close accounts that breach these Terms or compromise the security of the Service. Except in cases of serious risk or legal requirement, we will notify you and you will be able to state your case."
+        }
+      ]
+    },
+    {
+      "id": "subscriptions",
+      "number": "6",
+      "title": "Subscriptions and Payments",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Tikky offers a free plan (with advertising and usage limits) and paid subscription plans.",
+            "Subscriptions are purchased and charged through <strong>Google Play</strong> (or the web payment provider indicated during the purchase process). Prices, taxes, automatic renewal, cancellation and refunds are governed by the payment platform's terms.",
+            "The subscription renews automatically unless you cancel it in Google Play before the end of the current period.",
+            "<strong>Deleting your account does not cancel the subscription:</strong> you must cancel it in Google Play → Payments and subscriptions. Otherwise, the platform will keep charging it.",
+            "Price changes are communicated in advance through the payment platform and only apply from the next renewal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intellectual-property",
+      "number": "7",
+      "title": "Tikky's Intellectual Property",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The app, its code, design, trademarks, logos and own content are the property of {{RESPONSABLE}} or its licensors. We grant you a personal, non-exclusive, non-transferable license to use the app in accordance with these Terms. You acquire no other rights."
+        }
+      ]
+    },
+    {
+      "id": "liability",
+      "number": "8",
+      "title": "Limitation of Liability",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "The Service is provided \"as is\" and \"as available\". We work to keep it available and error-free, but we cannot guarantee uninterrupted availability or the total absence of faults.",
+            "We are not liable for decisions you make based on the app's data or reports, nor for errors arising from incorrect data or from automatic extraction you have not reviewed.",
+            "To the extent permitted by law, we will not be liable for indirect damages, loss of profit or loss of data caused by factors beyond our reasonable control."
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "Your rights as a consumer:",
+          "text": "Nothing in these Terms limits the rights mandatorily granted to you by consumer protection law, nor our liability for willful misconduct, gross negligence, or personal injury."
+        }
+      ]
+    },
+    {
+      "id": "changes",
+      "number": "9",
+      "title": "Changes to the Terms",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We may amend these Terms to reflect changes in the Service or in the law. We will publish the new version with its effective date and, if the change is substantial, the app will ask you to accept it again before you continue using it. If you do not accept it, you can stop using the Service and delete your account."
+        }
+      ]
+    },
+    {
+      "id": "termination",
+      "number": "10",
+      "title": "Termination",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "You can stop using Tikky and delete your account at any time from Settings. Deletion is completed after a 30-day grace period, during which you can cancel it by signing in again.",
+            "Remember to cancel your subscription in Google Play: deleting the account does not cancel it.",
+            "We may terminate the Service or your account in accordance with Section 5 (acceptable use) or if we cease operations, in which case we will give you reasonable advance notice so you can export your data."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "number": "11",
+      "title": "Governing Law and Jurisdiction",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "These Terms are governed by Spanish law. If you act as a consumer, any dispute will be submitted to the courts of your place of residence; you also retain all protections of the mandatory rules of your country of habitual residence. EU consumers may also use the European Commission's online dispute resolution platform."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "number": "12",
+      "title": "Contact",
+      "content": [
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "Provider:",
+            "email": "Email:"
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "See also the <a href=\"../privacy/\">Privacy Policy</a> and the <a href=\"../aviso-legal/\">Legal Notice</a>."
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "Tikky · {{RESPONSABLE}}",
+    "effective": "Terms and Conditions v2026-07-19, effective as of July 19, 2026"
+  }
+}

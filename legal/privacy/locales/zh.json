@@ -1,0 +1,457 @@
+{
+  "meta": {
+    "language": "zh",
+    "direction": "ltr",
+    "title": "隐私政策",
+    "subtitle": "Tikky - 收据与个人财务管理",
+    "lastUpdated": "版本 v2026-07-19 · 生效日期：2026年7月19日",
+    "tocTitle": "目录"
+  },
+  "sections": [
+    {
+      "id": "data-controller",
+      "number": "1",
+      "title": "数据控制者",
+      "content": [
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "nif": "{{NIF}}",
+            "address": "{{DOMICILIO}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "数据控制者：",
+            "nif": "NIF（税务识别号）：",
+            "address": "地址：",
+            "email": "电子邮箱："
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "上述数据控制者（“Tikky”、“我们”）依据 GDPR（欧盟《通用数据保护条例》，即欧盟第2016/679号条例）及 LOPDGDD（西班牙第3/2018号组织法，《个人数据保护与数字权利保障法》），处理您通过 Tikky 移动应用（“本应用”）及本网站向我们提供的个人数据。"
+        },
+        {
+          "type": "paragraph",
+          "text": "如有任何与本政策或您的个人数据相关的问题，请发送邮件至 <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a>。"
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "number": "2",
+      "title": "适用范围与语言",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "本政策适用于 Tikky 应用（Android）及本网站。创建账户或使用本应用，即表示您接受本政策所述的数据处理。现行版本及其生效日期显示在本文件开头；当我们发布重大变更时，本应用将要求您重新接受。"
+        },
+        {
+          "type": "info-box",
+          "title": "具有约束力的语言：",
+          "text": "为方便您阅读，本文件以多种语言发布。如各语言版本之间存在差异，以西班牙语版本为准。"
+        }
+      ]
+    },
+    {
+      "id": "data-collection",
+      "number": "3",
+      "title": "我们处理的数据",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "我们仅处理为您提供服务所必需的数据。除下文所列内容外，我们不会收集更多数据。"
+        }
+      ],
+      "subsections": [
+        {
+          "id": "account-data",
+          "number": "3.1",
+          "title": "账户数据",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "电子邮箱地址",
+                "姓名",
+                "出生日期（用于核验最低年龄）",
+                "个人资料照片（可选）",
+                "内部账户标识符"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "financial-data",
+          "number": "3.2",
+          "title": "您自行登记的财务数据",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "您上传的收据和发票的图片及 PDF 文档",
+                "从这些文档中提取的数据：商家、日期、金额、商品明细、类别、支付方式（绝不包含完整的银行卡数据）",
+                "您手动登记的收入、预算、订阅及周期性支出",
+                "应用偏好设置（语言、货币、配置）"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "technical-data",
+          "number": "3.3",
+          "title": "技术与安全数据",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "设备的推送通知令牌（Firebase Cloud Messaging）",
+                "崩溃与性能报告（Firebase Crashlytics，仅限生产版本）",
+                "我们云函数的技术日志（请求、错误、使用限额）",
+                "收据扫描及 AI 助手的审计日志（用于安全与滥用防控）"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "subscription-data",
+          "number": "3.4",
+          "title": "订阅与支付数据",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "订阅状态（免费或付费）",
+                "购买历史及交易标识符（由 Google Play、Stripe 和 RevenueCat 管理；我们绝不会看到您的完整银行卡数据）"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "consent-records",
+          "number": "3.5",
+          "title": "同意记录",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "我们会记录您接受了哪一版本的条款及本政策、接受日期以及所经由的流程（注册或重新接受），作为 GDPR 第7条所要求的合规证明。"
+            }
+          ]
+        },
+        {
+          "id": "what-we-dont-collect",
+          "number": "3.6",
+          "title": "我们不收集的内容",
+          "content": [
+            {
+              "type": "info-box",
+              "title": "无跟踪：",
+              "text": "我们不使用行为分析 SDK，不访问您的位置信息或通讯录，不向第三方出售您的数据，也不会出于本政策所述以外的目的对您进行画像分析。与 AI 助手的对话仅以加密形式保存在您的设备上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purposes-legal-basis",
+      "number": "4",
+      "title": "处理目的与法律依据",
+      "content": [
+        {
+          "type": "table",
+          "headers": ["处理目的", "数据", "法律依据（GDPR）"],
+          "rows": [
+            [
+              "创建和管理您的账户并为您提供服务",
+              "账户数据和财务数据",
+              "履行合同（GDPR 第6条第1款b项）"
+            ],
+            [
+              "从您的收据中提取数据，并通过 AI 生成回答和报告",
+              "收据图片/PDF、财务数据",
+              "履行合同（GDPR 第6条第1款b项）"
+            ],
+            [
+              "管理您的订阅和付款",
+              "订阅数据",
+              "履行合同（GDPR 第6条第1款b项）"
+            ],
+            [
+              "向您发送服务通知（提醒、摘要、备忘）",
+              "推送令牌、汇总的财务数据",
+              "履行合同（GDPR 第6条第1款b项）；您可在设置中关闭"
+            ],
+            [
+              "展示个性化广告（仅限免费方案）",
+              "广告标识符",
+              "同意（GDPR 第6条第1款a项），通过 Google UMP 表单管理；未经同意仅会展示非个性化广告"
+            ],
+            [
+              "防范欺诈与滥用，保障安全",
+              "技术数据、审计日志",
+              "正当利益（GDPR 第6条第1款f项）"
+            ],
+            [
+              "证明您的同意并响应您的权利请求",
+              "同意记录",
+              "法律义务（GDPR 第6条第1款c项）"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-processing",
+      "number": "5",
+      "title": "人工智能处理",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tikky 使用 OpenAI 的 AI 模型实现三项功能：从您上传的收据图片和 PDF 中提取数据、在助手中回答您的问题，以及生成关于您财务状况的提醒和洞察。为此，您的收据图片及必要的财务数据会被发送至 OpenAI 的 API（位于美国）。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "默认情况下，OpenAI 不会使用通过其 API 发送的数据来训练其模型。",
+            "AI 的结果可能包含错误：本应用始终会向您展示提取结果，供您审核和更正。",
+            "我们不会作出对您产生法律效力的自动化决策，也不会在 GDPR 第22条意义上对您进行画像分析。",
+            "您与助手的对话仅以加密形式存储在您的设备上；我们的服务器上仅保留临时审计日志，用于安全与滥用防控。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advertising",
+      "number": "6",
+      "title": "广告与同意",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "免费方案通过 Google AdMob 广告获得资金支持。在向您展示广告之前，欧洲经济区内的用户会看到 Google 的同意表单（UMP/TCF），由您决定是否接受个性化广告。如您不同意，则只会看到非个性化广告。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "您可以随时在设置 → 广告隐私选项中更改您的决定。",
+            "16 岁和 17 岁的用户绝不会收到个性化广告。",
+            "付费方案不展示广告。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "processors",
+      "number": "7",
+      "title": "数据接收方与数据处理者",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "我们不出售也不转让您的数据。仅有运营本服务所不可或缺的服务提供商，作为数据处理者或共同控制者与我们共享这些数据："
+        },
+        {
+          "type": "table",
+          "headers": ["服务提供商", "服务", "位置", "保障措施"],
+          "rows": [
+            [
+              "<strong>Supabase</strong>",
+              "数据库、身份验证与文件存储",
+              "欧盟（AWS eu-west-1，爱尔兰）",
+              "在欧盟境内处理"
+            ],
+            [
+              "<strong>Google Cloud / Firebase</strong>",
+              "云函数（europe-west1，比利时）、推送通知、App Check 保护、崩溃报告",
+              "欧盟/美国",
+              "标准合同条款（SCC）及欧盟-美国数据隐私框架（DPF）"
+            ],
+            [
+              "<strong>OpenAI</strong>",
+              "收据数据提取、AI 助手与报告",
+              "美国",
+              "SCC / DPF；默认不用于模型训练"
+            ],
+            [
+              "<strong>Google AdMob</strong>",
+              "免费方案中的广告",
+              "欧盟/美国",
+              "SCC / DPF；UMP/TCF 同意机制"
+            ],
+            [
+              "<strong>RevenueCat</strong>",
+              "订阅管理",
+              "美国",
+              "SCC / DPF"
+            ],
+            [
+              "<strong>Google Play / Stripe</strong>",
+              "支付处理",
+              "欧盟/美国",
+              "SCC / DPF；我们绝不会看到您的完整银行卡数据"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "当法律义务要求时，我们也可能向公共机关披露数据。"
+        }
+      ]
+    },
+    {
+      "id": "international-transfers",
+      "number": "8",
+      "title": "国际数据传输",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "您的数据存储在欧盟境内（Supabase，爱尔兰；云函数，比利时）。第7节所列的部分服务提供商在美国处理数据；在此类情况下，数据传输依据欧盟委员会批准的标准合同条款、该服务提供商在欧盟-美国数据隐私框架下的认证，或两者共同提供保障。"
+        }
+      ]
+    },
+    {
+      "id": "data-retention",
+      "number": "9",
+      "title": "数据保存期限",
+      "content": [
+        {
+          "type": "table",
+          "headers": ["数据", "期限"],
+          "rows": [
+            [
+              "账户数据和财务数据",
+              "在您的账户处于活跃状态期间保存。如您申请删除，数据将在 30 天宽限期结束后被永久删除，期间您可以取消该申请"
+            ],
+            [
+              "收据图片及 PDF",
+              "直至您删除该收据或您的账户（适用相同的宽限期）"
+            ],
+            [
+              "收据扫描审计日志",
+              "30 天"
+            ],
+            [
+              "AI 助手审计日志",
+              "90 天"
+            ],
+            [
+              "崩溃报告（Crashlytics）",
+              "90 天（Firebase 标准保留期）"
+            ],
+            [
+              "推送通知令牌",
+              "直至您退出登录或删除账户"
+            ],
+            [
+              "同意记录",
+              "在账户存续期间保存；随最终清除一并删除"
+            ],
+            [
+              "反欺诈安全日志",
+              "账户删除后，可能以不含直接身份信息的形式（假名化）继续保留"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "your-rights",
+      "number": "10",
+      "title": "您的权利",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "您可以随时行使访问权、更正权、删除权、反对权、限制处理权和数据可携权，并可撤回您的同意，且撤回不影响撤回前处理的合法性。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>直接在应用内（推荐）：</strong>“设置”中的“下载我的数据”会向您提供结构化格式的完整数据副本（访问权与可携权，对所有用户免费）；“删除账户”会启动带 30 天宽限期的删除流程（删除权）；您的个人资料和数据可直接编辑（更正权）。",
+            "<strong>通过电子邮件：</strong>如需行使其他权利，或您无法访问应用，请使用您账户绑定的邮箱发送邮件至 <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a>。我们将在最长一个月内答复。"
+          ]
+        },
+        {
+          "type": "info-box",
+          "title": "监管机构：",
+          "text": "如您认为我们未妥善处理您的权利请求，您可以向 AEPD（西班牙数据保护局）投诉，网址为 <a href=\"https://www.aepd.es\" rel=\"noopener\">www.aepd.es</a>，或向您居住国的监管机构投诉。"
+        }
+      ]
+    },
+    {
+      "id": "minors",
+      "number": "11",
+      "title": "未成年人",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tikky 是面向 16 岁及以上用户的服务。我们不接受 16 岁以下未成年人的账户，应用也不允许填写低于该年龄的出生日期。16 岁和 17 岁的用户绝不会收到个性化广告。"
+        },
+        {
+          "type": "warning-box",
+          "title": "重要提示：",
+          "text": "如我们发现 16 岁以下未成年人的账户，将删除该账户及其数据。如您认为您监护下的未成年人正在使用 Tikky，请发送邮件至 <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a>。"
+        }
+      ]
+    },
+    {
+      "id": "data-security",
+      "number": "12",
+      "title": "安全",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "所有通信均加密（TLS/HTTPS）",
+            "数据库按用户隔离：每个账户只能访问自己的数据（行级安全策略）",
+            "助手对话在您的设备上加密存储，密钥由系统保护",
+            "凭据存储在操作系统的安全存储中",
+            "所有敏感操作（奖励、限额、支付）均经服务器端验证",
+            "AI 功能设有请求限额和反滥用审计",
+            "电子邮箱验证，并在发生风险事件时全局撤销会话"
+          ]
+        },
+        {
+          "type": "warning-box",
+          "title": "透明度：",
+          "text": "任何系统都不是万无一失的。如发生对您的权利构成风险的数据安全事件（数据泄露），我们将依据 GDPR 第33条和第34条，在最多 72 小时内通知 AEPD，并在风险较高时告知您本人。"
+        }
+      ]
+    },
+    {
+      "id": "policy-changes",
+      "number": "13",
+      "title": "本政策的变更",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "当我们对本政策作出重大修改时，将发布新版本并注明其生效日期，应用会在您继续使用前要求您重新接受。版本历史以文件开头的版本号标识。"
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "number": "14",
+      "title": "联系方式",
+      "content": [
+        {
+          "type": "contact-card",
+          "data": {
+            "company": "{{RESPONSABLE}}",
+            "email": "tikky.oficial@gmail.com"
+          },
+          "labels": {
+            "company": "数据控制者：",
+            "email": "电子邮箱："
+          }
+        },
+        {
+          "type": "paragraph",
+          "text": "另请参阅<a href=\"../terms/\">条款与条件</a>、<a href=\"../aviso-legal/\">法律声明</a>以及<a href=\"../../account-deletion/\">账户删除</a>页面。"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "company": "Tikky · {{RESPONSABLE}}",
+    "effective": "隐私政策 v2026-07-19，自2026年7月19日起生效"
+  }
+}

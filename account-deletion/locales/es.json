@@ -1,34 +1,46 @@
 {
   "meta": {
     "language": "es",
-    "title": "Solicitud de Eliminación de Cuenta",
-    "subtitle": "Tikky - Gestión de Tickets y Gastos",
-    "lastUpdated": "Última actualización: 31 de enero de 2026",
+    "direction": "ltr",
+    "title": "Eliminación de cuenta",
+    "subtitle": "Tikky - Gestión de recibos y finanzas personales",
+    "lastUpdated": "Versión v2026-07-19 · Entrada en vigor: 19 de julio de 2026",
     "tocTitle": "Contenido"
   },
   "sections": [
     {
       "id": "how-to-request",
       "number": "1",
-      "title": "Cómo Solicitar la Eliminación",
+      "title": "Cómo eliminar tu cuenta",
       "content": [
         {
           "type": "paragraph",
-          "text": "Para solicitar la eliminación de tu cuenta y todos los datos asociados en Tikky, sigue estos pasos:"
+          "text": "La vía preferente y más rápida es hacerlo directamente desde la app:"
         },
         {
           "type": "list",
           "items": [
-            "<strong>Paso 1:</strong> Envía un correo electrónico a <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>",
-            "<strong>Paso 2:</strong> Usa el asunto: \"Solicitud de Eliminación de Cuenta - Tikky\"",
-            "<strong>Paso 3:</strong> Incluye en el cuerpo del mensaje la dirección de correo electrónico asociada a tu cuenta",
-            "<strong>Paso 4:</strong> Opcionalmente, puedes indicar el motivo de la eliminación (esto nos ayuda a mejorar)"
+            "<strong>Paso 1:</strong> Abre Tikky e inicia sesión",
+            "<strong>Paso 2:</strong> Ve a <strong>Ajustes → Eliminar cuenta</strong>",
+            "<strong>Paso 3:</strong> Confirma la solicitud. Tus sesiones se cierran y comienza el periodo de gracia de 30 días"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si no puedes acceder a la app, también puedes solicitarlo por correo electrónico:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Escribe a <a href=\"mailto:tikky.oficial@gmail.com\">tikky.oficial@gmail.com</a> desde la dirección de correo asociada a tu cuenta",
+            "Usa el asunto: «Solicitud de eliminación de cuenta - Tikky»",
+            "Opcionalmente, indica el motivo (nos ayuda a mejorar)"
           ]
         },
         {
           "type": "contact-card",
           "data": {
-            "email": "yt.code.and.chill@gmail.com"
+            "email": "tikky.oficial@gmail.com"
           },
           "labels": {
             "email": "Correo de contacto:"
@@ -37,47 +49,47 @@
       ]
     },
     {
-      "id": "processing-time",
+      "id": "grace-period",
       "number": "2",
-      "title": "Plazo de Procesamiento",
+      "title": "Periodo de gracia de 30 días",
       "content": [
         {
           "type": "paragraph",
-          "text": "Una vez recibida tu solicitud, procesaremos la eliminación de tu cuenta siguiendo estos plazos:"
+          "text": "Para protegerte frente a borrados accidentales o no autorizados, la eliminación no es inmediata:"
         },
         {
           "type": "list",
           "items": [
-            "<strong>Confirmación inicial:</strong> Recibirás un correo de confirmación dentro de las 48 horas siguientes a tu solicitud",
-            "<strong>Procesamiento:</strong> La eliminación completa se realizará en un plazo máximo de 30 días hábiles",
-            "<strong>Notificación final:</strong> Te enviaremos un correo electrónico confirmando que la eliminación se ha completado"
+            "<strong>Días 1-30:</strong> Tu cuenta queda desactivada. Si inicias sesión, la app te mostrará la fecha de eliminación definitiva y podrás <strong>cancelar la solicitud</strong> y reactivar la cuenta con todos tus datos intactos.",
+            "<strong>A partir del día 30:</strong> La eliminación definitiva se ejecuta automáticamente y ya no se puede deshacer."
           ]
         },
         {
-          "type": "info-box",
-          "title": "Nota importante:",
-          "text": "Durante el período de procesamiento, tu cuenta permanecerá inactiva y no podrás acceder a ella."
+          "type": "warning-box",
+          "title": "Tu suscripción no se cancela sola:",
+          "text": "Eliminar la cuenta NO cancela una suscripción de pago activa. Cancélala en Google Play → Pagos y suscripciones; de lo contrario, la plataforma seguirá cobrándola."
         }
       ]
     },
     {
       "id": "data-deleted",
       "number": "3",
-      "title": "Datos que se Eliminan",
+      "title": "Qué se elimina",
       "content": [
         {
           "type": "paragraph",
-          "text": "Al procesar tu solicitud de eliminación, se eliminarán permanentemente los siguientes datos:"
+          "text": "Al completarse la eliminación definitiva se borran permanentemente:"
         },
         {
           "type": "list",
           "items": [
-            "<strong>Información de perfil:</strong> Nombre, correo electrónico, foto de perfil y fecha de nacimiento",
-            "<strong>Tickets y recibos:</strong> Todas las imágenes escaneadas y datos extraídos de tus tickets",
-            "<strong>Categorías personalizadas:</strong> Todas las categorías de gastos que hayas creado",
-            "<strong>Preferencias de la aplicación:</strong> Configuración de idioma, moneda y otras preferencias",
-            "<strong>Historial de uso:</strong> Registros de actividad y patrones de uso de la aplicación",
-            "<strong>Datos de suscripción:</strong> Estado de suscripción e historial de compras dentro de la app"
+            "<strong>Cuenta e identidad:</strong> correo electrónico, nombre, fecha de nacimiento, foto de perfil y credenciales de acceso",
+            "<strong>Recibos y documentos:</strong> todas las imágenes y PDF subidos y los datos extraídos de ellos",
+            "<strong>Datos financieros:</strong> gastos, ingresos, presupuestos, suscripciones y gastos recurrentes registrados",
+            "<strong>Gamificación y preferencias:</strong> progreso, logros y configuración de la app",
+            "<strong>Registros del asistente de IA:</strong> el registro de auditoría en servidor; las conversaciones solo existían cifradas en tu dispositivo",
+            "<strong>Datos de suscripción:</strong> tu perfil de cliente en la plataforma de gestión de suscripciones",
+            "<strong>Notificaciones:</strong> tokens del dispositivo e historial de avisos"
           ]
         }
       ]
@@ -85,23 +97,24 @@
     {
       "id": "data-retained",
       "number": "4",
-      "title": "Datos que se Conservan",
+      "title": "Qué se conserva",
       "content": [
         {
           "type": "paragraph",
-          "text": "Por motivos legales y operativos, algunos datos pueden ser conservados de forma limitada:"
+          "text": "Por obligaciones legales o de seguridad se conserva únicamente lo imprescindible:"
         },
         {
           "type": "list",
           "items": [
-            "<strong>Registros anonimizados:</strong> Datos estadísticos agregados que no permiten identificarte personalmente",
-            "<strong>Registros de transacciones:</strong> Información de pagos procesados, requerida por obligaciones fiscales (conservada por 5 años según la ley aplicable)"
+            "<strong>Registros de facturación de la plataforma de pago:</strong> Google Play o el proveedor de pago conservan los registros fiscales de tus compras según sus propias políticas y la ley",
+            "<strong>Registros de seguridad seudonimizados:</strong> señales antifraude que no permiten identificarte directamente",
+            "<strong>Comentarios de soporte:</strong> si enviaste comentarios, se desvinculan de tu identidad (quedan anónimos)"
           ]
         },
         {
           "type": "warning-box",
-          "title": "Período de retención de backups:",
-          "text": "Los backups del sistema se conservan durante 90 días por motivos de seguridad. Después de este período, todos tus datos serán eliminados permanentemente de nuestros sistemas de respaldo."
+          "title": "Copias de seguridad:",
+          "text": "Las copias de seguridad del sistema rotan y expiran en un plazo máximo de 90 días; después, tus datos desaparecen también de los respaldos."
         }
       ]
     },
@@ -112,29 +125,28 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Si tienes preguntas sobre el proceso de eliminación de cuenta o necesitas asistencia adicional, no dudes en contactarnos:"
+          "text": "Si tienes preguntas sobre el proceso de eliminación o necesitas ayuda, escríbenos:"
         },
         {
           "type": "contact-card",
           "data": {
-            "email": "yt.code.and.chill@gmail.com",
-            "company": "NekkiVibes"
+            "company": "{{RESPONSABLE}}",
+            "email": "tikky.oficial@gmail.com"
           },
           "labels": {
-            "email": "Correo electrónico:",
-            "company": "Empresa:"
+            "company": "Responsable:",
+            "email": "Correo electrónico:"
           }
         },
         {
-          "type": "info-box",
-          "title": "Confirmación:",
-          "text": "Siempre recibirás una confirmación por correo electrónico cuando tu solicitud haya sido procesada completamente. Si no recibes ninguna comunicación en 48 horas, por favor verifica tu carpeta de spam o contáctanos nuevamente."
+          "type": "paragraph",
+          "text": "Más información en la <a href=\"../legal/privacy/\">Política de Privacidad</a> (derechos y plazos de conservación)."
         }
       ]
     }
   ],
   "footer": {
-    "company": "NekkiVibes - Tikky App",
-    "effective": "Esta página es efectiva desde el 31 de enero de 2026"
+    "company": "Tikky · {{RESPONSABLE}}",
+    "effective": "Esta página es efectiva desde el 19 de julio de 2026. En caso de discrepancia entre idiomas, prevalece la versión en español."
   }
 }
