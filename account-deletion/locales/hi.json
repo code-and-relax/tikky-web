@@ -130,7 +130,7 @@
         {
           "type": "contact-card",
           "data": {
-            "company": "{{RESPONSABLE}}",
+            "company": "Yassine Ikken Ikkene",
             "email": "tikky.oficial@gmail.com"
           },
           "labels": {
@@ -146,7 +146,7 @@
     }
   ],
   "footer": {
-    "company": "Tikky · {{RESPONSABLE}}",
+    "company": "Tikky · Yassine Ikken Ikkene",
     "effective": "यह पृष्ठ 19 जुलाई 2026 से प्रभावी है। भाषाओं के बीच किसी विसंगति की स्थिति में स्पेनिश संस्करण मान्य होगा।"
   }
 }

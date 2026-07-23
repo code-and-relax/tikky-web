@@ -16,9 +16,9 @@
         {
           "type": "contact-card",
           "data": {
-            "company": "{{RESPONSABLE}}",
-            "nif": "{{NIF}}",
-            "address": "{{DOMICILIO}}",
+            "company": "Yassine Ikken Ikkene",
+            "nif": "42408507A",
+            "address": "Avenida del Tren, Nº 83, 1º Izq., 07500 Manacor, Islas Baleares",
             "email": "tikky.oficial@gmail.com"
           },
           "labels": {
@@ -186,7 +186,7 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "本应用及其代码、设计、商标、标识和自有内容归 {{RESPONSABLE}} 或其许可方所有。我们授予您一项个人的、非排他的、不可转让的许可，供您按照本条款使用本应用。您不因此取得任何其他权利。"
+          "text": "本应用及其代码、设计、商标、标识和自有内容归 Yassine Ikken Ikkene 或其许可方所有。我们授予您一项个人的、非排他的、不可转让的许可，供您按照本条款使用本应用。您不因此取得任何其他权利。"
         }
       ]
     },
@@ -255,7 +255,7 @@
         {
           "type": "contact-card",
           "data": {
-            "company": "{{RESPONSABLE}}",
+            "company": "Yassine Ikken Ikkene",
             "email": "tikky.oficial@gmail.com"
           },
           "labels": {
@@ -271,7 +271,7 @@
     }
   ],
   "footer": {
-    "company": "Tikky · {{RESPONSABLE}}",
+    "company": "Tikky · Yassine Ikken Ikkene",
     "effective": "条款与条件 v2026-07-19，自2026年7月19日起生效"
   }
 }

@@ -16,9 +16,9 @@
         {
           "type": "contact-card",
           "data": {
-            "company": "{{RESPONSABLE}}",
-            "nif": "{{NIF}}",
-            "address": "{{DOMICILIO}}",
+            "company": "Yassine Ikken Ikkene",
+            "nif": "42408507A",
+            "address": "Avenida del Tren, Nº 83, 1º Izq., 07500 Manacor, Islas Baleares",
             "email": "tikky.oficial@gmail.com"
           },
           "labels": {
@@ -186,7 +186,7 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "ऐप, उसका कोड, डिज़ाइन, ट्रेडमार्क, लोगो और स्वयं की सामग्री {{RESPONSABLE}} या उसके लाइसेंसदाताओं की संपत्ति हैं। हम आपको इन नियमों के अनुसार ऐप का उपयोग करने के लिए एक व्यक्तिगत, गैर-अनन्य और अहस्तांतरणीय लाइसेंस देते हैं। आपको कोई अन्य अधिकार प्राप्त नहीं होता।"
+          "text": "ऐप, उसका कोड, डिज़ाइन, ट्रेडमार्क, लोगो और स्वयं की सामग्री Yassine Ikken Ikkene या उसके लाइसेंसदाताओं की संपत्ति हैं। हम आपको इन नियमों के अनुसार ऐप का उपयोग करने के लिए एक व्यक्तिगत, गैर-अनन्य और अहस्तांतरणीय लाइसेंस देते हैं। आपको कोई अन्य अधिकार प्राप्त नहीं होता।"
         }
       ]
     },
@@ -255,7 +255,7 @@
         {
           "type": "contact-card",
           "data": {
-            "company": "{{RESPONSABLE}}",
+            "company": "Yassine Ikken Ikkene",
             "email": "tikky.oficial@gmail.com"
           },
           "labels": {
@@ -271,7 +271,7 @@
     }
   ],
   "footer": {
-    "company": "Tikky · {{RESPONSABLE}}",
+    "company": "Tikky · Yassine Ikken Ikkene",
     "effective": "नियम और शर्तें v2026-07-19, 19 जुलाई 2026 से प्रभावी"
   }
 }

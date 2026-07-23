@@ -130,7 +130,7 @@
         {
           "type": "contact-card",
           "data": {
-            "company": "{{RESPONSABLE}}",
+            "company": "Yassine Ikken Ikkene",
             "email": "tikky.oficial@gmail.com"
           },
           "labels": {
@@ -146,7 +146,7 @@
     }
   ],
   "footer": {
-    "company": "Tikky · {{RESPONSABLE}}",
+    "company": "Tikky · Yassine Ikken Ikkene",
     "effective": "هذه الصفحة سارية اعتبارًا من 19 يوليو 2026. وفي حال وجود تعارض بين اللغات، تسود النسخة الإسبانية."
   }
 }

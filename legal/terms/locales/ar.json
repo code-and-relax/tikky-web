@@ -16,9 +16,9 @@
         {
           "type": "contact-card",
           "data": {
-            "company": "{{RESPONSABLE}}",
-            "nif": "{{NIF}}",
-            "address": "{{DOMICILIO}}",
+            "company": "Yassine Ikken Ikkene",
+            "nif": "42408507A",
+            "address": "Avenida del Tren, Nº 83, 1º Izq., 07500 Manacor, Islas Baleares",
             "email": "tikky.oficial@gmail.com"
           },
           "labels": {
@@ -186,7 +186,7 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "التطبيق وشيفرته وتصميمه وعلاماته التجارية وشعاراته ومحتوياته الخاصة مملوكة لـ {{RESPONSABLE}} أو لمانحي تراخيصه. ونمنحك ترخيصًا شخصيًا وغير حصري وغير قابل للتحويل لاستخدام التطبيق وفقًا لهذه الشروط. ولا تكتسب أي حق آخر."
+          "text": "التطبيق وشيفرته وتصميمه وعلاماته التجارية وشعاراته ومحتوياته الخاصة مملوكة لـ Yassine Ikken Ikkene أو لمانحي تراخيصه. ونمنحك ترخيصًا شخصيًا وغير حصري وغير قابل للتحويل لاستخدام التطبيق وفقًا لهذه الشروط. ولا تكتسب أي حق آخر."
         }
       ]
     },
@@ -255,7 +255,7 @@
         {
           "type": "contact-card",
           "data": {
-            "company": "{{RESPONSABLE}}",
+            "company": "Yassine Ikken Ikkene",
             "email": "tikky.oficial@gmail.com"
           },
           "labels": {
@@ -271,7 +271,7 @@
     }
   ],
   "footer": {
-    "company": "Tikky · {{RESPONSABLE}}",
+    "company": "Tikky · Yassine Ikken Ikkene",
     "effective": "الشروط والأحكام v2026-07-19، سارية اعتبارًا من 19 يوليو 2026"
   }
 }

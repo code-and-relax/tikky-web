@@ -20,9 +20,9 @@
         {
           "type": "contact-card",
           "data": {
-            "company": "{{RESPONSABLE}}",
-            "nif": "{{NIF}}",
-            "address": "{{DOMICILIO}}",
+            "company": "Yassine Ikken Ikkene",
+            "nif": "42408507A",
+            "address": "Avenida del Tren, Nº 83, 1º Izq., 07500 Manacor, Islas Baleares",
             "email": "tikky.oficial@gmail.com"
           },
           "labels": {
@@ -78,7 +78,7 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "इस साइट की सामग्री (स्वयं के पाठ, डिज़ाइन, लोगो और छवियाँ) {{RESPONSABLE}} या उसके लाइसेंसदाताओं की संपत्ति है। कानूनी रूप से अनुमत उपयोगों को छोड़कर, बिना अनुमति इसका पुनरुत्पादन या वितरण निषिद्ध है।"
+          "text": "इस साइट की सामग्री (स्वयं के पाठ, डिज़ाइन, लोगो और छवियाँ) Yassine Ikken Ikkene या उसके लाइसेंसदाताओं की संपत्ति है। कानूनी रूप से अनुमत उपयोगों को छोड़कर, बिना अनुमति इसका पुनरुत्पादन या वितरण निषिद्ध है।"
         }
       ]
     },
@@ -111,7 +111,7 @@
     }
   ],
   "footer": {
-    "company": "Tikky · {{RESPONSABLE}}",
+    "company": "Tikky · Yassine Ikken Ikkene",
     "effective": "कानूनी सूचना v2026-07-19, 19 जुलाई 2026 से प्रभावी"
   }
 }
