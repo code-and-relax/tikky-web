@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tikky App - Security Check">
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline';">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+  <title>Security Check - Tikky</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      html, body { background: #121212; }
+    }
+    .challenge-wrapper {
+      display: flex;
+      justify-content: center;
+      padding: 16px 8px;
+    }
+  </style>
+
+  <!-- Bridge script must run before the Turnstile API invokes its onload callback -->
+  <script src="js/challenge.js"></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback&amp;render=explicit" defer></script>
+</head>
+<body>
+  <div class="challenge-wrapper">
+    <div id="turnstile-container"></div>
+  </div>
+</body>
+</html>
