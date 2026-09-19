@@ -4,7 +4,7 @@
     "direction": "ltr",
     "title": "Política de Privacidad",
     "subtitle": "Tikky - Gestión de recibos y finanzas personales",
-    "lastUpdated": "Versión v2026-07-19 · Entrada en vigor: 19 de julio de 2026",
+    "lastUpdated": "Versión v2026-09-19 · Entrada en vigor: 19 de septiembre de 2026",
     "tocTitle": "Contenido"
   },
   "sections": [
@@ -140,14 +140,33 @@
           ]
         },
         {
-          "id": "what-we-dont-collect",
+          "id": "usage-analytics",
           "number": "3.6",
+          "title": "Datos de uso de la app (analítica)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cuando la analítica de uso está activa, recogemos eventos de interacción con la app mediante Google Firebase Analytics: por ejemplo, que se completó un paso de la configuración inicial, que se guardó un recibo, que se abrió la pantalla de planes o que se inició una prueba gratuita. Su finalidad es medir el uso y mejorar el producto."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Los eventos nunca incluyen el contenido de tus finanzas: ni importes, ni comercios, ni artículos de recibos, ni mensajes del asistente de IA.",
+                "No contienen tu nombre ni tu dirección de correo electrónico; se asocian a identificadores técnicos de instalación proporcionados por Firebase.",
+                "Puedes desactivar la analítica en cualquier momento en los Ajustes de la app."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "what-we-dont-collect",
+          "number": "3.7",
           "title": "Lo que NO recopilamos",
           "content": [
             {
               "type": "info-box",
-              "title": "Sin rastreo:",
-              "text": "No usamos SDK de analítica de comportamiento, no accedemos a tu ubicación ni a tus contactos, no vendemos tus datos a terceros y no te perfilamos con fines distintos de los aquí descritos. Las conversaciones con el asistente de IA se guardan cifradas únicamente en tu dispositivo."
+              "title": "Nuestros compromisos:",
+              "text": "No accedemos a tu ubicación ni a tus contactos, no vendemos tus datos a terceros y no te perfilamos con fines distintos de los aquí descritos. La analítica de uso descrita en la sección 3.6 no registra contenido financiero ni datos identificativos, y puedes desactivarla. Las conversaciones con el asistente de IA se guardan cifradas únicamente en tu dispositivo."
             }
           ]
         }
@@ -190,6 +209,11 @@
               "Mostrar publicidad personalizada (solo plan gratuito)",
               "Identificador de publicidad",
               "Consentimiento (art. 6.1.a), gestionado con el formulario de Google UMP; sin él solo verás anuncios no personalizados"
+            ],
+            [
+              "Medir el uso de la app y mejorar el producto (analítica)",
+              "Eventos de uso de la app (sin contenido financiero ni identificativo)",
+              "Interés legítimo (art. 6.1.f); puedes desactivarla en cualquier momento en Ajustes"
             ],
             [
               "Prevenir fraude y abuso, garantizar la seguridad",
@@ -270,7 +294,7 @@
             ],
             [
               "<strong>Google Cloud / Firebase</strong>",
-              "Funciones en la nube (europe-west1, Bélgica), notificaciones push, protección App Check, informes de fallos",
+              "Funciones en la nube (europe-west1, Bélgica), notificaciones push, protección App Check, informes de fallos y analítica de uso (Firebase Analytics)",
               "UE / EE. UU.",
               "Cláusulas contractuales tipo (SCC) y Marco de Privacidad de Datos UE-EE. UU. (DPF)"
             ],
@@ -348,6 +372,10 @@
             [
               "Informes de fallos (Crashlytics)",
               "90 días (retención estándar de Firebase)"
+            ],
+            [
+              "Eventos de uso (Firebase Analytics)",
+              "14 meses (retención configurada en Google Analytics 4)"
             ],
             [
               "Token de notificaciones push",
@@ -464,6 +492,6 @@
   ],
   "footer": {
     "company": "Tikky · Yassine Ikken Ikkene",
-    "effective": "Política de privacidad v2026-07-19, en vigor desde el 19 de julio de 2026"
+    "effective": "Política de privacidad v2026-09-19, en vigor desde el 19 de septiembre de 2026"
   }
 }

@@ -4,7 +4,7 @@
     "direction": "ltr",
     "title": "Privacy Policy",
     "subtitle": "Tikky - Receipt and Personal Finance Management",
-    "lastUpdated": "Version v2026-07-19 · Effective: July 19, 2026",
+    "lastUpdated": "Version v2026-09-19 · Effective: September 19, 2026",
     "tocTitle": "Contents"
   },
   "sections": [
@@ -140,14 +140,33 @@
           ]
         },
         {
-          "id": "what-we-dont-collect",
+          "id": "usage-analytics",
           "number": "3.6",
+          "title": "App Usage Data (Analytics)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "When usage analytics is enabled, we collect app interaction events through Google Firebase Analytics: for example, that an onboarding step was completed, a receipt was saved, the plans screen was opened, or a free trial was started. Its purpose is to measure usage and improve the product."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Events never include the content of your finances: no amounts, no merchants, no receipt items, no AI assistant messages.",
+                "They do not contain your name or email address; they are associated with technical installation identifiers provided by Firebase.",
+                "You can turn analytics off at any time in the app Settings."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "what-we-dont-collect",
+          "number": "3.7",
           "title": "What We Do NOT Collect",
           "content": [
             {
               "type": "info-box",
-              "title": "No tracking:",
-              "text": "We do not use behavioral analytics SDKs, we do not access your location or your contacts, we do not sell your data to third parties, and we do not profile you for purposes other than those described here. Conversations with the AI assistant are stored encrypted only on your device."
+              "title": "Our commitments:",
+              "text": "We do not access your location or your contacts, we do not sell your data to third parties, and we do not profile you for purposes other than those described here. The usage analytics described in section 3.6 records no financial content or identifying data, and you can turn it off. Conversations with the AI assistant are stored encrypted only on your device."
             }
           ]
         }
@@ -160,7 +179,11 @@
       "content": [
         {
           "type": "table",
-          "headers": ["Purpose", "Data", "Legal basis (GDPR)"],
+          "headers": [
+            "Purpose",
+            "Data",
+            "Legal basis (GDPR)"
+          ],
           "rows": [
             [
               "Create and manage your account and provide you with the service",
@@ -186,6 +209,11 @@
               "Show personalized advertising (free plan only)",
               "Advertising identifier",
               "Consent (Art. 6(1)(a)), managed through the Google UMP form; without it you will only see non-personalized ads"
+            ],
+            [
+              "Measure app usage and improve the product (analytics)",
+              "App usage events (no financial or identifying content)",
+              "Legitimate interest (Art. 6(1)(f)); you can turn it off at any time in Settings"
             ],
             [
               "Prevent fraud and abuse, ensure security",
@@ -251,7 +279,12 @@
         },
         {
           "type": "table",
-          "headers": ["Provider", "Service", "Location", "Safeguards"],
+          "headers": [
+            "Provider",
+            "Service",
+            "Location",
+            "Safeguards"
+          ],
           "rows": [
             [
               "<strong>Supabase</strong>",
@@ -261,7 +294,7 @@
             ],
             [
               "<strong>Google Cloud / Firebase</strong>",
-              "Cloud functions (europe-west1, Belgium), push notifications, App Check protection, crash reports",
+              "Cloud functions (europe-west1, Belgium), push notifications, App Check protection, crash reports and usage analytics (Firebase Analytics)",
               "EU / USA",
               "Standard Contractual Clauses (SCC) and EU-U.S. Data Privacy Framework (DPF)"
             ],
@@ -315,7 +348,10 @@
       "content": [
         {
           "type": "table",
-          "headers": ["Data", "Period"],
+          "headers": [
+            "Data",
+            "Period"
+          ],
           "rows": [
             [
               "Account and financial data",
@@ -336,6 +372,10 @@
             [
               "Crash reports (Crashlytics)",
               "90 days (standard Firebase retention)"
+            ],
+            [
+              "Usage events (Firebase Analytics)",
+              "14 months (retention configured in Google Analytics 4)"
             ],
             [
               "Push notification token",
@@ -452,6 +492,6 @@
   ],
   "footer": {
     "company": "Tikky · Yassine Ikken Ikkene",
-    "effective": "Privacy Policy v2026-07-19, effective as of July 19, 2026"
+    "effective": "Privacy Policy v2026-09-19, effective as of September 19, 2026"
   }
 }

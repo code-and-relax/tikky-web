@@ -4,7 +4,7 @@
     "direction": "ltr",
     "title": "Datenschutzerklärung",
     "subtitle": "Tikky - Belegverwaltung und persönliche Finanzen",
-    "lastUpdated": "Version v2026-07-19 · Inkrafttreten: 19. Juli 2026",
+    "lastUpdated": "Version v2026-09-19 · Inkrafttreten: 19. September 2026",
     "tocTitle": "Inhalt"
   },
   "sections": [
@@ -140,14 +140,33 @@
           ]
         },
         {
-          "id": "what-we-dont-collect",
+          "id": "usage-analytics",
           "number": "3.6",
+          "title": "Nutzungsdaten der App (Analytik)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Wenn die Nutzungsanalytik aktiv ist, erfassen wir App-Interaktionsereignisse über Google Firebase Analytics: zum Beispiel, dass ein Schritt der Ersteinrichtung abgeschlossen, ein Beleg gespeichert, der Tarifbildschirm geöffnet oder eine kostenlose Testphase gestartet wurde. Zweck ist die Messung der Nutzung und die Verbesserung des Produkts."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Die Ereignisse enthalten niemals den Inhalt Ihrer Finanzen: keine Beträge, keine Händler, keine Belegpositionen und keine Nachrichten des KI-Assistenten.",
+                "Sie enthalten weder Ihren Namen noch Ihre E-Mail-Adresse; sie werden technischen Installationskennungen von Firebase zugeordnet.",
+                "Sie können die Analytik jederzeit in den Einstellungen der App deaktivieren."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "what-we-dont-collect",
+          "number": "3.7",
           "title": "Was wir NICHT erheben",
           "content": [
             {
               "type": "info-box",
-              "title": "Kein Tracking:",
-              "text": "Wir verwenden keine SDKs zur Verhaltensanalyse, greifen weder auf Ihren Standort noch auf Ihre Kontakte zu, verkaufen Ihre Daten nicht an Dritte und erstellen keine Profile zu anderen als den hier beschriebenen Zwecken. Gespräche mit dem KI-Assistenten werden ausschließlich verschlüsselt auf Ihrem Gerät gespeichert."
+              "title": "Unsere Zusagen:",
+              "text": "Wir greifen weder auf Ihren Standort noch auf Ihre Kontakte zu, verkaufen Ihre Daten nicht an Dritte und erstellen keine Profile zu anderen als den hier beschriebenen Zwecken. Die in Abschnitt 3.6 beschriebene Nutzungsanalytik erfasst weder Finanzinhalte noch identifizierende Daten und kann deaktiviert werden. Gespräche mit dem KI-Assistenten werden ausschließlich verschlüsselt auf Ihrem Gerät gespeichert."
             }
           ]
         }
@@ -160,7 +179,11 @@
       "content": [
         {
           "type": "table",
-          "headers": ["Zweck", "Daten", "Rechtsgrundlage (DSGVO)"],
+          "headers": [
+            "Zweck",
+            "Daten",
+            "Rechtsgrundlage (DSGVO)"
+          ],
           "rows": [
             [
               "Erstellung und Verwaltung Ihres Kontos und Erbringung des Dienstes",
@@ -186,6 +209,11 @@
               "Anzeige personalisierter Werbung (nur im kostenlosen Tarif)",
               "Werbe-ID",
               "Einwilligung (Art. 6 Abs. 1 lit. a), verwaltet über das Google-UMP-Formular; ohne Einwilligung sehen Sie nur nicht personalisierte Werbung"
+            ],
+            [
+              "Messung der App-Nutzung und Produktverbesserung (Analytik)",
+              "App-Nutzungsereignisse (ohne Finanz- oder identifizierende Inhalte)",
+              "Berechtigtes Interesse (Art. 6 Abs. 1 lit. f); Sie können die Analytik jederzeit in den Einstellungen deaktivieren"
             ],
             [
               "Verhinderung von Betrug und Missbrauch, Gewährleistung der Sicherheit",
@@ -251,7 +279,12 @@
         },
         {
           "type": "table",
-          "headers": ["Dienstleister", "Dienst", "Standort", "Garantien"],
+          "headers": [
+            "Dienstleister",
+            "Dienst",
+            "Standort",
+            "Garantien"
+          ],
           "rows": [
             [
               "<strong>Supabase</strong>",
@@ -261,7 +294,7 @@
             ],
             [
               "<strong>Google Cloud / Firebase</strong>",
-              "Cloud-Funktionen (europe-west1, Belgien), Push-Benachrichtigungen, App-Check-Schutz, Absturzberichte",
+              "Cloud-Funktionen (europe-west1, Belgien), Push-Benachrichtigungen, App-Check-Schutz, Absturzberichte und Nutzungsanalytik (Firebase Analytics)",
               "EU / USA",
               "Standardvertragsklauseln (SCC) und EU-US-Datenschutzrahmen (DPF)"
             ],
@@ -315,7 +348,10 @@
       "content": [
         {
           "type": "table",
-          "headers": ["Daten", "Frist"],
+          "headers": [
+            "Daten",
+            "Frist"
+          ],
           "rows": [
             [
               "Konto- und Finanzdaten",
@@ -336,6 +372,10 @@
             [
               "Absturzberichte (Crashlytics)",
               "90 Tage (Standard-Aufbewahrung von Firebase)"
+            ],
+            [
+              "Nutzungsereignisse (Firebase Analytics)",
+              "14 Monate (in Google Analytics 4 konfigurierte Aufbewahrung)"
             ],
             [
               "Push-Benachrichtigungs-Token",
@@ -452,6 +492,6 @@
   ],
   "footer": {
     "company": "Tikky · Yassine Ikken Ikkene",
-    "effective": "Datenschutzerklärung v2026-07-19, in Kraft seit dem 19. Juli 2026"
+    "effective": "Datenschutzerklärung v2026-09-19, in Kraft seit dem 19. September 2026"
   }
 }
