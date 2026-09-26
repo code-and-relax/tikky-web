@@ -85,7 +85,7 @@
           "items": [
             "<strong>Konto und Identität:</strong> E-Mail-Adresse, Name, Geburtsdatum, Profilbild und Zugangsdaten",
             "<strong>Belege und Dokumente:</strong> alle hochgeladenen Bilder und PDFs sowie die daraus extrahierten Daten",
-            "<strong>Finanzdaten:</strong> erfasste Ausgaben, Einnahmen, Budgets, Abonnements und wiederkehrende Ausgaben",
+            "<strong>Finanzdaten:</strong> erfasste Ausgaben, Einnahmen, Budgets, feste Ausgaben und feste Einnahmen",
             "<strong>Gamification und Einstellungen:</strong> Fortschritt, Erfolge und App-Konfiguration",
             "<strong>Protokolle des KI-Assistenten:</strong> das Audit-Protokoll auf dem Server; die Gespräche existierten nur verschlüsselt auf Ihrem Gerät",
             "<strong>Abonnementdaten:</strong> Ihr Kundenprofil auf der Plattform zur Abonnementverwaltung",

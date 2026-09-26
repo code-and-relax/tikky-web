@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+  Plantilla Supabase Auth: "Change email address" (D4).
+  La app HOY no tiene UI de cambio de email (sin updateUser de email en lib/);
+  la plantilla queda lista para cuando exista, con el mismo esqueleto e
+  idioma por cuenta via {{ .Data.locale }} (ingles en la rama else).
+  Enlaza a la pagina tikky-email-confirm con type=email_change; la pagina ya
+  verifica ese type (sus textos de exito especificos estan propuestos en el
+  informe B7, pendientes de aprobacion; mientras, reutiliza los del alta).
+  Sin marcador de caducidad: el texto aprobado del cambio es solo la
+  advertencia de seguridad.
+  Asunto propuesto: ver seccion "Pasos de despliegue" del informe B7.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirm Your New Email - Tikky</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background-color: #f5f5f5;">
+  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
+    <tr>
+      <td style="padding: 40px 20px;">
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width: 480px; margin: 0 auto; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+          <!-- Header with Logo -->
+          <tr>
+            <td style="padding: 40px 40px 24px; text-align: center; border-bottom: 2px solid #f0f0f0;">
+              <img src="https://code-and-relax.github.io/tikky-web/tikky-password-reset/assets/tikky-logo.png" alt="Tikky" width="80" height="80" style="display: block; margin: 0 auto 16px;">
+              <h1 style="margin: 0; font-size: 24px; font-weight: 700; color: #1a1a1a;">{{ if eq .Data.locale "es" }}Confirma tu nuevo correo{{ else if eq .Data.locale "de" }}Bestätige deine neue E-Mail{{ else if eq .Data.locale "hi" }}अपने नए ईमेल की पुष्टि करें{{ else if eq .Data.locale "zh" }}确认您的新邮箱{{ else }}Confirm your new email{{ end }}</h1>
+            </td>
+          </tr>
+
+          <!-- Content -->
+          <tr>
+            <td style="padding: 32px 40px;">
+              <p style="margin: 0 0 16px; font-size: 16px; line-height: 1.6; color: #333333;">
+                {{ if eq .Data.locale "es" }}Hola:{{ else if eq .Data.locale "de" }}Hallo!{{ else if eq .Data.locale "hi" }}नमस्ते,{{ else if eq .Data.locale "zh" }}您好！{{ else }}Hello,{{ end }}
+              </p>
+              <p style="margin: 0 0 24px; font-size: 16px; line-height: 1.6; color: #333333;">
+                {{ if eq .Data.locale "es" }}Pediste cambiar el correo de tu cuenta de Tikky de <strong>{{ .Email }}</strong> a <strong>{{ .NewEmail }}</strong>. Confirma el cambio con el botón.{{ else if eq .Data.locale "de" }}Du hast darum gebeten, die E-Mail deines Tikky-Kontos von <strong>{{ .Email }}</strong> zu <strong>{{ .NewEmail }}</strong> zu ändern. Bestätige die Änderung mit dem Button.{{ else if eq .Data.locale "hi" }}आपने अपने Tikky खाते का ईमेल <strong>{{ .Email }}</strong> से <strong>{{ .NewEmail }}</strong> में बदलने का अनुरोध किया है। बटन से बदलाव की पुष्टि करें।{{ else if eq .Data.locale "zh" }}您请求将 Tikky 账户的邮箱从 <strong>{{ .Email }}</strong> 更改为 <strong>{{ .NewEmail }}</strong>。请点击按钮确认此更改。{{ else }}You asked to change your Tikky account email from <strong>{{ .Email }}</strong> to <strong>{{ .NewEmail }}</strong>. Confirm the change with the button below.{{ end }}
+              </p>
+
+              <!-- CTA Button -->
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="padding: 8px 0 24px; text-align: center;">
+                    <a href="https://code-and-relax.github.io/tikky-web/tikky-email-confirm/?token_hash={{ .TokenHash }}&type=email_change" target="_blank" style="display: inline-block; padding: 16px 32px; font-size: 16px; font-weight: 600; color: #ffffff; background-color: #7c4dff; border-radius: 8px; text-decoration: none;">
+                      {{ if eq .Data.locale "es" }}Confirmar el cambio{{ else if eq .Data.locale "de" }}Änderung bestätigen{{ else if eq .Data.locale "hi" }}बदलाव की पुष्टि करें{{ else if eq .Data.locale "zh" }}确认更改{{ else }}Confirm the change{{ end }}
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Security Notice -->
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #fef3c7; border-radius: 8px; border-left: 4px solid #f59e0b;">
+                <tr>
+                  <td style="padding: 16px;">
+                    <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #92400e;">
+                      {{ if eq .Data.locale "es" }}Si no pediste este cambio, no confirmes nada y cambia tu contraseña cuanto antes.{{ else if eq .Data.locale "de" }}Wenn du diese Änderung nicht angefordert hast, bestätige nichts und ändere so schnell wie möglich dein Passwort.{{ else if eq .Data.locale "hi" }}यदि आपने यह बदलाव नहीं मांगा है, तो कुछ भी पुष्टि न करें और जल्द से जल्द अपना पासवर्ड बदलें।{{ else if eq .Data.locale "zh" }}如果您没有请求此更改，请不要确认任何内容，并尽快修改您的密码。{{ else }}If you did not request this change, do not confirm anything and change your password as soon as possible.{{ end }}
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
+              <p style="margin: 24px 0 0; font-size: 14px; line-height: 1.6; color: #666666;">
+                {{ if eq .Data.locale "es" }}Si el botón no funciona, copia y pega este enlace en tu navegador:{{ else if eq .Data.locale "de" }}Wenn der Button nicht funktioniert, kopiere diesen Link und füge ihn in deinen Browser ein:{{ else if eq .Data.locale "hi" }}यदि बटन काम नहीं करता है, तो इस लिंक को कॉपी करके अपने ब्राउज़र में पेस्ट करें:{{ else if eq .Data.locale "zh" }}如果按钮无法使用，请复制此链接并粘贴到浏览器中：{{ else }}If the button does not work, copy and paste this link into your browser:{{ end }}
+              </p>
+              <p style="margin: 8px 0 0; font-size: 12px; line-height: 1.6; color: #7c4dff; word-break: break-all;">
+                https://code-and-relax.github.io/tikky-web/tikky-email-confirm/?token_hash={{ .TokenHash }}&type=email_change
+              </p>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="padding: 24px 40px; text-align: center; border-top: 2px solid #f0f0f0; background-color: #fafafa; border-radius: 0 0 12px 12px;">
+              <p style="margin: 0 0 8px; font-size: 14px; font-weight: 600; color: #1a1a1a;">
+                NekkiVibes - Tikky App
+              </p>
+              <p style="margin: 0; font-size: 12px; color: #888888;">
+                {{ if eq .Data.locale "es" }}Gestión de recibos y gastos{{ else if eq .Data.locale "de" }}Beleg- und Ausgabenverwaltung{{ else if eq .Data.locale "hi" }}रसीद और खर्च प्रबंधन{{ else if eq .Data.locale "zh" }}收据与支出管理{{ else }}Receipt and Expense Management{{ end }}
+              </p>
+              <p style="margin: 16px 0 0; font-size: 12px; color: #888888;">
+                <a href="mailto:yt.code.and.chill@gmail.com" style="color: #7c4dff; text-decoration: none;">yt.code.and.chill@gmail.com</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Legal Footer -->
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width: 480px; margin: 24px auto 0;">
+          <tr>
+            <td style="text-align: center;">
+              <p style="margin: 0; font-size: 11px; line-height: 1.5; color: #999999;">
+                {{ if eq .Data.locale "es" }}Este correo se envió porque se solicitó cambiar el correo de tu cuenta de Tikky. Si no fuiste tú, no confirmes el cambio.{{ else if eq .Data.locale "de" }}Diese E-Mail wurde gesendet, weil eine Änderung der E-Mail deines Tikky-Kontos angefordert wurde. Wenn du das nicht warst, bestätige die Änderung nicht.{{ else if eq .Data.locale "hi" }}यह ईमेल इसलिए भेजा गया क्योंकि आपके Tikky खाते का ईमेल बदलने का अनुरोध किया गया था। यदि यह आप नहीं थे, तो बदलाव की पुष्टि न करें।{{ else if eq .Data.locale "zh" }}发送这封邮件是因为有人请求更改您 Tikky 账户的邮箱。如果不是您本人，请不要确认此更改。{{ else }}This email was sent because a change to your Tikky account email was requested. If this was not you, do not confirm the change.{{ end }}
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

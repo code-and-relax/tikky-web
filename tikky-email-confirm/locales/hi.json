@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "language": "hi",
+    "title": "ईमेल पुष्टि करें",
+    "direction": "ltr"
+  },
+  "states": {
+    "loading": {
+      "title": "पुष्टि हो रही है",
+      "message": "आपके ईमेल की पुष्टि की जा रही है..."
+    },
+    "success": {
+      "title": "ईमेल की पुष्टि हो गई",
+      "message": "आपका खाता अब सक्रिय है।",
+      "instruction": "ऐप पर वापस जाएँ और साइन इन करें।",
+      "openApp": "Tikky खोलें",
+      "emailChange": {
+        "message": "आपका नया ईमेल अब सक्रिय है।",
+        "instruction": "ऐप पर वापस जाएँ और अपने नए ईमेल से साइन इन करें।"
+      }
+    },
+    "error": {
+      "title": "त्रुटि",
+      "tokenExpired": "लिंक की अवधि समाप्त हो गई है या यह पहले ही उपयोग हो चुका है। ऐप में «ईमेल दोबारा भेजें» से नया लिंक मांगें।",
+      "invalidLink": "यह लिंक मान्य नहीं है। सबसे नया ईमेल खोलें या ऐप से नया लिंक मांगें।",
+      "verificationFailed": "ईमेल की पुष्टि नहीं हो सकी। फिर से प्रयास करें या ऐप से नया लिंक मांगें।",
+      "retry": "फिर से प्रयास करें",
+      "retryWait": "{seconds} सेकंड प्रतीक्षा करें"
+    }
+  },
+  "footer": {
+    "company": "NekkiVibes - Tikky App",
+    "contact": "संपर्क: <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>"
+  }
+}

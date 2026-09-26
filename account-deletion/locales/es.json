@@ -85,7 +85,7 @@
           "items": [
             "<strong>Cuenta e identidad:</strong> correo electrónico, nombre, fecha de nacimiento, foto de perfil y credenciales de acceso",
             "<strong>Recibos y documentos:</strong> todas las imágenes y PDF subidos y los datos extraídos de ellos",
-            "<strong>Datos financieros:</strong> gastos, ingresos, presupuestos, suscripciones y gastos recurrentes registrados",
+            "<strong>Datos financieros:</strong> gastos, ingresos, presupuestos, gastos fijos e ingresos fijos registrados",
             "<strong>Gamificación y preferencias:</strong> progreso, logros y configuración de la app",
             "<strong>Registros del asistente de IA:</strong> el registro de auditoría en servidor; las conversaciones solo existían cifradas en tu dispositivo",
             "<strong>Datos de suscripción:</strong> tu perfil de cliente en la plataforma de gestión de suscripciones",

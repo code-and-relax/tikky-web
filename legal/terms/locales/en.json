@@ -46,7 +46,7 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Tikky is a personal finance management tool: it digitizes receipts using artificial intelligence, organizes expenses and income, manages budgets and subscriptions, and generates reports and answers about your own data."
+          "text": "Tikky is a personal finance management tool: it digitizes receipts using artificial intelligence, organizes expenses and income, manages budgets and recurring expenses, and generates reports and answers about your own data."
         },
         {
           "type": "warning-box",

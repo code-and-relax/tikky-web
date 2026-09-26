@@ -46,7 +46,7 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Tikky ist ein Werkzeug zur Verwaltung persönlicher Finanzen: Es digitalisiert Belege mittels künstlicher Intelligenz, organisiert Ausgaben und Einnahmen, verwaltet Budgets und Abonnements und erstellt Berichte und Antworten zu Ihren eigenen Daten."
+          "text": "Tikky ist ein Werkzeug zur Verwaltung persönlicher Finanzen: Es digitalisiert Belege mittels künstlicher Intelligenz, organisiert Ausgaben und Einnahmen, verwaltet Budgets und feste Ausgaben und erstellt Berichte und Antworten zu Ihren eigenen Daten."
         },
         {
           "type": "warning-box",

@@ -92,7 +92,7 @@
               "items": [
                 "Images and PDF documents of receipts and invoices that you upload",
                 "Data extracted from those documents: merchant, date, amounts, items, category, payment method (never full card details)",
-                "Income, budgets, subscriptions and recurring expenses that you record manually",
+                "Income, budgets, recurring expenses and recurring income that you record manually",
                 "App preferences (language, currency, settings)"
               ]
             }

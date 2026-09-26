@@ -46,7 +46,7 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Tikky es una herramienta de gestión de finanzas personales: digitaliza recibos mediante inteligencia artificial, organiza gastos e ingresos, gestiona presupuestos y suscripciones y genera informes y respuestas sobre tus propios datos."
+          "text": "Tikky es una herramienta de gestión de finanzas personales: digitaliza recibos mediante inteligencia artificial, organiza gastos e ingresos, gestiona presupuestos y gastos fijos y genera informes y respuestas sobre tus propios datos."
         },
         {
           "type": "warning-box",

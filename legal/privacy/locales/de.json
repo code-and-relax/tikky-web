@@ -92,7 +92,7 @@
               "items": [
                 "Bilder und PDF-Dokumente von Belegen und Rechnungen, die Sie hochladen",
                 "Aus diesen Dokumenten extrahierte Daten: Händler, Datum, Beträge, Artikel, Kategorie, Zahlungsmethode (niemals vollständige Kartendaten)",
-                "Einnahmen, Budgets, Abonnements und wiederkehrende Ausgaben, die Sie manuell erfassen",
+                "Einnahmen, Budgets, feste Ausgaben und feste Einnahmen, die Sie manuell erfassen",
                 "App-Einstellungen (Sprache, Währung, Konfiguration)"
               ]
             }

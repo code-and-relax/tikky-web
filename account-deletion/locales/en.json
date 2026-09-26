@@ -85,7 +85,7 @@
           "items": [
             "<strong>Account and identity:</strong> email address, name, date of birth, profile picture and login credentials",
             "<strong>Receipts and documents:</strong> all uploaded images and PDFs and the data extracted from them",
-            "<strong>Financial data:</strong> recorded expenses, income, budgets, subscriptions and recurring expenses",
+            "<strong>Financial data:</strong> recorded expenses, income, budgets, recurring expenses and recurring income",
             "<strong>Gamification and preferences:</strong> progress, achievements and app settings",
             "<strong>AI assistant records:</strong> the server-side audit log; conversations only ever existed encrypted on your device",
             "<strong>Subscription data:</strong> your customer profile on the subscription management platform",

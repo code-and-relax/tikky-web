@@ -92,7 +92,7 @@
               "items": [
                 "Imágenes y documentos PDF de recibos y facturas que subes",
                 "Datos extraídos de esos documentos: comercio, fecha, importes, artículos, categoría, método de pago (nunca datos completos de tarjetas)",
-                "Ingresos, presupuestos, suscripciones y gastos recurrentes que registras manualmente",
+                "Ingresos, presupuestos, gastos fijos e ingresos fijos que registras manualmente",
                 "Preferencias de la app (idioma, moneda, configuración)"
               ]
             }

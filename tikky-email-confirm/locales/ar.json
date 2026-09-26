@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "language": "ar",
+    "title": "تأكيد البريد الإلكتروني",
+    "direction": "rtl"
+  },
+  "states": {
+    "loading": {
+      "title": "جارٍ التأكيد",
+      "message": "جاري تأكيد بريدك الإلكتروني..."
+    },
+    "success": {
+      "title": "تم تأكيد البريد الإلكتروني",
+      "message": "حسابك نشط الآن.",
+      "instruction": "عد إلى التطبيق وسجّل الدخول.",
+      "openApp": "فتح Tikky",
+      "emailChange": {
+        "message": "بريدك الإلكتروني الجديد نشط الآن.",
+        "instruction": "عد إلى التطبيق وسجّل الدخول ببريدك الإلكتروني الجديد."
+      }
+    },
+    "error": {
+      "title": "خطأ",
+      "tokenExpired": "انتهت صلاحية الرابط أو تم استخدامه من قبل. اطلب رابطًا جديدًا من التطبيق عبر «إعادة إرسال البريد».",
+      "invalidLink": "هذا الرابط غير صالح. افتح أحدث رسالة بريد أو اطلب رابطًا جديدًا من التطبيق.",
+      "verificationFailed": "تعذّر تأكيد البريد الإلكتروني. حاول مرة أخرى أو اطلب رابطًا جديدًا من التطبيق.",
+      "retry": "حاول مرة أخرى",
+      "retryWait": "انتظر {seconds} ثانية"
+    }
+  },
+  "footer": {
+    "company": "NekkiVibes - Tikky App",
+    "contact": "التواصل: <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>"
+  }
+}

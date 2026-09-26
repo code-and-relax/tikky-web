@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "language": "en",
+    "title": "Confirm Email",
+    "direction": "ltr"
+  },
+  "states": {
+    "loading": {
+      "title": "Confirming",
+      "message": "Confirming your email..."
+    },
+    "success": {
+      "title": "Email Confirmed",
+      "message": "Your account is now active.",
+      "instruction": "Go back to the app and sign in.",
+      "openApp": "Open Tikky",
+      "emailChange": {
+        "message": "Your new email is now active.",
+        "instruction": "Go back to the app and sign in with your new email."
+      }
+    },
+    "error": {
+      "title": "Error",
+      "tokenExpired": "The link has expired or was already used. Request a new one from the app with \"Resend email\".",
+      "invalidLink": "This link is not valid. Open the most recent email or request a new one from the app.",
+      "verificationFailed": "Could not confirm the email. Try again or request a new link from the app.",
+      "retry": "Try again",
+      "retryWait": "Wait {seconds}s"
+    }
+  },
+  "footer": {
+    "company": "NekkiVibes - Tikky App",
+    "contact": "Contact: <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>"
+  }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+  Plantilla Supabase Auth: "Confirm signup" (D4).
+  Idioma por cuenta via {{ .Data.locale }} (auth.users.raw_user_meta_data.locale,
+  poblado por la app en signUp/updateUser y por el backfill 20260926150000);
+  ingles en la rama else (locale ausente o desconocido).
+  MARCADOR [[EXPIRY_HOURS]]: sustituir por el valor real de la configuracion
+  de Auth (otp_expiry, en horas) ANTES de pegar en Supabase. No inventar.
+  Asunto propuesto (pegar en el campo Subject; condicional identica a la del
+  titulo; plan B bilingue si el asunto no soporta condicionales):
+  ver seccion "Pasos de despliegue" del informe B7.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirm Your Email - Tikky</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background-color: #f5f5f5;">
+  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f5f5f5;">
+    <tr>
+      <td style="padding: 40px 20px;">
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width: 480px; margin: 0 auto; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+          <!-- Header with Logo -->
+          <tr>
+            <td style="padding: 40px 40px 24px; text-align: center; border-bottom: 2px solid #f0f0f0;">
+              <img src="https://code-and-relax.github.io/tikky-web/tikky-password-reset/assets/tikky-logo.png" alt="Tikky" width="80" height="80" style="display: block; margin: 0 auto 16px;">
+              <h1 style="margin: 0; font-size: 24px; font-weight: 700; color: #1a1a1a;">{{ if eq .Data.locale "es" }}Confirma tu correo{{ else if eq .Data.locale "de" }}Bestätige deine E-Mail{{ else if eq .Data.locale "hi" }}अपना ईमेल पुष्टि करें{{ else if eq .Data.locale "zh" }}确认您的邮箱{{ else }}Confirm your email{{ end }}</h1>
+            </td>
+          </tr>
+
+          <!-- Content -->
+          <tr>
+            <td style="padding: 32px 40px;">
+              <p style="margin: 0 0 16px; font-size: 16px; line-height: 1.6; color: #333333;">
+                {{ if eq .Data.locale "es" }}Hola:{{ else if eq .Data.locale "de" }}Hallo!{{ else if eq .Data.locale "hi" }}नमस्ते,{{ else if eq .Data.locale "zh" }}您好！{{ else }}Hello,{{ end }}
+              </p>
+              <p style="margin: 0 0 24px; font-size: 16px; line-height: 1.6; color: #333333;">
+                {{ if eq .Data.locale "es" }}Te damos la bienvenida a Tikky. Para activar tu cuenta, confirma que esta dirección (<strong>{{ .Email }}</strong>) es tuya.{{ else if eq .Data.locale "de" }}Willkommen bei Tikky. Um dein Konto zu aktivieren, bestätige, dass diese Adresse (<strong>{{ .Email }}</strong>) dir gehört.{{ else if eq .Data.locale "hi" }}Tikky में आपका स्वागत है। अपना खाता सक्रिय करने के लिए पुष्टि करें कि यह पता (<strong>{{ .Email }}</strong>) आपका है।{{ else if eq .Data.locale "zh" }}欢迎使用 Tikky。请确认这个地址（<strong>{{ .Email }}</strong>）属于您，以激活您的账户。{{ else }}Welcome to Tikky. To activate your account, confirm that this address (<strong>{{ .Email }}</strong>) is yours.{{ end }}
+              </p>
+
+              <!-- CTA Button -->
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="padding: 8px 0 24px; text-align: center;">
+                    <a href="https://code-and-relax.github.io/tikky-web/tikky-email-confirm/?token_hash={{ .TokenHash }}&type=signup" target="_blank" style="display: inline-block; padding: 16px 32px; font-size: 16px; font-weight: 600; color: #ffffff; background-color: #7c4dff; border-radius: 8px; text-decoration: none;">
+                      {{ if eq .Data.locale "es" }}Confirmar mi correo{{ else if eq .Data.locale "de" }}Meine E-Mail bestätigen{{ else if eq .Data.locale "hi" }}मेरा ईमेल पुष्टि करें{{ else if eq .Data.locale "zh" }}确认我的邮箱{{ else }}Confirm my email{{ end }}
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Security Notice -->
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #fef3c7; border-radius: 8px; border-left: 4px solid #f59e0b;">
+                <tr>
+                  <td style="padding: 16px;">
+                    <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #92400e;">
+                      {{ if eq .Data.locale "es" }}Este enlace caduca en [[EXPIRY_HOURS]] horas. Si no creaste una cuenta en Tikky, ignora este correo: no se activará nada.{{ else if eq .Data.locale "de" }}Dieser Link läuft in [[EXPIRY_HOURS]] Stunden ab. Wenn du kein Tikky-Konto erstellt hast, ignoriere diese E-Mail einfach: Es wird nichts aktiviert.{{ else if eq .Data.locale "hi" }}यह लिंक [[EXPIRY_HOURS]] घंटों में समाप्त हो जाएगा। यदि आपने Tikky खाता नहीं बनाया है, तो इस ईमेल को अनदेखा करें: कुछ भी सक्रिय नहीं होगा।{{ else if eq .Data.locale "zh" }}此链接将在 [[EXPIRY_HOURS]] 小时后失效。如果您没有创建 Tikky 账户，请忽略这封邮件：不会激活任何内容。{{ else }}This link expires in [[EXPIRY_HOURS]] hours. If you did not create a Tikky account, you can safely ignore this email: nothing will be activated.{{ end }}
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
+              <p style="margin: 24px 0 0; font-size: 14px; line-height: 1.6; color: #666666;">
+                {{ if eq .Data.locale "es" }}Si el botón no funciona, copia y pega este enlace en tu navegador:{{ else if eq .Data.locale "de" }}Wenn der Button nicht funktioniert, kopiere diesen Link und füge ihn in deinen Browser ein:{{ else if eq .Data.locale "hi" }}यदि बटन काम नहीं करता है, तो इस लिंक को कॉपी करके अपने ब्राउज़र में पेस्ट करें:{{ else if eq .Data.locale "zh" }}如果按钮无法使用，请复制此链接并粘贴到浏览器中：{{ else }}If the button does not work, copy and paste this link into your browser:{{ end }}
+              </p>
+              <p style="margin: 8px 0 0; font-size: 12px; line-height: 1.6; color: #7c4dff; word-break: break-all;">
+                https://code-and-relax.github.io/tikky-web/tikky-email-confirm/?token_hash={{ .TokenHash }}&type=signup
+              </p>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="padding: 24px 40px; text-align: center; border-top: 2px solid #f0f0f0; background-color: #fafafa; border-radius: 0 0 12px 12px;">
+              <p style="margin: 0 0 8px; font-size: 14px; font-weight: 600; color: #1a1a1a;">
+                NekkiVibes - Tikky App
+              </p>
+              <p style="margin: 0; font-size: 12px; color: #888888;">
+                {{ if eq .Data.locale "es" }}Gestión de recibos y gastos{{ else if eq .Data.locale "de" }}Beleg- und Ausgabenverwaltung{{ else if eq .Data.locale "hi" }}रसीद और खर्च प्रबंधन{{ else if eq .Data.locale "zh" }}收据与支出管理{{ else }}Receipt and Expense Management{{ end }}
+              </p>
+              <p style="margin: 16px 0 0; font-size: 12px; color: #888888;">
+                <a href="mailto:yt.code.and.chill@gmail.com" style="color: #7c4dff; text-decoration: none;">yt.code.and.chill@gmail.com</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Legal Footer -->
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="max-width: 480px; margin: 24px auto 0;">
+          <tr>
+            <td style="text-align: center;">
+              <p style="margin: 0; font-size: 11px; line-height: 1.5; color: #999999;">
+                {{ if eq .Data.locale "es" }}Este correo se envió a {{ .Email }} porque se creó una cuenta de Tikky con esta dirección. Si no fuiste tú, no hace falta hacer nada.{{ else if eq .Data.locale "de" }}Diese E-Mail wurde an {{ .Email }} gesendet, weil mit dieser Adresse ein Tikky-Konto erstellt wurde. Wenn du das nicht warst, musst du nichts tun.{{ else if eq .Data.locale "hi" }}यह ईमेल {{ .Email }} पर भेजा गया क्योंकि इस पते से एक Tikky खाता बनाया गया। यदि यह आप नहीं थे, तो कुछ करने की आवश्यकता नहीं है।{{ else if eq .Data.locale "zh" }}这封邮件发送至 {{ .Email }}，因为有人使用此地址创建了 Tikky 账户。如果不是您本人，无需进行任何操作。{{ else }}This email was sent to {{ .Email }} because a Tikky account was created with this address. If this was not you, no action is required.{{ end }}
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

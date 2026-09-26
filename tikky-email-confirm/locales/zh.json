@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "language": "zh",
+    "title": "确认邮箱",
+    "direction": "ltr"
+  },
+  "states": {
+    "loading": {
+      "title": "确认中",
+      "message": "正在确认您的邮箱..."
+    },
+    "success": {
+      "title": "邮箱已确认",
+      "message": "您的账户已激活。",
+      "instruction": "返回应用并登录。",
+      "openApp": "打开 Tikky",
+      "emailChange": {
+        "message": "您的新邮箱已激活。",
+        "instruction": "返回应用并使用新邮箱登录。"
+      }
+    },
+    "error": {
+      "title": "错误",
+      "tokenExpired": "链接已过期或已被使用。请在应用中通过「重新发送邮件」获取新链接。",
+      "invalidLink": "此链接无效。请打开最新的邮件，或在应用中请求新链接。",
+      "verificationFailed": "无法确认邮箱。请重试，或在应用中请求新链接。",
+      "retry": "重试",
+      "retryWait": "等待 {seconds} 秒"
+    }
+  },
+  "footer": {
+    "company": "NekkiVibes - Tikky App",
+    "contact": "联系方式: <a href=\"mailto:yt.code.and.chill@gmail.com\">yt.code.and.chill@gmail.com</a>"
+  }
+}
